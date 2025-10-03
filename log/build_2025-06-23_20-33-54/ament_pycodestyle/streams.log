@@ -1,0 +1,24 @@
+[2.761s] Invoking command in '/home/jose/TCC/build/ament_pycodestyle': PYTHONPATH=/home/jose/TCC/build/ament_pycodestyle/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jose/TCC/install/ament_pycodestyle/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jose/TCC/build/ament_pycodestyle/build --no-deps symlink_data
+[3.214s] running develop
+[3.463s] running egg_info
+[3.463s] creating ament_pycodestyle.egg-info
+[3.463s] writing ament_pycodestyle.egg-info/PKG-INFO
+[3.464s] writing dependency_links to ament_pycodestyle.egg-info/dependency_links.txt
+[3.464s] writing entry points to ament_pycodestyle.egg-info/entry_points.txt
+[3.464s] writing requirements to ament_pycodestyle.egg-info/requires.txt
+[3.464s] writing top-level names to ament_pycodestyle.egg-info/top_level.txt
+[3.464s] writing manifest file 'ament_pycodestyle.egg-info/SOURCES.txt'
+[3.466s] reading manifest file 'ament_pycodestyle.egg-info/SOURCES.txt'
+[3.467s] writing manifest file 'ament_pycodestyle.egg-info/SOURCES.txt'
+[3.470s] running build_ext
+[3.470s] Creating /home/jose/TCC/install/ament_pycodestyle/lib/python3.10/site-packages/ament-pycodestyle.egg-link (link to .)
+[3.470s] Installing ament_pycodestyle script to /home/jose/TCC/install/ament_pycodestyle/bin
+[3.471s] 
+[3.471s] Installed /home/jose/TCC/build/ament_pycodestyle
+[3.471s] running symlink_data
+[3.471s] symbolically linking /home/jose/TCC/build/ament_pycodestyle/package.xml -> /home/jose/TCC/install/ament_pycodestyle/share/ament_pycodestyle
+[3.471s] creating /home/jose/TCC/install/ament_pycodestyle/share/ament_index
+[3.471s] creating /home/jose/TCC/install/ament_pycodestyle/share/ament_index/resource_index
+[3.471s] creating /home/jose/TCC/install/ament_pycodestyle/share/ament_index/resource_index/packages
+[3.471s] symbolically linking /home/jose/TCC/build/ament_pycodestyle/resource/ament_pycodestyle -> /home/jose/TCC/install/ament_pycodestyle/share/ament_index/resource_index/packages
+[3.903s] Invoked command in '/home/jose/TCC/build/ament_pycodestyle' returned '0': PYTHONPATH=/home/jose/TCC/build/ament_pycodestyle/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jose/TCC/install/ament_pycodestyle/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jose/TCC/build/ament_pycodestyle/build --no-deps symlink_data

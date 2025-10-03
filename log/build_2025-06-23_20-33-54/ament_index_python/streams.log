@@ -1,0 +1,27 @@
+[13.694s] Invoking command in '/home/jose/TCC/build/ament_index_python': AMENT_PREFIX_PATH=/home/jose/TCC/install/ament_copyright:/home/jose/TCC/install/ament_pep257:/home/jose/TCC/install/ament_flake8:/home/jose/TCC/install/ament_lint:${AMENT_PREFIX_PATH} PATH=/home/jose/TCC/install/ament_copyright/bin:/home/jose/TCC/install/ament_pep257/bin:/home/jose/TCC/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/jose/TCC/build/ament_index_python/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jose/TCC/install/ament_index_python/lib/python3.10/site-packages:/home/jose/TCC/build/ament_copyright:/home/jose/TCC/install/ament_copyright/lib/python3.10/site-packages:/home/jose/TCC/build/ament_pep257:/home/jose/TCC/install/ament_pep257/lib/python3.10/site-packages:/home/jose/TCC/build/ament_flake8:/home/jose/TCC/install/ament_flake8/lib/python3.10/site-packages:/home/jose/TCC/build/ament_lint:/home/jose/TCC/install/ament_lint/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jose/TCC/build/ament_index_python/build --no-deps symlink_data
+[15.501s] running develop
+[15.722s] running egg_info
+[15.725s] creating ament_index_python.egg-info
+[15.725s] writing ament_index_python.egg-info/PKG-INFO
+[15.726s] writing dependency_links to ament_index_python.egg-info/dependency_links.txt
+[15.726s] writing entry points to ament_index_python.egg-info/entry_points.txt
+[15.726s] writing requirements to ament_index_python.egg-info/requires.txt
+[15.729s] writing top-level names to ament_index_python.egg-info/top_level.txt
+[15.729s] writing manifest file 'ament_index_python.egg-info/SOURCES.txt'
+[15.742s] reading manifest file 'ament_index_python.egg-info/SOURCES.txt'
+[15.742s] writing manifest file 'ament_index_python.egg-info/SOURCES.txt'
+[15.753s] running build_ext
+[15.753s] Creating /home/jose/TCC/install/ament_index_python/lib/python3.10/site-packages/ament-index-python.egg-link (link to .)
+[15.753s] Installing ament_index script to /home/jose/TCC/install/ament_index_python/bin
+[15.753s] 
+[15.753s] Installed /home/jose/TCC/build/ament_index_python
+[15.753s] running symlink_data
+[15.753s] symbolically linking /home/jose/TCC/build/ament_index_python/package.xml -> /home/jose/TCC/install/ament_index_python/share/ament_index_python
+[15.753s] creating /home/jose/TCC/install/ament_index_python/share/ament_index_python/environment
+[15.753s] symbolically linking /home/jose/TCC/build/ament_index_python/completion/ament_index-argcomplete.bash -> /home/jose/TCC/install/ament_index_python/share/ament_index_python/environment
+[15.753s] symbolically linking /home/jose/TCC/build/ament_index_python/completion/ament_index-argcomplete.zsh -> /home/jose/TCC/install/ament_index_python/share/ament_index_python/environment
+[15.753s] creating /home/jose/TCC/install/ament_index_python/share/ament_index
+[15.754s] creating /home/jose/TCC/install/ament_index_python/share/ament_index/resource_index
+[15.754s] creating /home/jose/TCC/install/ament_index_python/share/ament_index/resource_index/packages
+[15.754s] symbolically linking /home/jose/TCC/build/ament_index_python/resource/ament_index_python -> /home/jose/TCC/install/ament_index_python/share/ament_index/resource_index/packages
+[18.609s] Invoked command in '/home/jose/TCC/build/ament_index_python' returned '0': AMENT_PREFIX_PATH=/home/jose/TCC/install/ament_copyright:/home/jose/TCC/install/ament_pep257:/home/jose/TCC/install/ament_flake8:/home/jose/TCC/install/ament_lint:${AMENT_PREFIX_PATH} PATH=/home/jose/TCC/install/ament_copyright/bin:/home/jose/TCC/install/ament_pep257/bin:/home/jose/TCC/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/jose/TCC/build/ament_index_python/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jose/TCC/install/ament_index_python/lib/python3.10/site-packages:/home/jose/TCC/build/ament_copyright:/home/jose/TCC/install/ament_copyright/lib/python3.10/site-packages:/home/jose/TCC/build/ament_pep257:/home/jose/TCC/install/ament_pep257/lib/python3.10/site-packages:/home/jose/TCC/build/ament_flake8:/home/jose/TCC/install/ament_flake8/lib/python3.10/site-packages:/home/jose/TCC/build/ament_lint:/home/jose/TCC/install/ament_lint/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jose/TCC/build/ament_index_python/build --no-deps symlink_data

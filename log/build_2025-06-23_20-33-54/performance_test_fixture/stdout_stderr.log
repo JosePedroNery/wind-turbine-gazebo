@@ -1,0 +1,27 @@
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake_core: 1.3.11 (/home/jose/TCC/install/ament_cmake_core/share/ament_cmake_core/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_cmake_export_dependencies: 1.3.11 (/home/jose/TCC/install/ament_cmake_export_dependencies/share/ament_cmake_export_dependencies/cmake)
+-- Found ament_cmake_export_targets: 1.3.11 (/home/jose/TCC/install/ament_cmake_export_targets/share/ament_cmake_export_targets/cmake)
+-- Found ament_cmake_test: 1.3.11 (/home/jose/TCC/install/ament_cmake_test/share/ament_cmake_test/cmake)
+-- Found ament_lint_auto: 0.12.12 (/home/jose/TCC/install/ament_lint_auto/share/ament_lint_auto/cmake)
+-- Performance tests are disabled by default, so Google Benchmark tests will be skipped. To enable these tests, set the CMake variable 'AMENT_RUN_PERFORMANCE_TESTS'.
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/jose/TCC/src/performance_test_fixture/include>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/jose/TCC/build/performance_test_fixture

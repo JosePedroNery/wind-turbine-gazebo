@@ -1,0 +1,273 @@
+-- Setting build type to 'Release' as none was specified.
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Version: 2.6.10
+-- Performing Test SUPPORTS_CXX20
+-- Performing Test SUPPORTS_CXX20 - Success
+-- Performing Test SUPPORTS_CXX17
+-- Performing Test SUPPORTS_CXX17 - Success
+-- Performing Test SUPPORTS_CXX14
+-- Performing Test SUPPORTS_CXX14 - Success
+-- Performing Test SUPPORTS_CXX1Y
+-- Performing Test SUPPORTS_CXX1Y - Success
+-- Performing Test SUPPORTS_CXX11
+-- Performing Test SUPPORTS_CXX11 - Success
+-- Found fastcdr
+-- Found Asio 1.18.1: /usr/include
+-- Found Asio
+-- Found TinyXML2
+-- Found foonathan_memory: /home/jose/ros2_humble/install/foonathan_memory_vendor/lib/foonathan_memory/cmake
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_kill
+-- Looking for pthread_kill - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Thirdparty/boost compiled OK
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- OpenSSL library 3.0.2 found...
+-- Performing Test ATOMIC_WITHOUT_LIB
+-- Performing Test ATOMIC_WITHOUT_LIB - Success
+-- Looking for __atomic_load_8 in atomic
+-- Looking for __atomic_load_8 in atomic - found
+-- Performing Test ATOMIC_WITH_LIB
+-- Performing Test ATOMIC_WITH_LIB - Success
+-- Framework's shared_mutex is PTHREAD_RWLOCK_PREFER_READER_NP
+-- Performing Test HAS_VERSION_SCRIPT_SUPPORT
+-- Performing Test HAS_VERSION_SCRIPT_SUPPORT - Success
+-- Using linker version script to select exported symbols
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/jose/TCC/build/fastrtps
+[  1%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/fastdds/topic/DDSSQLFilter/DDSFilterExpressionParser.cpp.o[0m
+[  2%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/fastdds/topic/DDSSQLFilter/DDSFilterCompoundCondition.cpp.o[0m
+[  2%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/fastdds/topic/DDSSQLFilter/DDSFilterExpression.cpp.o[0m
+[  2%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/fastdds/topic/DDSSQLFilter/DDSFilterFactory.cpp.o[0m
+[  3%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/fastdds/topic/DDSSQLFilter/DDSFilterField.cpp.o[0m
+[  3%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/fastdds/log/StdoutErrConsumer.cpp.o[0m
+[  4%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/fastdds/log/Log.cpp.o[0m
+[  4%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/fastdds/topic/DDSSQLFilter/DDSFilterValue.cpp.o[0m
+[  5%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/fastdds/topic/DDSSQLFilter/DDSFilterPredicate.cpp.o[0m
+[  5%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/fastdds/log/FileConsumer.cpp.o[0m
+[  5%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/fastdds/log/OStreamConsumer.cpp.o[0m
+[  5%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/fastdds/topic/DDSSQLFilter/DDSFilterParameter.cpp.o[0m
+[  6%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/rtps/common/Time_t.cpp.o[0m
+[  7%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/fastdds/log/StdoutConsumer.cpp.o[0m
+[  8%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/rtps/resources/TimedEvent.cpp.o[0m
+[  8%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/rtps/resources/ResourceEvent.cpp.o[0m
+[  8%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/rtps/resources/TimedEventImpl.cpp.o[0m
+[  9%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/rtps/writer/LivelinessManager.cpp.o[0m
+[  9%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/rtps/writer/LocatorSelectorSender.cpp.o[0m
+[ 10%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/rtps/writer/RTPSWriter.cpp.o[0m
+[ 10%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/rtps/writer/StatefulWriter.cpp.o[0m
+[ 11%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/rtps/writer/ReaderProxy.cpp.o[0m
+[ 11%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/rtps/writer/StatelessWriter.cpp.o[0m
+[ 11%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/rtps/writer/ReaderLocator.cpp.o[0m
+[ 12%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/rtps/history/CacheChangePool.cpp.o[0m
+[ 12%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/rtps/history/History.cpp.o[0m
+[ 13%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/rtps/history/WriterHistory.cpp.o[0m
+[ 13%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/rtps/history/ReaderHistory.cpp.o[0m
+[ 14%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/rtps/history/TopicPayloadPool.cpp.o[0m
+[ 14%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/rtps/history/TopicPayloadPoolRegistry.cpp.o[0m
+[ 15%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/rtps/DataSharing/DataSharingPayloadPool.cpp.o[0m
+[ 15%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/rtps/DataSharing/DataSharingListener.cpp.o[0m
+[ 16%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/rtps/DataSharing/DataSharingNotification.cpp.o[0m
+[ 16%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/rtps/reader/WriterProxy.cpp.o[0m
+[ 17%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/rtps/reader/reader_utils.cpp.o[0m
+[ 17%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/rtps/reader/StatefulReader.cpp.o[0m
+[ 17%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/rtps/reader/StatelessReader.cpp.o[0m
+[ 18%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/rtps/reader/RTPSReader.cpp.o[0m
+[ 18%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/rtps/messages/RTPSMessageCreator.cpp.o[0m
+[ 19%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/rtps/messages/RTPSMessageGroup.cpp.o[0m
+[ 19%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/rtps/messages/RTPSGapBuilder.cpp.o[0m
+[ 20%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/rtps/messages/SendBuffersManager.cpp.o[0m
+[ 20%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/rtps/messages/MessageReceiver.cpp.o[0m
+[ 21%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/rtps/network/NetworkFactory.cpp.o[0m
+[ 21%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/rtps/network/ReceiverResource.cpp.o[0m
+[ 22%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/rtps/attributes/RTPSParticipantAttributes.cpp.o[0m
+[ 22%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/rtps/participant/RTPSParticipant.cpp.o[0m
+[ 23%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/rtps/participant/RTPSParticipantImpl.cpp.o[0m
+[ 23%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/rtps/RTPSDomain.cpp.o[0m
+[ 23%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/fastrtps_deprecated/Domain.cpp.o[0m
+[ 24%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/fastrtps_deprecated/participant/Participant.cpp.o[0m
+[ 24%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/fastrtps_deprecated/participant/ParticipantImpl.cpp.o[0m
+[ 25%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/fastrtps_deprecated/publisher/Publisher.cpp.o[0m
+[ 25%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/fastrtps_deprecated/publisher/PublisherImpl.cpp.o[0m
+[ 26%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/fastrtps_deprecated/publisher/PublisherHistory.cpp.o[0m
+[ 26%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/fastrtps_deprecated/subscriber/Subscriber.cpp.o[0m
+[ 27%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/fastrtps_deprecated/subscriber/SubscriberImpl.cpp.o[0m
+[ 27%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/fastrtps_deprecated/subscriber/SubscriberHistory.cpp.o[0m
+[ 28%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/fastdds/publisher/DataWriter.cpp.o[0m
+[ 28%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/fastdds/publisher/DataWriterImpl.cpp.o[0m
+[ 29%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/fastdds/publisher/DataWriterHistory.cpp.o[0m
+[ 29%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/fastdds/topic/ContentFilteredTopic.cpp.o[0m
+[ 29%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/fastdds/topic/ContentFilteredTopicImpl.cpp.o[0m
+[ 30%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/fastdds/topic/Topic.cpp.o[0m
+[ 30%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/fastdds/topic/TopicImpl.cpp.o[0m
+[ 31%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/fastdds/topic/TypeSupport.cpp.o[0m
+[ 31%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/fastdds/topic/qos/TopicQos.cpp.o[0m
+[ 32%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/fastdds/publisher/qos/DataWriterQos.cpp.o[0m
+[ 32%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/fastdds/subscriber/qos/DataReaderQos.cpp.o[0m
+[ 33%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/fastdds/publisher/PublisherImpl.cpp.o[0m
+[ 33%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/fastdds/publisher/qos/PublisherQos.cpp.o[0m
+[ 34%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/fastdds/publisher/Publisher.cpp.o[0m
+[ 34%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/fastdds/subscriber/SubscriberImpl.cpp.o[0m
+[ 35%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/fastdds/subscriber/qos/SubscriberQos.cpp.o[0m
+[ 35%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/fastdds/subscriber/Subscriber.cpp.o[0m
+[ 35%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/fastdds/subscriber/DataReader.cpp.o[0m
+[ 36%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/fastdds/subscriber/DataReaderImpl.cpp.o[0m
+[ 36%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/fastdds/subscriber/history/DataReaderHistory.cpp.o[0m
+[ 37%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/fastdds/domain/DomainParticipantFactory.cpp.o[0m
+[ 37%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/fastdds/domain/DomainParticipantImpl.cpp.o[0m
+[ 38%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/fastdds/domain/DomainParticipant.cpp.o[0m
+[ 38%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/fastdds/domain/qos/DomainParticipantQos.cpp.o[0m
+[ 39%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/fastdds/domain/qos/DomainParticipantFactoryQos.cpp.o[0m
+[ 39%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/fastdds/builtin/typelookup/common/TypeLookupTypes.cpp.o[0m
+[ 40%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/fastdds/builtin/common/RPCHeadersImpl.cpp.o[0m
+[ 40%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/fastdds/builtin/typelookup/TypeLookupManager.cpp.o[0m
+[ 41%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/fastdds/builtin/typelookup/TypeLookupRequestListener.cpp.o[0m
+[ 41%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/fastdds/builtin/typelookup/TypeLookupReplyListener.cpp.o[0m
+[ 41%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/rtps/transport/ChannelResource.cpp.o[0m
+[ 42%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/rtps/transport/UDPChannelResource.cpp.o[0m
+[ 42%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/rtps/transport/TCPChannelResource.cpp.o[0m
+[ 43%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/rtps/transport/TCPChannelResourceBasic.cpp.o[0m
+[ 43%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/rtps/transport/TCPAcceptor.cpp.o[0m
+[ 44%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/rtps/transport/TCPAcceptorBasic.cpp.o[0m
+[ 44%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/rtps/transport/UDPv4Transport.cpp.o[0m
+[ 45%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/rtps/transport/TCPTransportInterface.cpp.o[0m
+[ 45%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/rtps/transport/UDPTransportInterface.cpp.o[0m
+[ 45%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/rtps/transport/TCPv4Transport.cpp.o[0m
+[ 46%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/rtps/transport/shared_mem/SharedMemTransportDescriptor.cpp.o[0m
+[ 47%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/rtps/transport/UDPv6Transport.cpp.o[0m
+[ 47%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/rtps/transport/TCPv6Transport.cpp.o[0m
+[ 47%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/rtps/transport/test_UDPv4Transport.cpp.o[0m
+[ 48%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/rtps/transport/tcp/TCPControlMessage.cpp.o[0m
+[ 48%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/rtps/transport/tcp/RTCPMessageManager.cpp.o[0m
+[ 49%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/rtps/transport/ChainingTransport.cpp.o[0m
+[ 49%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/dynamic-types/AnnotationDescriptor.cpp.o[0m
+[ 50%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/dynamic-types/AnnotationParameterValue.cpp.o[0m
+[ 50%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/dynamic-types/DynamicData.cpp.o[0m
+[ 51%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/dynamic-types/DynamicDataFactory.cpp.o[0m
+[ 51%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/dynamic-types/DynamicType.cpp.o[0m
+[ 52%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/dynamic-types/DynamicPubSubType.cpp.o[0m
+[ 52%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/dynamic-types/DynamicTypePtr.cpp.o[0m
+[ 52%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/dynamic-types/DynamicDataPtr.cpp.o[0m
+[ 53%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/dynamic-types/DynamicTypeBuilder.cpp.o[0m
+[ 53%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/dynamic-types/DynamicTypeBuilderPtr.cpp.o[0m
+[ 54%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/dynamic-types/DynamicTypeBuilderFactory.cpp.o[0m
+[ 54%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/dynamic-types/DynamicTypeMember.cpp.o[0m
+[ 54%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/dynamic-types/TypeDescriptor.cpp.o[0m
+[ 55%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/dynamic-types/MemberDescriptor.cpp.o[0m
+[ 56%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/dynamic-types/TypeIdentifier.cpp.o[0m
+[ 56%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/dynamic-types/TypeIdentifierTypes.cpp.o[0m
+[ 57%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/dynamic-types/TypeObject.cpp.o[0m
+[ 57%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/dynamic-types/TypeObjectHashId.cpp.o[0m
+[ 58%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/dynamic-types/TypeObjectFactory.cpp.o[0m
+[ 58%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/dynamic-types/TypeNamesGenerator.cpp.o[0m
+[ 58%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/dynamic-types/TypesBase.cpp.o[0m
+[ 59%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/dynamic-types/BuiltinAnnotationsTypeObject.cpp.o[0m
+[ 59%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/dynamic-types/DynamicDataHelper.cpp.o[0m
+[ 60%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/fastrtps_deprecated/attributes/TopicAttributes.cpp.o[0m
+[ 60%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/fastdds/core/Entity.cpp.o[0m
+[ 61%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/fastdds/core/condition/Condition.cpp.o[0m
+[ 61%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/fastdds/core/condition/ConditionNotifier.cpp.o[0m
+[ 62%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/fastdds/core/condition/GuardCondition.cpp.o[0m
+[ 62%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/fastdds/core/condition/StatusCondition.cpp.o[0m
+[ 63%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/fastdds/core/condition/StatusConditionImpl.cpp.o[0m
+[ 63%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/fastdds/core/condition/WaitSet.cpp.o[0m
+[ 63%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/fastdds/core/policy/ParameterList.cpp.o[0m
+[ 64%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/fastdds/core/condition/WaitSetImpl.cpp.o[0m
+[ 64%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/fastdds/core/policy/QosPolicyUtils.cpp.o[0m
+[ 65%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/fastdds/publisher/qos/WriterQos.cpp.o[0m
+[ 65%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/fastdds/subscriber/qos/ReaderQos.cpp.o[0m
+[ 66%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/fastdds/utils/QosConverters.cpp.o[0m
+[ 66%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/rtps/builtin/BuiltinProtocols.cpp.o[0m
+[ 67%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/rtps/builtin/discovery/participant/DirectMessageSender.cpp.o[0m
+[ 67%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/rtps/builtin/discovery/participant/PDP.cpp.o[0m
+[ 67%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/rtps/builtin/discovery/participant/PDPSimple.cpp.o[0m
+[ 68%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/rtps/builtin/discovery/participant/ServerAttributes.cpp.o[0m
+[ 69%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/rtps/builtin/discovery/participant/PDPListener.cpp.o[0m
+[ 69%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/rtps/builtin/discovery/endpoint/EDP.cpp.o[0m
+[ 70%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/rtps/builtin/discovery/endpoint/EDPSimple.cpp.o[0m
+[ 70%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/rtps/builtin/discovery/endpoint/EDPSimpleListeners.cpp.o[0m
+[ 70%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/rtps/builtin/discovery/endpoint/EDPStatic.cpp.o[0m
+[ 71%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/rtps/builtin/liveliness/WLP.cpp.o[0m
+[ 71%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/rtps/builtin/liveliness/WLPListener.cpp.o[0m
+[ 72%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/rtps/builtin/data/ParticipantProxyData.cpp.o[0m
+[ 72%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/rtps/builtin/data/WriterProxyData.cpp.o[0m
+[ 73%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/rtps/builtin/data/ReaderProxyData.cpp.o[0m
+[ 73%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/rtps/flowcontrol/ThroughputControllerDescriptor.cpp.o[0m
+[ 74%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/rtps/flowcontrol/FlowControllerConsts.cpp.o[0m
+[ 74%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/rtps/flowcontrol/FlowControllerFactory.cpp.o[0m
+[ 75%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/rtps/exceptions/Exception.cpp.o[0m
+[ 75%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/rtps/attributes/PropertyPolicy.cpp.o[0m
+[ 76%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/rtps/common/Token.cpp.o[0m
+[ 76%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/rtps/xmlparser/XMLParserCommon.cpp.o[0m
+[ 76%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/rtps/xmlparser/XMLElementParser.cpp.o[0m
+[ 77%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/rtps/xmlparser/XMLDynamicParser.cpp.o[0m
+[ 77%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/rtps/xmlparser/XMLEndpointParser.cpp.o[0m
+[ 78%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/rtps/xmlparser/XMLParser.cpp.o[0m
+[ 78%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/rtps/xmlparser/XMLProfileManager.cpp.o[0m
+[ 79%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/rtps/writer/PersistentWriter.cpp.o[0m
+[ 80%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/rtps/writer/StatefulPersistentWriter.cpp.o[0m
+[ 80%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/rtps/writer/StatelessPersistentWriter.cpp.o[0m
+[ 80%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/rtps/reader/StatelessPersistentReader.cpp.o[0m
+[ 81%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/rtps/reader/StatefulPersistentReader.cpp.o[0m
+[ 81%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/rtps/persistence/PersistenceFactory.cpp.o[0m
+[ 82%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/rtps/builtin/discovery/database/backup/SharedBackupFunctions.cpp.o[0m
+[ 82%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/rtps/builtin/discovery/endpoint/EDPClient.cpp.o[0m
+[ 82%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/rtps/builtin/discovery/endpoint/EDPServer.cpp.o[0m
+[ 83%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/rtps/builtin/discovery/endpoint/EDPServerListeners.cpp.o[0m
+[ 83%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/rtps/builtin/discovery/database/DiscoveryDataBase.cpp.o[0m
+[ 84%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/rtps/builtin/discovery/database/DiscoveryParticipantInfo.cpp.o[0m
+[ 84%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/rtps/builtin/discovery/database/DiscoveryParticipantsAckStatus.cpp.o[0m
+[ 85%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/rtps/builtin/discovery/database/DiscoverySharedInfo.cpp.o[0m
+[ 85%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/rtps/builtin/discovery/participant/PDPClient.cpp.o[0m
+[ 86%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/rtps/builtin/discovery/participant/PDPServer.cpp.o[0m
+[ 86%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/rtps/builtin/discovery/participant/PDPServerListener.cpp.o[0m
+[ 87%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/rtps/builtin/discovery/participant/timedevent/DSClientEvent.cpp.o[0m
+[ 87%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/rtps/builtin/discovery/participant/timedevent/DServerEvent.cpp.o[0m
+[ 88%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/dds/pub/AnyDataWriter.cpp.o[0m
+[ 88%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/dds/pub/Publisher.cpp.o[0m
+[ 89%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/dds/pub/DataWriter.cpp.o[0m
+[ 89%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/dds/sub/Subscriber.cpp.o[0m
+[ 89%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/dds/sub/DataReader.cpp.o[0m
+[ 90%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/dds/topic/Topic.cpp.o[0m
+[ 90%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/statistics/fastdds/domain/DomainParticipant.cpp.o[0m
+[ 91%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/dds/domain/DomainParticipant.cpp.o[0m
+[ 91%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/statistics/fastdds/publisher/qos/DataWriterQos.cpp.o[0m
+[ 91%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/statistics/fastdds/subscriber/qos/DataReaderQos.cpp.o[0m
+[ 92%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/rtps/transport/shared_mem/test_SharedMemTransport.cpp.o[0m
+[ 92%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/rtps/transport/shared_mem/SharedMemTransport.cpp.o[0m
+[ 93%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/rtps/transport/TCPChannelResourceSecure.cpp.o[0m
+[ 94%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/dds/core/Exception.cpp.o[0m
+[ 94%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/dds/core/types.cpp.o[0m
+[ 94%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/rtps/transport/TCPAcceptorSecure.cpp.o[0m
+[ 95%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/rtps/persistence/SQLite3PersistenceService.cpp.o[0m
+[ 95%] [32mBuilding C object src/cpp/CMakeFiles/fastrtps.dir/rtps/persistence/sqlite3.c.o[0m
+[ 96%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/utils/string_convert.cpp.o[0m
+[ 97%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/utils/SystemInfo.cpp.o[0m
+[ 97%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/utils/TimedConditionVariable.cpp.o[0m
+[ 97%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/utils/System.cpp.o[0m
+[ 98%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/utils/IPLocator.cpp.o[0m
+[ 98%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/utils/StringMatching.cpp.o[0m
+[ 98%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/utils/md5.cpp.o[0m
+[ 99%] [32mBuilding CXX object src/cpp/CMakeFiles/fastrtps.dir/utils/IPFinder.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libfastrtps.so[0m
+[100%] Built target fastrtps
+[100%] [32mBuilding CXX object tools/fds/CMakeFiles/fast-discovery-server.dir/server.cpp.o[0m
+[100%] [32m[1mLinking CXX executable fast-discovery-server-1.0.0[0m
+[100%] Built target fast-discovery-server

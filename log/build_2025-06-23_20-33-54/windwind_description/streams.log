@@ -1,0 +1,18 @@
+[13.026s] Invoking command in '/home/jose/TCC/build/windwind_description': AMENT_PREFIX_PATH=/home/jose/TCC/install/ament_copyright:/home/jose/TCC/install/ament_pep257:/home/jose/TCC/install/ament_flake8:/home/jose/TCC/install/ament_lint:${AMENT_PREFIX_PATH} PATH=/home/jose/TCC/install/ament_copyright/bin:/home/jose/TCC/install/ament_pep257/bin:/home/jose/TCC/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/jose/TCC/build/windwind_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jose/TCC/install/windwind_description/lib/python3.10/site-packages:/home/jose/TCC/build/ament_copyright:/home/jose/TCC/install/ament_copyright/lib/python3.10/site-packages:/home/jose/TCC/build/ament_pep257:/home/jose/TCC/install/ament_pep257/lib/python3.10/site-packages:/home/jose/TCC/build/ament_flake8:/home/jose/TCC/install/ament_flake8/lib/python3.10/site-packages:/home/jose/TCC/build/ament_lint:/home/jose/TCC/install/ament_lint/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jose/TCC/build/windwind_description/build --no-deps symlink_data
+[14.764s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[14.764s]   warnings.warn(
+[14.877s] running develop
+[15.382s] running egg_info
+[15.387s] writing windwind_description.egg-info/PKG-INFO
+[15.388s] writing dependency_links to windwind_description.egg-info/dependency_links.txt
+[15.388s] writing entry points to windwind_description.egg-info/entry_points.txt
+[15.390s] writing requirements to windwind_description.egg-info/requires.txt
+[15.390s] writing top-level names to windwind_description.egg-info/top_level.txt
+[15.397s] reading manifest file 'windwind_description.egg-info/SOURCES.txt'
+[15.397s] writing manifest file 'windwind_description.egg-info/SOURCES.txt'
+[15.419s] running build_ext
+[15.419s] Creating /home/jose/TCC/install/windwind_description/lib/python3.10/site-packages/windwind-description.egg-link (link to .)
+[15.419s] 
+[15.419s] Installed /home/jose/TCC/build/windwind_description
+[15.419s] running symlink_data
+[19.103s] Invoked command in '/home/jose/TCC/build/windwind_description' returned '0': AMENT_PREFIX_PATH=/home/jose/TCC/install/ament_copyright:/home/jose/TCC/install/ament_pep257:/home/jose/TCC/install/ament_flake8:/home/jose/TCC/install/ament_lint:${AMENT_PREFIX_PATH} PATH=/home/jose/TCC/install/ament_copyright/bin:/home/jose/TCC/install/ament_pep257/bin:/home/jose/TCC/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/jose/TCC/build/windwind_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jose/TCC/install/windwind_description/lib/python3.10/site-packages:/home/jose/TCC/build/ament_copyright:/home/jose/TCC/install/ament_copyright/lib/python3.10/site-packages:/home/jose/TCC/build/ament_pep257:/home/jose/TCC/install/ament_pep257/lib/python3.10/site-packages:/home/jose/TCC/build/ament_flake8:/home/jose/TCC/install/ament_flake8/lib/python3.10/site-packages:/home/jose/TCC/build/ament_lint:/home/jose/TCC/install/ament_lint/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jose/TCC/build/windwind_description/build --no-deps symlink_data

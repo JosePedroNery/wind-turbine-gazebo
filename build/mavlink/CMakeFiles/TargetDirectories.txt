@@ -1,0 +1,7 @@
+/home/jose/TCC/build/mavlink/CMakeFiles/generate_c_headers.dir
+/home/jose/TCC/build/mavlink/CMakeFiles/edit_cache.dir
+/home/jose/TCC/build/mavlink/CMakeFiles/rebuild_cache.dir
+/home/jose/TCC/build/mavlink/CMakeFiles/list_install_components.dir
+/home/jose/TCC/build/mavlink/CMakeFiles/install.dir
+/home/jose/TCC/build/mavlink/CMakeFiles/install/local.dir
+/home/jose/TCC/build/mavlink/CMakeFiles/install/strip.dir

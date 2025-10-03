@@ -1,0 +1,602 @@
+[2.048s] Invoking command in '/home/jose/TCC/build/cyclonedds': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jose/TCC/install/windwind_description:/home/jose/TCC/install/wind_turbine:/home/jose/ros2_humble/install/rqt_bag_plugins:/home/jose/ros2_humble/install/rqt_bag:/home/jose/ros2_humble/install/launch_testing_examples:/home/jose/ros2_humble/install/ros2bag:/home/jose/ros2_humble/install/tracetools_test:/home/jose/ros2_humble/install/tracetools_launch:/home/jose/ros2_humble/install/topic_monitor:/home/jose/ros2_humble/install/tf2_tools:/home/jose/ros2_humble/install/examples_tf2_py:/home/jose/ros2_humble/install/tf2_ros_py:/home/jose/ros2_humble/install/sros2:/home/jose/ros2_humble/install/rqt_topic:/home/jose/ros2_humble/install/rqt_srv:/home/jose/ros2_humble/install/rqt_shell:/home/jose/ros2_humble/install/rqt_service_caller:/home/jose/ros2_humble/install/rqt_reconfigure:/home/jose/ros2_humble/install/rqt_py_console:/home/jose/ros2_humble/install/rqt_publisher:/home/jose/ros2_humble/install/rqt_plot:/home/jose/ros2_humble/install/rqt_action:/home/jose/ros2_humble/install/rqt_msg:/home/jose/ros2_humble/install/rqt_console:/home/jose/ros2_humble/install/rqt:/home/jose/ros2_humble/install/rqt_graph:/home/jose/ros2_humble/install/rqt_gui_py:/home/jose/ros2_humble/install/rqt_gui:/home/jose/ros2_humble/install/ros2trace:/home/jose/ros2_humble/install/ros2topic:/home/jose/ros2_humble/install/ros2test:/home/jose/ros2_humble/install/ros2component:/home/jose/ros2_humble/install/ros2param:/home/jose/ros2_humble/install/ros2lifecycle:/home/jose/ros2_humble/install/ros2service:/home/jose/ros2_humble/install/ros2run:/home/jose/ros2_humble/install/ros2launch:/home/jose/ros2_humble/install/ros2pkg:/home/jose/ros2_humble/install/ros2node:/home/jose/ros2_humble/install/ros2multicast:/home/jose/ros2_humble/install/ros2interface:/home/jose/ros2_humble/install/ros2doctor:/home/jose/ros2_humble/install/ros2action:/home/jose/ros2_humble/install/ros2cli:/home/jose/ros2_humble/install/quality_of_service_demo_py:/home/jose/ros2_humble/install/lifecycle_py:/home/jose/ros2_humble/install/launch_testing_ros:/home/jose/ros2_humble/install/launch_ros:/home/jose/ros2_humble/install/examples_rclpy_pointcloud_publisher:/home/jose/ros2_humble/install/examples_rclpy_minimal_subscriber:/home/jose/ros2_humble/install/examples_rclpy_minimal_service:/home/jose/ros2_humble/install/examples_rclpy_minimal_publisher:/home/jose/ros2_humble/install/examples_rclpy_minimal_client:/home/jose/ros2_humble/install/examples_rclpy_minimal_action_server:/home/jose/ros2_humble/install/examples_rclpy_minimal_action_client:/home/jose/ros2_humble/install/examples_rclpy_guard_conditions:/home/jose/ros2_humble/install/examples_rclpy_executors:/home/jose/ros2_humble/install/demo_nodes_py:/home/jose/ros2_humble/install/camera_info_manager_py:/home/jose/ros2_humble/install/action_tutorials_py:/home/jose/ros2_humble/install/ament_uncrustify:/home/jose/ros2_humble/install/tracetools_trace:/home/jose/ros2_humble/install/tracetools_read:/home/jose/ros2_humble/install/test_tracetools_launch:/home/jose/ros2_humble/install/test_launch_ros:/home/jose/ros2_humble/install/sensor_msgs_py:/home/jose/ros2_humble/install/rpyutils:/home/jose/ros2_humble/install/rosidl_runtime_py:/home/jose/ros2_humble/install/rosidl_cli:/home/jose/ros2_humble/install/launch_pytest:/home/jose/ros2_humble/install/launch_testing:/home/jose/ros2_humble/install/launch_yaml:/home/jose/ros2_humble/install/launch_xml:/home/jose/ros2_humble/install/launch:/home/jose/ros2_humble/install/osrf_pycommon:/home/jose/ros2_humble/install/domain_coordinator:/home/jose/ros2_humble/install/ament_xmllint:/home/jose/ros2_humble/install/ament_pyflakes:/home/jose/ros2_humble/install/ament_pycodestyle:/home/jose/ros2_humble/install/ament_pep257:/home/jose/ros2_humble/install/ament_pclint:/home/jose/ros2_humble/install/ament_package:/home/jose/ros2_humble/install/ament_mypy:/home/jose/ros2_humble/install/ament_lint_cmake:/home/jose/ros2_humble/install/ament_flake8:/home/jose/ros2_humble/install/ament_copyright:/home/jose/ros2_humble/install/ament_lint:/home/jose/ros2_humble/install/ament_index_python:/home/jose/ros2_humble/install/ament_cpplint:/home/jose/ros2_humble/install/ament_cppcheck:/home/jose/ros2_humble/install/ament_clang_tidy:/home/jose/ros2_humble/install/ament_clang_format:/opt/ros/humble /usr/bin/cmake /home/jose/TCC/src/cyclonedds -DBUILD_IDLC=AUTO -DCMAKE_INSTALL_PREFIX=/home/jose/TCC/install/cyclonedds
+[2.161s] -- The C compiler identification is GNU 11.4.0
+[2.173s] -- Detecting C compiler ABI info
+[2.305s] -- Detecting C compiler ABI info - done
+[2.312s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.312s] -- Detecting C compile features
+[2.312s] -- Detecting C compile features - done
+[2.313s] -- Setting build type to 'RelWithDebInfo' as none was specified.
+[2.316s] -- Looking for getopt.h
+[2.448s] -- Looking for getopt.h - found
+[2.715s] -- Building with OpenSSL support
+[2.722s] -- Looking for stdint.h
+[2.839s] -- Looking for stdint.h - found
+[2.840s] -- Looking for inttypes.h
+[2.955s] -- Looking for inttypes.h - found
+[2.955s] -- Looking for sys/types.h
+[3.072s] -- Looking for sys/types.h - found
+[3.072s] -- Looking for stdint.h
+[3.188s] -- Looking for stdint.h - found
+[3.188s] -- Looking for stddef.h
+[3.308s] -- Looking for stddef.h - found
+[3.308s] -- Check size of intmax_t
+[3.430s] -- Check size of intmax_t - done
+[3.430s] -- Looking for stpcpy
+[3.541s] -- Looking for stpcpy - found
+[3.541s] -- Looking for strlcpy
+[3.588s] -- Looking for strlcpy - not found
+[3.588s] -- Looking for strlcat
+[3.633s] -- Looking for strlcat - not found
+[3.634s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+[3.743s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+[3.743s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+[3.855s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Failed
+[3.855s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+[3.971s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+[3.977s] -- Looking for gethostname
+[4.098s] -- Looking for gethostname - found
+[4.099s] -- Looking for inet_ntop
+[4.222s] -- Looking for inet_ntop - found
+[4.222s] -- Looking for inet_pton
+[4.346s] -- Looking for inet_pton - found
+[4.347s] -- Looking for getaddrinfo
+[4.513s] -- Looking for getaddrinfo - found
+[4.513s] -- Looking for gethostbyname_r
+[4.713s] -- Looking for gethostbyname_r - found
+[4.713s] -- Check size of struct sockaddr_in6
+[4.913s] -- Check size of struct sockaddr_in6 - done
+[4.913s] -- Looking for pthread.h
+[5.109s] -- Looking for pthread.h - found
+[5.109s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.250s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.251s] -- Found Threads: TRUE  
+[5.251s] -- Looking for clock_gettime in c
+[5.374s] -- Looking for clock_gettime in c - found
+[5.871s] -- Configuring done
+[5.926s] -- Generating done
+[5.934s] -- Build files have been written to: /home/jose/TCC/build/cyclonedds
+[6.259s] Invoked command in '/home/jose/TCC/build/cyclonedds' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jose/TCC/install/windwind_description:/home/jose/TCC/install/wind_turbine:/home/jose/ros2_humble/install/rqt_bag_plugins:/home/jose/ros2_humble/install/rqt_bag:/home/jose/ros2_humble/install/launch_testing_examples:/home/jose/ros2_humble/install/ros2bag:/home/jose/ros2_humble/install/tracetools_test:/home/jose/ros2_humble/install/tracetools_launch:/home/jose/ros2_humble/install/topic_monitor:/home/jose/ros2_humble/install/tf2_tools:/home/jose/ros2_humble/install/examples_tf2_py:/home/jose/ros2_humble/install/tf2_ros_py:/home/jose/ros2_humble/install/sros2:/home/jose/ros2_humble/install/rqt_topic:/home/jose/ros2_humble/install/rqt_srv:/home/jose/ros2_humble/install/rqt_shell:/home/jose/ros2_humble/install/rqt_service_caller:/home/jose/ros2_humble/install/rqt_reconfigure:/home/jose/ros2_humble/install/rqt_py_console:/home/jose/ros2_humble/install/rqt_publisher:/home/jose/ros2_humble/install/rqt_plot:/home/jose/ros2_humble/install/rqt_action:/home/jose/ros2_humble/install/rqt_msg:/home/jose/ros2_humble/install/rqt_console:/home/jose/ros2_humble/install/rqt:/home/jose/ros2_humble/install/rqt_graph:/home/jose/ros2_humble/install/rqt_gui_py:/home/jose/ros2_humble/install/rqt_gui:/home/jose/ros2_humble/install/ros2trace:/home/jose/ros2_humble/install/ros2topic:/home/jose/ros2_humble/install/ros2test:/home/jose/ros2_humble/install/ros2component:/home/jose/ros2_humble/install/ros2param:/home/jose/ros2_humble/install/ros2lifecycle:/home/jose/ros2_humble/install/ros2service:/home/jose/ros2_humble/install/ros2run:/home/jose/ros2_humble/install/ros2launch:/home/jose/ros2_humble/install/ros2pkg:/home/jose/ros2_humble/install/ros2node:/home/jose/ros2_humble/install/ros2multicast:/home/jose/ros2_humble/install/ros2interface:/home/jose/ros2_humble/install/ros2doctor:/home/jose/ros2_humble/install/ros2action:/home/jose/ros2_humble/install/ros2cli:/home/jose/ros2_humble/install/quality_of_service_demo_py:/home/jose/ros2_humble/install/lifecycle_py:/home/jose/ros2_humble/install/launch_testing_ros:/home/jose/ros2_humble/install/launch_ros:/home/jose/ros2_humble/install/examples_rclpy_pointcloud_publisher:/home/jose/ros2_humble/install/examples_rclpy_minimal_subscriber:/home/jose/ros2_humble/install/examples_rclpy_minimal_service:/home/jose/ros2_humble/install/examples_rclpy_minimal_publisher:/home/jose/ros2_humble/install/examples_rclpy_minimal_client:/home/jose/ros2_humble/install/examples_rclpy_minimal_action_server:/home/jose/ros2_humble/install/examples_rclpy_minimal_action_client:/home/jose/ros2_humble/install/examples_rclpy_guard_conditions:/home/jose/ros2_humble/install/examples_rclpy_executors:/home/jose/ros2_humble/install/demo_nodes_py:/home/jose/ros2_humble/install/camera_info_manager_py:/home/jose/ros2_humble/install/action_tutorials_py:/home/jose/ros2_humble/install/ament_uncrustify:/home/jose/ros2_humble/install/tracetools_trace:/home/jose/ros2_humble/install/tracetools_read:/home/jose/ros2_humble/install/test_tracetools_launch:/home/jose/ros2_humble/install/test_launch_ros:/home/jose/ros2_humble/install/sensor_msgs_py:/home/jose/ros2_humble/install/rpyutils:/home/jose/ros2_humble/install/rosidl_runtime_py:/home/jose/ros2_humble/install/rosidl_cli:/home/jose/ros2_humble/install/launch_pytest:/home/jose/ros2_humble/install/launch_testing:/home/jose/ros2_humble/install/launch_yaml:/home/jose/ros2_humble/install/launch_xml:/home/jose/ros2_humble/install/launch:/home/jose/ros2_humble/install/osrf_pycommon:/home/jose/ros2_humble/install/domain_coordinator:/home/jose/ros2_humble/install/ament_xmllint:/home/jose/ros2_humble/install/ament_pyflakes:/home/jose/ros2_humble/install/ament_pycodestyle:/home/jose/ros2_humble/install/ament_pep257:/home/jose/ros2_humble/install/ament_pclint:/home/jose/ros2_humble/install/ament_package:/home/jose/ros2_humble/install/ament_mypy:/home/jose/ros2_humble/install/ament_lint_cmake:/home/jose/ros2_humble/install/ament_flake8:/home/jose/ros2_humble/install/ament_copyright:/home/jose/ros2_humble/install/ament_lint:/home/jose/ros2_humble/install/ament_index_python:/home/jose/ros2_humble/install/ament_cpplint:/home/jose/ros2_humble/install/ament_cppcheck:/home/jose/ros2_humble/install/ament_clang_tidy:/home/jose/ros2_humble/install/ament_clang_format:/opt/ros/humble /usr/bin/cmake /home/jose/TCC/src/cyclonedds -DBUILD_IDLC=AUTO -DCMAKE_INSTALL_PREFIX=/home/jose/TCC/install/cyclonedds
+[6.260s] Invoking command in '/home/jose/TCC/build/cyclonedds': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jose/TCC/install/windwind_description:/home/jose/TCC/install/wind_turbine:/home/jose/ros2_humble/install/rqt_bag_plugins:/home/jose/ros2_humble/install/rqt_bag:/home/jose/ros2_humble/install/launch_testing_examples:/home/jose/ros2_humble/install/ros2bag:/home/jose/ros2_humble/install/tracetools_test:/home/jose/ros2_humble/install/tracetools_launch:/home/jose/ros2_humble/install/topic_monitor:/home/jose/ros2_humble/install/tf2_tools:/home/jose/ros2_humble/install/examples_tf2_py:/home/jose/ros2_humble/install/tf2_ros_py:/home/jose/ros2_humble/install/sros2:/home/jose/ros2_humble/install/rqt_topic:/home/jose/ros2_humble/install/rqt_srv:/home/jose/ros2_humble/install/rqt_shell:/home/jose/ros2_humble/install/rqt_service_caller:/home/jose/ros2_humble/install/rqt_reconfigure:/home/jose/ros2_humble/install/rqt_py_console:/home/jose/ros2_humble/install/rqt_publisher:/home/jose/ros2_humble/install/rqt_plot:/home/jose/ros2_humble/install/rqt_action:/home/jose/ros2_humble/install/rqt_msg:/home/jose/ros2_humble/install/rqt_console:/home/jose/ros2_humble/install/rqt:/home/jose/ros2_humble/install/rqt_graph:/home/jose/ros2_humble/install/rqt_gui_py:/home/jose/ros2_humble/install/rqt_gui:/home/jose/ros2_humble/install/ros2trace:/home/jose/ros2_humble/install/ros2topic:/home/jose/ros2_humble/install/ros2test:/home/jose/ros2_humble/install/ros2component:/home/jose/ros2_humble/install/ros2param:/home/jose/ros2_humble/install/ros2lifecycle:/home/jose/ros2_humble/install/ros2service:/home/jose/ros2_humble/install/ros2run:/home/jose/ros2_humble/install/ros2launch:/home/jose/ros2_humble/install/ros2pkg:/home/jose/ros2_humble/install/ros2node:/home/jose/ros2_humble/install/ros2multicast:/home/jose/ros2_humble/install/ros2interface:/home/jose/ros2_humble/install/ros2doctor:/home/jose/ros2_humble/install/ros2action:/home/jose/ros2_humble/install/ros2cli:/home/jose/ros2_humble/install/quality_of_service_demo_py:/home/jose/ros2_humble/install/lifecycle_py:/home/jose/ros2_humble/install/launch_testing_ros:/home/jose/ros2_humble/install/launch_ros:/home/jose/ros2_humble/install/examples_rclpy_pointcloud_publisher:/home/jose/ros2_humble/install/examples_rclpy_minimal_subscriber:/home/jose/ros2_humble/install/examples_rclpy_minimal_service:/home/jose/ros2_humble/install/examples_rclpy_minimal_publisher:/home/jose/ros2_humble/install/examples_rclpy_minimal_client:/home/jose/ros2_humble/install/examples_rclpy_minimal_action_server:/home/jose/ros2_humble/install/examples_rclpy_minimal_action_client:/home/jose/ros2_humble/install/examples_rclpy_guard_conditions:/home/jose/ros2_humble/install/examples_rclpy_executors:/home/jose/ros2_humble/install/demo_nodes_py:/home/jose/ros2_humble/install/camera_info_manager_py:/home/jose/ros2_humble/install/action_tutorials_py:/home/jose/ros2_humble/install/ament_uncrustify:/home/jose/ros2_humble/install/tracetools_trace:/home/jose/ros2_humble/install/tracetools_read:/home/jose/ros2_humble/install/test_tracetools_launch:/home/jose/ros2_humble/install/test_launch_ros:/home/jose/ros2_humble/install/sensor_msgs_py:/home/jose/ros2_humble/install/rpyutils:/home/jose/ros2_humble/install/rosidl_runtime_py:/home/jose/ros2_humble/install/rosidl_cli:/home/jose/ros2_humble/install/launch_pytest:/home/jose/ros2_humble/install/launch_testing:/home/jose/ros2_humble/install/launch_yaml:/home/jose/ros2_humble/install/launch_xml:/home/jose/ros2_humble/install/launch:/home/jose/ros2_humble/install/osrf_pycommon:/home/jose/ros2_humble/install/domain_coordinator:/home/jose/ros2_humble/install/ament_xmllint:/home/jose/ros2_humble/install/ament_pyflakes:/home/jose/ros2_humble/install/ament_pycodestyle:/home/jose/ros2_humble/install/ament_pep257:/home/jose/ros2_humble/install/ament_pclint:/home/jose/ros2_humble/install/ament_package:/home/jose/ros2_humble/install/ament_mypy:/home/jose/ros2_humble/install/ament_lint_cmake:/home/jose/ros2_humble/install/ament_flake8:/home/jose/ros2_humble/install/ament_copyright:/home/jose/ros2_humble/install/ament_lint:/home/jose/ros2_humble/install/ament_index_python:/home/jose/ros2_humble/install/ament_cpplint:/home/jose/ros2_humble/install/ament_cppcheck:/home/jose/ros2_humble/install/ament_clang_tidy:/home/jose/ros2_humble/install/ament_clang_format:/opt/ros/humble /usr/bin/cmake --build /home/jose/TCC/build/cyclonedds -- -j16 -l16
+[6.347s] [  1%] [34m[1mGenerating include/idl/md5.h[0m
+[6.347s] [  2%] [34m[1mGenerating include/idl/attributes.h[0m
+[6.347s] [  2%] [34m[1mGenerating include/idl/misc.h[0m
+[6.348s] [  2%] [34m[1mGenerating src/md5.c[0m
+[6.350s] [  2%] [34m[1mGenerating include/idl/endian.h[0m
+[6.380s] [  2%] Built target _confgen
+[6.380s] [  3%] [32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/atomics.c.o[0m
+[6.380s] [  4%] [32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/bswap.c.o[0m
+[6.388s] [  5%] [32mBuilding C object src/tools/idlpp/CMakeFiles/idlpp.dir/src/directive.c.o[0m
+[6.403s] [  5%] [32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/io.c.o[0m
+[6.403s] [  5%] [32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/avl.c.o[0m
+[6.403s] [  5%] [32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/log.c.o[0m
+[6.405s] [  5%] [32mBuilding C object src/tools/idlpp/CMakeFiles/idlpp.dir/src/eval.c.o[0m
+[6.412s] [  6%] [32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/strtol.c.o[0m
+[6.413s] [  7%] [32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/retcode.c.o[0m
+[6.419s] [  7%] [32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/strtod.c.o[0m
+[6.436s] [  7%] [32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/mh3.c.o[0m
+[6.437s] [  7%] [32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/environ.c.o[0m
+[6.453s] [  8%] [32mBuilding C object src/tools/idlpp/CMakeFiles/idlpp.dir/src/expand.c.o[0m
+[6.453s] [  9%] [32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/expand_vars.c.o[0m
+[6.530s] [  9%] [32mBuilding C object src/idl/CMakeFiles/idl.dir/src/symbol.c.o[0m
+[6.547s] [  9%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_eth.c.o[0m
+[6.608s] [  9%] [32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/fibheap.c.o[0m
+[6.617s] [ 10%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_ssl.c.o[0m
+[6.620s] [ 10%] [32mBuilding C object src/idl/CMakeFiles/idl.dir/src/expression.c.o[0m
+[6.623s] [ 10%] [32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/hopscotch.c.o[0m
+[6.634s] [ 11%] [32mBuilding C object src/idl/CMakeFiles/idl.dir/src/directive.c.o[0m
+[6.677s] [ 11%] [32mBuilding C object src/tools/idlpp/CMakeFiles/idlpp.dir/src/main.c.o[0m
+[6.742s] [ 11%] [32mBuilding C object src/tools/idlpp/CMakeFiles/idlpp.dir/src/mbchar.c.o[0m
+[6.813s] [ 12%] [32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/circlist.c.o[0m
+[6.856s] [ 13%] [32mBuilding C object src/tools/idlpp/CMakeFiles/idlpp.dir/src/support.c.o[0m
+[6.896s] [ 13%] [32mBuilding C object src/tools/idlpp/CMakeFiles/idlpp.dir/src/system.c.o[0m
+[6.936s] [ 13%] [32mBuilding C object src/idl/CMakeFiles/idl.dir/src/file.c.o[0m
+[7.009s] [ 14%] [32mBuilding C object src/idl/CMakeFiles/idl.dir/src/processor.c.o[0m
+[7.039s] [ 14%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_tcp.c.o[0m
+[7.048s] [ 14%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_tran.c.o[0m
+[7.213s] [ 15%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_udp.c.o[0m
+[7.224s] [ 15%] [32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/threads.c.o[0m
+[7.242s] [ 15%] [32mBuilding C object src/idl/CMakeFiles/idl.dir/src/scanner.c.o[0m
+[7.331s] [ 16%] [32mBuilding C object src/idl/CMakeFiles/idl.dir/src/string.c.o[0m
+[7.441s] [ 17%] [32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/string.c.o[0m
+[7.482s] [ 17%] [32mBuilding C object src/idl/CMakeFiles/idl.dir/src/annotation.c.o[0m
+[7.595s] [ 17%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_raweth.c.o[0m
+[7.626s] [ 17%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_vnet.c.o[0m
+[7.651s] [ 18%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_ipaddr.c.o[0m
+[7.689s] [ 18%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_mcgroup.c.o[0m
+[7.783s] [ 18%] [32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/sockets.c.o[0m
+[7.818s] [ 18%] [32mBuilding C object src/idl/CMakeFiles/idl.dir/src/scope.c.o[0m
+[7.826s] [ 18%] [32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/md5.c.o[0m
+[7.846s] [ 19%] [32mBuilding C object src/idl/CMakeFiles/idl.dir/src/tree.c.o[0m
+[7.951s] [ 20%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_security_util.c.o[0m
+[8.001s] [ 20%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_security_omg.c.o[0m
+[8.106s] [ 21%] [32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/xmlparser.c.o[0m
+[8.126s] [ 21%] [32mBuilding C object src/idl/CMakeFiles/idl.dir/src/visit.c.o[0m
+[8.175s] [ 21%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_portmapping.c.o[0m
+[8.262s] [ 21%] [32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/ifaddrs.c.o[0m
+[8.299s] [ 22%] [32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/cdtors.c.o[0m
+[8.464s] [ 22%] [32mBuilding C object src/idl/CMakeFiles/idl.dir/src/print.c.o[0m
+[8.464s] [ 22%] [32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/random.c.o[0m
+[8.527s] [ 23%] [32mBuilding C object src/idl/CMakeFiles/idl.dir/src/keylist.c.o[0m
+[8.558s] [ 23%] [32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/time.c.o[0m
+[8.567s] [ 23%] [32mBuilding C object src/idl/CMakeFiles/idl.dir/src/hashid.c.o[0m
+[8.598s] [ 24%] [32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/ifaddrs/posix/ifaddrs.c.o[0m
+[8.645s] [ 24%] [32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/sockets/posix/socket.c.o[0m
+[8.675s] [ 25%] [32mBuilding C object src/idl/CMakeFiles/idl.dir/src/parser.c.o[0m
+[8.754s] [ 25%] [32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/sockets/posix/gethostname.c.o[0m
+[8.754s] [ 26%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_handshake.c.o[0m
+[8.760s] [ 26%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_serdata.c.o[0m
+[8.812s] [ 26%] [32mBuilding C object src/idl/CMakeFiles/idl.dir/src/md5.c.o[0m
+[8.833s] [ 27%] [32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/heap/posix/heap.c.o[0m
+[8.918s] [ 27%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_serdata_default.c.o[0m
+[8.952s] [ 27%] [32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/dynlib/posix/dynlib.c.o[0m
+[8.966s] [ 28%] [32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/environ/posix/environ.c.o[0m
+[9.015s] [ 29%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_serdata_pserop.c.o[0m
+[9.055s] [ 29%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_serdata_plist.c.o[0m
+[9.074s] [ 29%] [32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/process/posix/process.c.o[0m
+[9.100s] [ 29%] [32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/filesystem/posix/filesystem.c.o[0m
+[9.117s] [ 30%] [32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/random/posix/random.c.o[0m
+[9.146s] [ 31%] [32m[1mLinking C static library ../../../lib/libidlpp.a[0m
+[9.163s] [ 31%] [32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/sync/posix/sync.c.o[0m
+[9.203s] [ 32%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_sertype.c.o[0m
+[9.212s] [ 32%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_sertype_default.c.o[0m
+[9.268s] [ 32%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_sertype_pserop.c.o[0m
+[9.343s] [ 32%] [32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/threads/posix/threads.c.o[0m
+[9.353s] [ 32%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_sertopic.c.o[0m
+[9.387s] [ 33%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_sertype_plist.c.o[0m
+[9.397s] [ 34%] [32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/netstat/linux/netstat.c.o[0m
+[9.589s] [ 35%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_statistics.c.o[0m
+[9.589s] [ 35%] [32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/time/posix/time.c.o[0m
+[9.659s] [ 36%] [32mBuilding C object src/ddsrt/CMakeFiles/ddsrt-internal.dir/src/rusage/posix/rusage.c.o[0m
+[9.750s] [ 36%] Built target idlpp
+[9.782s] [ 36%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_iid.c.o[0m
+[9.782s] [ 37%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_vendor.c.o[0m
+[9.801s] [ 37%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_tkmap.c.o[0m
+[9.840s] [ 37%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_threadmon.c.o[0m
+[9.874s] [ 37%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_entity_index.c.o[0m
+[9.884s] [ 37%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_rhc.c.o[0m
+[9.907s] [ 38%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_pmd.c.o[0m
+[9.956s] [ 39%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_deadline.c.o[0m
+[9.969s] [ 39%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_deliver_locally.c.o[0m
+[10.030s] [ 39%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_plist.c.o[0m
+[10.052s] [ 39%] [32m[1mLinking C static library ../../lib/libddsrt-internal.a[0m
+[10.052s] [ 40%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_cdrstream.c.o[0m
+[10.078s] [ 40%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_config.c.o[0m
+[10.129s] [ 40%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_time.c.o[0m
+[10.166s] [ 40%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_acknack.c.o[0m
+[10.172s] [ 41%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_ownip.c.o[0m
+[10.205s] [ 42%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_list_genptr.c.o[0m
+[10.377s] [ 42%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_wraddrset.c.o[0m
+[10.420s] [ 42%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_typelib.c.o[0m
+[10.488s] [ 42%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_entity_match.c.o[0m
+[10.488s] [ 43%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_entity.c.o[0m
+[10.490s] [ 44%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_participant.c.o[0m
+[10.515s] [ 44%] Built target ddsrt-internal
+[10.579s] [ 44%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_proxy_participant.c.o[0m
+[10.631s] [ 44%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_topic.c.o[0m
+[10.651s] [ 45%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_endpoint.c.o[0m
+[10.696s] [ 45%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_proxy_endpoint.c.o[0m
+[11.042s] [ 45%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_addrset.c.o[0m
+[11.142s] [ 46%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_bitset_inlines.c.o[0m
+[11.177s] [ 46%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_bswap.c.o[0m
+[11.300s] [ 47%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_ddsi_discovery.c.o[0m
+[11.364s] [ 47%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_debmon.c.o[0m
+[11.450s] [ 47%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_gc.c.o[0m
+[11.457s] [ 48%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_init.c.o[0m
+[11.630s] [ 49%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_lease.c.o[0m
+[11.631s] [ 49%] [32m[1mLinking C shared library ../../lib/libcycloneddsidl.so[0m
+[11.671s] [ 49%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_lat_estim.c.o[0m
+[11.955s] [ 49%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_misc.c.o[0m
+[11.996s] [ 49%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_pcap.c.o[0m
+[12.019s] [ 50%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_qosmatch.c.o[0m
+[12.079s] [ 50%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_radmin.c.o[0m
+[12.113s] [ 50%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_receive.c.o[0m
+[12.140s] [ 51%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_sockwaitset.c.o[0m
+[12.151s] [ 51%] Built target idl
+[12.208s] [ 52%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_transmit.c.o[0m
+[12.251s] [ 52%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_thread.c.o[0m
+[12.393s] [ 52%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_inverse_uint32_set.c.o[0m
+[12.476s] [ 52%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_whc.c.o[0m
+[12.528s] [ 52%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_xmsg.c.o[0m
+[12.582s] [ 53%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_xevent.c.o[0m
+[12.626s] [ 53%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/q_freelist.c.o[0m
+[12.711s] [ 54%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/sysdeps.c.o[0m
+[12.725s] [ 54%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_lifespan.c.o[0m
+[12.774s] [ 55%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_xt_typeinfo.c.o[0m
+[12.797s] [ 55%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_xt_typelookup.c.o[0m
+[12.987s] [ 56%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_typelookup.c.o[0m
+[12.988s] [ 56%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_typewrap.c.o[0m
+[12.993s] [ 56%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_xt_typemap.c.o[0m
+[13.029s] [ 57%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_typebuilder.c.o[0m
+[13.081s] [ 57%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_security_msg.c.o[0m
+[13.098s] [ 57%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_security_exchange.c.o[0m
+[13.138s] [ 58%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/src/ddsi_shm_transport.c.o[0m
+[13.187s] [ 58%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsi/defconfig.c.o[0m
+[13.457s] [ 58%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_alloc.c.o[0m
+[13.489s] [ 59%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_builtin.c.o[0m
+[13.623s] [ 59%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_coherent.c.o[0m
+[13.681s] [ 60%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_participant.c.o[0m
+[13.738s] [ 60%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_reader.c.o[0m
+[13.919s] [ 60%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_writer.c.o[0m
+[13.991s] [ 61%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_init.c.o[0m
+[14.006s] [ 61%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_publisher.c.o[0m
+[14.037s] [ 61%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_rhc.c.o[0m
+[14.064s] [ 62%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_rhc_default.c.o[0m
+[14.166s] [ 62%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_domain.c.o[0m
+[14.196s] [ 63%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_instance.c.o[0m
+[14.218s] [ 63%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_qos.c.o[0m
+[14.248s] [ 63%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_handles.c.o[0m
+[14.330s] [ 64%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_entity.c.o[0m
+[14.365s] [ 64%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_matched.c.o[0m
+[14.416s] [ 65%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_querycond.c.o[0m
+[14.501s] [ 65%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_topic.c.o[0m
+[14.629s] [ 65%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_listener.c.o[0m
+[14.690s] [ 65%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_waitset.c.o[0m
+[14.692s] [ 66%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_read.c.o[0m
+[14.747s] [ 66%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_readcond.c.o[0m
+[14.769s] [ 67%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_guardcond.c.o[0m
+[14.774s] [ 67%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_statistics.c.o[0m
+[14.818s] [ 68%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_subscriber.c.o[0m
+[14.874s] [ 68%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_write.c.o[0m
+[15.083s] [ 68%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_whc.c.o[0m
+[15.161s] [ 69%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_whc_builtintopic.c.o[0m
+[15.188s] [ 69%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_serdata_builtintopic.c.o[0m
+[15.216s] [ 70%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_sertype_builtintopic.c.o[0m
+[15.239s] [ 70%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_loan.c.o[0m
+[15.239s] [ 70%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/dds_data_allocator.c.o[0m
+[15.256s] [ 71%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/ddsc/src/shm_monitor.c.o[0m
+[15.297s] [ 71%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/security/core/src/dds_security_serialize.c.o[0m
+[15.349s] [ 71%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/security/core/src/dds_security_utils.c.o[0m
+[15.380s] [ 72%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/security/core/src/dds_security_plugins.c.o[0m
+[15.418s] [ 72%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/security/core/src/shared_secret.c.o[0m
+[15.466s] [ 73%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/security/core/src/dds_security_fsm.c.o[0m
+[15.520s] [ 73%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/security/core/src/dds_security_timed_cb.c.o[0m
+[15.611s] [ 73%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/atomics.c.o[0m
+[15.622s] [ 74%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/avl.c.o[0m
+[15.721s] [ 75%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/log.c.o[0m
+[15.732s] [ 75%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/bswap.c.o[0m
+[15.734s] [ 75%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/io.c.o[0m
+[15.762s] [ 75%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/strtol.c.o[0m
+[15.765s] [ 75%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/retcode.c.o[0m
+[15.785s] [ 76%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/strtod.c.o[0m
+[15.800s] [ 77%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/environ.c.o[0m
+[15.815s] [ 77%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/expand_vars.c.o[0m
+[15.815s] [ 77%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/mh3.c.o[0m
+[15.873s] [ 78%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/fibheap.c.o[0m
+[15.909s] [ 78%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/hopscotch.c.o[0m
+[15.910s] [ 78%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/circlist.c.o[0m
+[15.937s] [ 78%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/string.c.o[0m
+[15.950s] [ 79%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/threads.c.o[0m
+[15.964s] [ 79%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/sockets.c.o[0m
+[16.022s] [ 80%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/ifaddrs.c.o[0m
+[16.022s] [ 80%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/xmlparser.c.o[0m
+[16.035s] [ 81%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/md5.c.o[0m
+[16.057s] [ 81%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/random.c.o[0m
+[16.081s] [ 81%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/cdtors.c.o[0m
+[16.103s] [ 82%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/time.c.o[0m
+[16.129s] [ 83%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/sockets/posix/gethostname.c.o[0m
+[16.132s] [ 83%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/sockets/posix/socket.c.o[0m
+[16.139s] [ 83%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/ifaddrs/posix/ifaddrs.c.o[0m
+[16.165s] [ 84%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/dynlib/posix/dynlib.c.o[0m
+[16.174s] [ 84%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/heap/posix/heap.c.o[0m
+[16.253s] [ 84%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/filesystem/posix/filesystem.c.o[0m
+[16.260s] [ 84%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/environ/posix/environ.c.o[0m
+[16.304s] [ 85%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/process/posix/process.c.o[0m
+[16.306s] [ 85%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/random/posix/random.c.o[0m
+[16.316s] [ 86%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/sync/posix/sync.c.o[0m
+[16.320s] [ 86%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/threads/posix/threads.c.o[0m
+[16.347s] [ 86%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/netstat/linux/netstat.c.o[0m
+[16.376s] [ 87%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/time/posix/time.c.o[0m
+[16.376s] [ 87%] [32mBuilding C object src/core/CMakeFiles/ddsc.dir/__/ddsrt/src/rusage/posix/rusage.c.o[0m
+[16.792s] [ 87%] [32m[1mLinking C shared library ../../lib/libddsc.so[0m
+[17.588s] [ 87%] Built target ddsc
+[17.755s] [ 87%] [32mBuilding C object src/security/builtin_plugins/access_control/CMakeFiles/dds_security_ac.dir/src/access_control_parser.c.o[0m
+[17.758s] [ 88%] [32mBuilding C object src/security/builtin_plugins/cryptographic/CMakeFiles/dds_security_crypto.dir/src/crypto_cipher.c.o[0m
+[17.764s] [ 89%] [32mBuilding C object src/security/builtin_plugins/cryptographic/CMakeFiles/dds_security_crypto.dir/src/crypto_utils.c.o[0m
+[17.769s] [ 90%] [32mBuilding C object src/tools/idlc/CMakeFiles/idlc.dir/src/idlc.c.o[0m
+[17.769s] [ 90%] [32mBuilding C object src/security/builtin_plugins/access_control/CMakeFiles/dds_security_ac.dir/src/access_control.c.o[0m
+[17.769s] [ 90%] [32mBuilding C object src/security/builtin_plugins/cryptographic/CMakeFiles/dds_security_crypto.dir/src/crypto_key_exchange.c.o[0m
+[17.769s] [ 91%] [32mBuilding C object src/security/builtin_plugins/access_control/CMakeFiles/dds_security_ac.dir/src/access_control_utils.c.o[0m
+[17.772s] [ 92%] [32mBuilding C object src/security/builtin_plugins/cryptographic/CMakeFiles/dds_security_crypto.dir/src/crypto_objects.c.o[0m
+[17.777s] [ 92%] [32mBuilding C object src/security/builtin_plugins/cryptographic/CMakeFiles/dds_security_crypto.dir/src/crypto_key_factory.c.o[0m
+[17.783s] [ 92%] [32mBuilding C object src/security/builtin_plugins/authentication/CMakeFiles/dds_security_auth.dir/__/__/openssl/src/openssl_support.c.o[0m
+[17.783s] [ 92%] [32mBuilding C object src/security/builtin_plugins/authentication/CMakeFiles/dds_security_auth.dir/src/authentication.c.o[0m
+[17.794s] [ 93%] [32mBuilding C object src/security/builtin_plugins/authentication/CMakeFiles/dds_security_auth.dir/src/auth_utils.c.o[0m
+[17.794s] [ 94%] [32mBuilding C object src/tools/idlc/CMakeFiles/idlc.dir/src/options.c.o[0m
+[17.794s] [ 94%] [32mBuilding C object src/security/builtin_plugins/access_control/CMakeFiles/dds_security_ac.dir/src/access_control_objects.c.o[0m
+[17.809s] [ 94%] [32mBuilding C object src/security/builtin_plugins/cryptographic/CMakeFiles/dds_security_crypto.dir/src/crypto_transform.c.o[0m
+[17.811s] [ 94%] [32mBuilding C object src/tools/idlc/CMakeFiles/idlc.dir/src/plugin.c.o[0m
+[18.167s] [ 94%] [32mBuilding C object src/security/builtin_plugins/cryptographic/CMakeFiles/dds_security_crypto.dir/src/cryptography.c.o[0m
+[18.267s] [ 94%] [32mBuilding C object src/security/builtin_plugins/access_control/CMakeFiles/dds_security_ac.dir/__/__/openssl/src/openssl_support.c.o[0m
+[18.341s] [ 94%] [32mBuilding C object src/tools/idlc/CMakeFiles/idlc.dir/src/generator.c.o[0m
+[18.357s] [ 94%] [32mBuilding C object src/tools/idlc/CMakeFiles/idlc.dir/src/descriptor.c.o[0m
+[18.443s] [ 95%] [32mBuilding C object src/tools/idlc/CMakeFiles/idlc.dir/src/types.c.o[0m
+[18.493s] [ 95%] [32mBuilding C object src/security/builtin_plugins/cryptographic/CMakeFiles/dds_security_crypto.dir/__/__/openssl/src/openssl_support.c.o[0m
+[18.542s] [ 95%] [32mBuilding C object src/tools/idlc/CMakeFiles/idlc.dir/src/descriptor_type_meta.c.o[0m
+[19.019s] [ 95%] [32m[1mLinking C shared library ../../../../lib/libdds_security_auth.so[0m
+[19.276s] [ 96%] [32m[1mLinking C shared library ../../../../lib/libdds_security_crypto.so[0m
+[19.293s] [ 96%] Built target dds_security_auth
+[19.453s] [ 96%] Built target dds_security_crypto
+[19.545s] [ 97%] [32m[1mLinking C shared library ../../../../lib/libdds_security_ac.so[0m
+[19.803s] [ 97%] Built target dds_security_ac
+[19.959s] [ 97%] [32m[1mLinking C executable ../../../bin/idlc[0m
+[20.426s] [ 97%] Built target idlc
+[20.561s] [ 97%] [34m[1mGenerating ddsperf_types.c, ddsperf_types.h[0m
+[20.769s] [ 97%] Built target ddsperf_types_generate
+[20.889s] [ 98%] [32mBuilding C object src/tools/ddsperf/CMakeFiles/ddsperf.dir/ddsperf_types.c.o[0m
+[20.890s] [ 99%] [32mBuilding C object src/tools/ddsperf/CMakeFiles/ddsperf.dir/cputime.c.o[0m
+[20.898s] [ 99%] [32mBuilding C object src/tools/ddsperf/CMakeFiles/ddsperf.dir/ddsperf.c.o[0m
+[20.899s] [ 99%] [32mBuilding C object src/tools/ddsperf/CMakeFiles/ddsperf.dir/netload.c.o[0m
+[20.906s] [ 99%] [32mBuilding C object src/tools/ddsperf/CMakeFiles/ddsperf.dir/async_listener.c.o[0m
+[22.048s] [ 99%] [32m[1mLinking C executable ../../../bin/ddsperf[0m
+[22.428s] [100%] Built target ddsperf
+[30.707s] Invoked command in '/home/jose/TCC/build/cyclonedds' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jose/TCC/install/windwind_description:/home/jose/TCC/install/wind_turbine:/home/jose/ros2_humble/install/rqt_bag_plugins:/home/jose/ros2_humble/install/rqt_bag:/home/jose/ros2_humble/install/launch_testing_examples:/home/jose/ros2_humble/install/ros2bag:/home/jose/ros2_humble/install/tracetools_test:/home/jose/ros2_humble/install/tracetools_launch:/home/jose/ros2_humble/install/topic_monitor:/home/jose/ros2_humble/install/tf2_tools:/home/jose/ros2_humble/install/examples_tf2_py:/home/jose/ros2_humble/install/tf2_ros_py:/home/jose/ros2_humble/install/sros2:/home/jose/ros2_humble/install/rqt_topic:/home/jose/ros2_humble/install/rqt_srv:/home/jose/ros2_humble/install/rqt_shell:/home/jose/ros2_humble/install/rqt_service_caller:/home/jose/ros2_humble/install/rqt_reconfigure:/home/jose/ros2_humble/install/rqt_py_console:/home/jose/ros2_humble/install/rqt_publisher:/home/jose/ros2_humble/install/rqt_plot:/home/jose/ros2_humble/install/rqt_action:/home/jose/ros2_humble/install/rqt_msg:/home/jose/ros2_humble/install/rqt_console:/home/jose/ros2_humble/install/rqt:/home/jose/ros2_humble/install/rqt_graph:/home/jose/ros2_humble/install/rqt_gui_py:/home/jose/ros2_humble/install/rqt_gui:/home/jose/ros2_humble/install/ros2trace:/home/jose/ros2_humble/install/ros2topic:/home/jose/ros2_humble/install/ros2test:/home/jose/ros2_humble/install/ros2component:/home/jose/ros2_humble/install/ros2param:/home/jose/ros2_humble/install/ros2lifecycle:/home/jose/ros2_humble/install/ros2service:/home/jose/ros2_humble/install/ros2run:/home/jose/ros2_humble/install/ros2launch:/home/jose/ros2_humble/install/ros2pkg:/home/jose/ros2_humble/install/ros2node:/home/jose/ros2_humble/install/ros2multicast:/home/jose/ros2_humble/install/ros2interface:/home/jose/ros2_humble/install/ros2doctor:/home/jose/ros2_humble/install/ros2action:/home/jose/ros2_humble/install/ros2cli:/home/jose/ros2_humble/install/quality_of_service_demo_py:/home/jose/ros2_humble/install/lifecycle_py:/home/jose/ros2_humble/install/launch_testing_ros:/home/jose/ros2_humble/install/launch_ros:/home/jose/ros2_humble/install/examples_rclpy_pointcloud_publisher:/home/jose/ros2_humble/install/examples_rclpy_minimal_subscriber:/home/jose/ros2_humble/install/examples_rclpy_minimal_service:/home/jose/ros2_humble/install/examples_rclpy_minimal_publisher:/home/jose/ros2_humble/install/examples_rclpy_minimal_client:/home/jose/ros2_humble/install/examples_rclpy_minimal_action_server:/home/jose/ros2_humble/install/examples_rclpy_minimal_action_client:/home/jose/ros2_humble/install/examples_rclpy_guard_conditions:/home/jose/ros2_humble/install/examples_rclpy_executors:/home/jose/ros2_humble/install/demo_nodes_py:/home/jose/ros2_humble/install/camera_info_manager_py:/home/jose/ros2_humble/install/action_tutorials_py:/home/jose/ros2_humble/install/ament_uncrustify:/home/jose/ros2_humble/install/tracetools_trace:/home/jose/ros2_humble/install/tracetools_read:/home/jose/ros2_humble/install/test_tracetools_launch:/home/jose/ros2_humble/install/test_launch_ros:/home/jose/ros2_humble/install/sensor_msgs_py:/home/jose/ros2_humble/install/rpyutils:/home/jose/ros2_humble/install/rosidl_runtime_py:/home/jose/ros2_humble/install/rosidl_cli:/home/jose/ros2_humble/install/launch_pytest:/home/jose/ros2_humble/install/launch_testing:/home/jose/ros2_humble/install/launch_yaml:/home/jose/ros2_humble/install/launch_xml:/home/jose/ros2_humble/install/launch:/home/jose/ros2_humble/install/osrf_pycommon:/home/jose/ros2_humble/install/domain_coordinator:/home/jose/ros2_humble/install/ament_xmllint:/home/jose/ros2_humble/install/ament_pyflakes:/home/jose/ros2_humble/install/ament_pycodestyle:/home/jose/ros2_humble/install/ament_pep257:/home/jose/ros2_humble/install/ament_pclint:/home/jose/ros2_humble/install/ament_package:/home/jose/ros2_humble/install/ament_mypy:/home/jose/ros2_humble/install/ament_lint_cmake:/home/jose/ros2_humble/install/ament_flake8:/home/jose/ros2_humble/install/ament_copyright:/home/jose/ros2_humble/install/ament_lint:/home/jose/ros2_humble/install/ament_index_python:/home/jose/ros2_humble/install/ament_cpplint:/home/jose/ros2_humble/install/ament_cppcheck:/home/jose/ros2_humble/install/ament_clang_tidy:/home/jose/ros2_humble/install/ament_clang_format:/opt/ros/humble /usr/bin/cmake --build /home/jose/TCC/build/cyclonedds -- -j16 -l16
+[30.708s] Invoking command in '/home/jose/TCC/build/cyclonedds': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jose/TCC/install/windwind_description:/home/jose/TCC/install/wind_turbine:/home/jose/ros2_humble/install/rqt_bag_plugins:/home/jose/ros2_humble/install/rqt_bag:/home/jose/ros2_humble/install/launch_testing_examples:/home/jose/ros2_humble/install/ros2bag:/home/jose/ros2_humble/install/tracetools_test:/home/jose/ros2_humble/install/tracetools_launch:/home/jose/ros2_humble/install/topic_monitor:/home/jose/ros2_humble/install/tf2_tools:/home/jose/ros2_humble/install/examples_tf2_py:/home/jose/ros2_humble/install/tf2_ros_py:/home/jose/ros2_humble/install/sros2:/home/jose/ros2_humble/install/rqt_topic:/home/jose/ros2_humble/install/rqt_srv:/home/jose/ros2_humble/install/rqt_shell:/home/jose/ros2_humble/install/rqt_service_caller:/home/jose/ros2_humble/install/rqt_reconfigure:/home/jose/ros2_humble/install/rqt_py_console:/home/jose/ros2_humble/install/rqt_publisher:/home/jose/ros2_humble/install/rqt_plot:/home/jose/ros2_humble/install/rqt_action:/home/jose/ros2_humble/install/rqt_msg:/home/jose/ros2_humble/install/rqt_console:/home/jose/ros2_humble/install/rqt:/home/jose/ros2_humble/install/rqt_graph:/home/jose/ros2_humble/install/rqt_gui_py:/home/jose/ros2_humble/install/rqt_gui:/home/jose/ros2_humble/install/ros2trace:/home/jose/ros2_humble/install/ros2topic:/home/jose/ros2_humble/install/ros2test:/home/jose/ros2_humble/install/ros2component:/home/jose/ros2_humble/install/ros2param:/home/jose/ros2_humble/install/ros2lifecycle:/home/jose/ros2_humble/install/ros2service:/home/jose/ros2_humble/install/ros2run:/home/jose/ros2_humble/install/ros2launch:/home/jose/ros2_humble/install/ros2pkg:/home/jose/ros2_humble/install/ros2node:/home/jose/ros2_humble/install/ros2multicast:/home/jose/ros2_humble/install/ros2interface:/home/jose/ros2_humble/install/ros2doctor:/home/jose/ros2_humble/install/ros2action:/home/jose/ros2_humble/install/ros2cli:/home/jose/ros2_humble/install/quality_of_service_demo_py:/home/jose/ros2_humble/install/lifecycle_py:/home/jose/ros2_humble/install/launch_testing_ros:/home/jose/ros2_humble/install/launch_ros:/home/jose/ros2_humble/install/examples_rclpy_pointcloud_publisher:/home/jose/ros2_humble/install/examples_rclpy_minimal_subscriber:/home/jose/ros2_humble/install/examples_rclpy_minimal_service:/home/jose/ros2_humble/install/examples_rclpy_minimal_publisher:/home/jose/ros2_humble/install/examples_rclpy_minimal_client:/home/jose/ros2_humble/install/examples_rclpy_minimal_action_server:/home/jose/ros2_humble/install/examples_rclpy_minimal_action_client:/home/jose/ros2_humble/install/examples_rclpy_guard_conditions:/home/jose/ros2_humble/install/examples_rclpy_executors:/home/jose/ros2_humble/install/demo_nodes_py:/home/jose/ros2_humble/install/camera_info_manager_py:/home/jose/ros2_humble/install/action_tutorials_py:/home/jose/ros2_humble/install/ament_uncrustify:/home/jose/ros2_humble/install/tracetools_trace:/home/jose/ros2_humble/install/tracetools_read:/home/jose/ros2_humble/install/test_tracetools_launch:/home/jose/ros2_humble/install/test_launch_ros:/home/jose/ros2_humble/install/sensor_msgs_py:/home/jose/ros2_humble/install/rpyutils:/home/jose/ros2_humble/install/rosidl_runtime_py:/home/jose/ros2_humble/install/rosidl_cli:/home/jose/ros2_humble/install/launch_pytest:/home/jose/ros2_humble/install/launch_testing:/home/jose/ros2_humble/install/launch_yaml:/home/jose/ros2_humble/install/launch_xml:/home/jose/ros2_humble/install/launch:/home/jose/ros2_humble/install/osrf_pycommon:/home/jose/ros2_humble/install/domain_coordinator:/home/jose/ros2_humble/install/ament_xmllint:/home/jose/ros2_humble/install/ament_pyflakes:/home/jose/ros2_humble/install/ament_pycodestyle:/home/jose/ros2_humble/install/ament_pep257:/home/jose/ros2_humble/install/ament_pclint:/home/jose/ros2_humble/install/ament_package:/home/jose/ros2_humble/install/ament_mypy:/home/jose/ros2_humble/install/ament_lint_cmake:/home/jose/ros2_humble/install/ament_flake8:/home/jose/ros2_humble/install/ament_copyright:/home/jose/ros2_humble/install/ament_lint:/home/jose/ros2_humble/install/ament_index_python:/home/jose/ros2_humble/install/ament_cpplint:/home/jose/ros2_humble/install/ament_cppcheck:/home/jose/ros2_humble/install/ament_clang_tidy:/home/jose/ros2_humble/install/ament_clang_format:/opt/ros/humble /usr/bin/cmake --install /home/jose/TCC/build/cyclonedds
+[31.652s] -- Install configuration: "RelWithDebInfo"
+[31.652s] -- Installing: /home/jose/TCC/install/cyclonedds/lib/cmake/CycloneDDS/CycloneDDSConfig.cmake
+[31.652s] -- Installing: /home/jose/TCC/install/cyclonedds/lib/cmake/CycloneDDS/CycloneDDSConfigVersion.cmake
+[31.652s] -- Installing: /home/jose/TCC/install/cyclonedds/lib/cmake/CycloneDDS/CycloneDDSTargets.cmake
+[31.653s] -- Installing: /home/jose/TCC/install/cyclonedds/lib/cmake/CycloneDDS/CycloneDDSTargets-relwithdebinfo.cmake
+[31.653s] -- Installing: /home/jose/TCC/install/cyclonedds/lib/pkgconfig/CycloneDDS.pc
+[31.653s] -- Installing: /home/jose/TCC/install/cyclonedds/include/idlc
+[31.653s] -- Installing: /home/jose/TCC/install/cyclonedds/include/idlc/generator.h
+[31.653s] -- Installing: /home/jose/TCC/install/cyclonedds/include/idlc/options.h
+[31.653s] -- Installing: /home/jose/TCC/install/cyclonedds/bin/idlc
+[31.653s] -- Set runtime path of "/home/jose/TCC/install/cyclonedds/bin/idlc" to "$ORIGIN/../lib"
+[31.653s] -- Installing: /home/jose/TCC/install/cyclonedds/lib/cmake/CycloneDDS/idlc/Generate.cmake
+[31.653s] -- Installing: /home/jose/TCC/install/cyclonedds/bin/ddsperf
+[31.653s] -- Set runtime path of "/home/jose/TCC/install/cyclonedds/bin/ddsperf" to "$ORIGIN/../lib"
+[31.653s] -- Up-to-date: /home/jose/TCC/install/cyclonedds/include
+[31.653s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds
+[31.653s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsrt
+[31.654s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsrt/time.h
+[31.654s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsrt/rusage.h
+[31.654s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsrt/endian.h
+[31.654s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsrt/static_assert.h
+[31.654s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsrt/expand_vars.h
+[31.654s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsrt/retcode.h
+[31.654s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsrt/io.h
+[31.654s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsrt/align.h
+[31.654s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsrt/types.h
+[31.654s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsrt/dynlib.h
+[31.654s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsrt/cdtors.h
+[31.654s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsrt/random.h
+[31.654s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsrt/ifaddrs.h
+[31.654s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsrt/md5.h
+[31.654s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsrt/xmlparser.h
+[31.654s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsrt/time
+[31.654s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsrt/time/freertos.h
+[31.654s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsrt/sched.h
+[31.655s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsrt/sync
+[31.655s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsrt/sync/freertos.h
+[31.655s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsrt/sync/posix.h
+[31.655s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsrt/sync/windows.h
+[31.655s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsrt/threads
+[31.655s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsrt/threads/freertos.h
+[31.655s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsrt/threads/posix.h
+[31.655s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsrt/threads/windows.h
+[31.655s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsrt/bswap.h
+[31.655s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsrt/heap.h
+[31.655s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsrt/filesystem.h
+[31.655s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsrt/string.h
+[31.655s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsrt/strtol.h
+[31.655s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsrt/process.h
+[31.655s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsrt/misc.h
+[31.655s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsrt/fibheap.h
+[31.658s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsrt/hopscotch.h
+[31.658s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsrt/attributes.h
+[31.658s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsrt/circlist.h
+[31.658s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsrt/filesystem
+[31.658s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsrt/filesystem/posix.h
+[31.658s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsrt/filesystem/windows.h
+[31.658s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsrt/strtod.h
+[31.658s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsrt/atomics
+[31.658s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsrt/atomics/sun.h
+[31.658s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsrt/atomics/msvc.h
+[31.658s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsrt/atomics/arm.h
+[31.658s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsrt/atomics/gcc.h
+[31.659s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsrt/iovec.h
+[31.659s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsrt/sockets.h
+[31.659s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsrt/arch.h
+[31.659s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsrt/sync.h
+[31.659s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsrt/avl.h
+[31.659s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsrt/sockets
+[31.659s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsrt/sockets/posix.h
+[31.659s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsrt/sockets/windows.h
+[31.666s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsrt/environ.h
+[31.666s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsrt/atomics.h
+[31.666s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsrt/threads.h
+[31.666s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsrt/countargs.h
+[31.666s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsrt/netstat.h
+[31.666s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsrt/types
+[31.666s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsrt/types/vxworks.h
+[31.667s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsrt/types/posix.h
+[31.667s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsrt/types/windows.h
+[31.667s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsrt/mh3.h
+[31.667s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsrt/log.h
+[31.667s] -- Up-to-date: /home/jose/TCC/install/cyclonedds/include
+[31.667s] -- Up-to-date: /home/jose/TCC/install/cyclonedds/include/dds
+[31.667s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/config.h
+[31.667s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/features.h
+[31.667s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/version.h
+[31.667s] -- Installing: /home/jose/TCC/install/cyclonedds/include/idl
+[31.667s] -- Installing: /home/jose/TCC/install/cyclonedds/include/idl/retcode.h
+[31.667s] -- Installing: /home/jose/TCC/install/cyclonedds/include/idl/tree.h
+[31.667s] -- Installing: /home/jose/TCC/install/cyclonedds/include/idl/visit.h
+[31.667s] -- Installing: /home/jose/TCC/install/cyclonedds/include/idl/processor.h
+[31.667s] -- Installing: /home/jose/TCC/install/cyclonedds/include/idl/string.h
+[31.667s] -- Installing: /home/jose/TCC/install/cyclonedds/include/idl/print.h
+[31.667s] -- Installing: /home/jose/TCC/install/cyclonedds/include/idl/file.h
+[31.670s] -- Installing: /home/jose/TCC/install/cyclonedds/include/idl/scope.h
+[31.671s] -- Installing: /home/jose/TCC/install/cyclonedds/include/idl/symbol.h
+[31.671s] -- Installing: /home/jose/TCC/install/cyclonedds/include/idl/expression.h
+[31.671s] -- Installing: /home/jose/TCC/install/cyclonedds/include/idl/stream.h
+[31.671s] -- Up-to-date: /home/jose/TCC/install/cyclonedds/include/idl
+[31.671s] -- Installing: /home/jose/TCC/install/cyclonedds/include/idl/endian.h
+[31.671s] -- Installing: /home/jose/TCC/install/cyclonedds/include/idl/export.h
+[31.671s] -- Installing: /home/jose/TCC/install/cyclonedds/include/idl/md5.h
+[31.672s] -- Installing: /home/jose/TCC/install/cyclonedds/include/idl/misc.h
+[31.672s] -- Installing: /home/jose/TCC/install/cyclonedds/include/idl/attributes.h
+[31.672s] -- Installing: /home/jose/TCC/install/cyclonedds/include/idl/version.h
+[31.672s] -- Installing: /home/jose/TCC/install/cyclonedds/lib/libcycloneddsidl.so.0.10.5
+[31.672s] -- Installing: /home/jose/TCC/install/cyclonedds/lib/libcycloneddsidl.so.0
+[31.672s] -- Set runtime path of "/home/jose/TCC/install/cyclonedds/lib/libcycloneddsidl.so.0.10.5" to "$ORIGIN/../lib"
+[31.672s] -- Installing: /home/jose/TCC/install/cyclonedds/lib/libcycloneddsidl.so
+[31.672s] -- Up-to-date: /home/jose/TCC/install/cyclonedds/include
+[31.672s] -- Up-to-date: /home/jose/TCC/install/cyclonedds/include/dds
+[31.672s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/security
+[31.672s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/security/dds_security_api_cryptography.h
+[31.673s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/security/dds_security_api_authentication.h
+[31.673s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/security/dds_security_api_types.h
+[31.673s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/security/dds_security_api.h
+[31.673s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/security/dds_security_api_access_control.h
+[31.673s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/security/dds_security_api_err.h
+[31.673s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/security/dds_security_api_defs.h
+[31.673s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/security/core/
+[31.673s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/security/core//dds_security_timed_cb.h
+[31.673s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/security/core//dds_security_types.h
+[31.674s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/security/core//shared_secret.h
+[31.674s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/security/core//dds_security_utils.h
+[31.674s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/security/core//dds_security_fsm.h
+[31.674s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/security/core//dds_security_plugins.h
+[31.674s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/security/core//dds_security_serialize.h
+[31.674s] -- Installing: /home/jose/TCC/install/cyclonedds/lib/libdds_security_ac.so
+[31.674s] -- Set runtime path of "/home/jose/TCC/install/cyclonedds/lib/libdds_security_ac.so" to "$ORIGIN/../lib"
+[31.678s] -- Installing: /home/jose/TCC/install/cyclonedds/lib/libdds_security_auth.so
+[31.678s] -- Set runtime path of "/home/jose/TCC/install/cyclonedds/lib/libdds_security_auth.so" to "$ORIGIN/../lib"
+[31.678s] -- Installing: /home/jose/TCC/install/cyclonedds/lib/libdds_security_crypto.so
+[31.679s] -- Set runtime path of "/home/jose/TCC/install/cyclonedds/lib/libdds_security_crypto.so" to "$ORIGIN/../lib"
+[31.679s] -- Up-to-date: /home/jose/TCC/install/cyclonedds/include
+[31.679s] -- Up-to-date: /home/jose/TCC/install/cyclonedds/include/dds
+[31.679s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsi
+[31.679s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsi/ddsi_xt_impl.h
+[31.679s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsi/ddsi_mcgroup.h
+[31.679s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsi/q_protocol.h
+[31.679s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsi/ddsi_serdata.h
+[31.679s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsi/ddsi_tkmap.h
+[31.679s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsi/ddsi_pmd.h
+[31.679s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsi/ddsi_rhc.h
+[31.679s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsi/q_log.h
+[31.679s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsi/ddsi_portmapping.h
+[31.679s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsi/ddsi_xt_typelookup.idl
+[31.679s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsi/ddsi_builtin_topic_if.h
+[31.679s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsi/ddsi_locator.h
+[31.679s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsi/ddsi_entity_match.h
+[31.679s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsi/q_gc.h
+[31.679s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsi/ddsi_plist.h
+[31.680s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsi/q_freelist.h
+[31.680s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsi/ddsi_endpoint.h
+[31.680s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsi/q_ddsi_discovery.h
+[31.680s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsi/ddsi_sertopic.h
+[31.680s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsi/ddsi_xt_typelookup.h
+[31.680s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsi/q_hbcontrol.h
+[31.680s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsi/q_lease.h
+[31.680s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsi/ddsi_xt_typeinfo.idl
+[31.680s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsi/q_thread.h
+[31.680s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsi/ddsi_typelib.h
+[31.680s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsi/q_bswap.h
+[31.680s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsi/ddsi_entity.h
+[31.680s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsi/ddsi_ipaddr.h
+[31.680s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsi/ddsi_tcp.h
+[31.680s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsi/ddsi_typebuilder.h
+[31.680s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsi/ddsi_typelookup.h
+[31.680s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsi/ddsi_deliver_locally.h
+[31.680s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsi/ddsi_deadline.h
+[31.680s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsi/ddsi_topic.h
+[31.681s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsi/ddsi_proxy_participant.h
+[31.681s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsi/ddsi_tran.h
+[31.681s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsi/q_transmit.h
+[31.681s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsi/ddsi_security_omg.h
+[31.681s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsi/ddsi_xt_typemap.h
+[31.681s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsi/ddsi_plist_generic.h
+[31.681s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsi/ddsi_config.h
+[31.681s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsi/q_bitset.h
+[31.681s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsi/ddsi_keyhash.h
+[31.681s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsi/ddsi_statistics.h
+[31.681s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsi/ddsi_threadmon.h
+[31.681s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsi/ddsi_list_genptr.h
+[31.681s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsi/q_qosmatch.h
+[31.681s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsi/ddsi_acknack.h
+[31.681s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsi/ddsi_handshake.h
+[31.681s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsi/q_whc.h
+[31.681s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsi/ddsi_guid.h
+[31.695s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsi/ddsi_cfgunits.h
+[31.695s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsi/ddsi_wraddrset.h
+[31.695s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsi/q_xmsg.h
+[31.696s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsi/q_rtps.h
+[31.696s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsi/sysdeps.h
+[31.696s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsi/q_feature_check.h
+[31.696s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsi/q_debmon.h
+[31.696s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsi/ddsi_typewrap.h
+[31.696s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsi/ddsi_sertype.h
+[31.696s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsi/ddsi_xqos.h
+[31.696s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsi/ddsi_serdata_default.h
+[31.696s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsi/q_receive.h
+[31.696s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsi/q_addrset.h
+[31.696s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsi/q_inverse_uint32_set.h
+[31.696s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsi/ddsi_udp.h
+[31.696s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsi/ddsi_ownip.h
+[31.696s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsi/q_pcap.h
+[31.696s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsi/ddsi_domaingv.h
+[31.696s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsi/ddsi_vnet.h
+[31.696s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsi/ddsi_cfgelems.h
+[31.696s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsi/ddsi_list_tmpl.h
+[31.697s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsi/q_sockwaitset.h
+[31.697s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsi/ddsi_xt_typemap.idl
+[31.697s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsi/ddsi_security_exchange.h
+[31.697s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsi/ddsi_participant.h
+[31.697s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsi/ddsi_serdata_pserop.h
+[31.697s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsi/ddsi_entity_index.h
+[31.697s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsi/ddsi_time.h
+[31.697s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsi/ddsi_iid.h
+[31.697s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsi/q_radmin.h
+[31.697s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsi/ddsi_proxy_endpoint.h
+[31.697s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsi/q_unused.h
+[31.697s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsi/ddsi_serdata_plist.h
+[31.697s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsi/q_lat_estim.h
+[31.697s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsi/ddsi_xt_typeinfo.h
+[31.697s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsi/ddsi_ssl.h
+[31.697s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsi/q_misc.h
+[31.697s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsi/q_init.h
+[31.697s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsi/q_xevent.h
+[31.698s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsi/ddsi_cdrstream.h
+[31.698s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsi/ddsi_shm_transport.h
+[31.698s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsi/ddsi_security_util.h
+[31.698s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsi/ddsi_raweth.h
+[31.698s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsi/ddsi_security_msg.h
+[31.698s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsi/ddsi_config_impl.h
+[31.698s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsi/ddsi_vendor.h
+[31.698s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsi/ddsi_lifespan.h
+[31.698s] -- Up-to-date: /home/jose/TCC/install/cyclonedds/include
+[31.698s] -- Installing: /home/jose/TCC/install/cyclonedds/include/ddsc
+[31.698s] -- Installing: /home/jose/TCC/install/cyclonedds/include/ddsc/dds.h
+[31.698s] -- Up-to-date: /home/jose/TCC/install/cyclonedds/include/dds
+[31.698s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/dds.h
+[31.698s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsc
+[31.698s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsc/dds_public_qosdefs.h
+[31.698s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsc/dds_basic_types.h
+[31.698s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsc/dds_rhc.h
+[31.698s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsc/dds_opcodes.h
+[31.704s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsc/dds_public_listener.h
+[31.708s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsc/dds_public_qos.h
+[31.708s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsc/dds_internal_api.h
+[31.708s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsc/dds_loan_api.h
+[31.708s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsc/dds_public_status.h
+[31.708s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsc/dds_data_allocator.h
+[31.708s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsc/dds_public_error.h
+[31.708s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsc/dds_public_impl.h
+[31.708s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsc/dds_statistics.h
+[31.709s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/ddsc/dds_public_alloc.h
+[31.709s] -- Up-to-date: /home/jose/TCC/install/cyclonedds/include
+[31.709s] -- Up-to-date: /home/jose/TCC/install/cyclonedds/include/dds
+[31.709s] -- Installing: /home/jose/TCC/install/cyclonedds/include/dds/export.h
+[31.709s] -- Installing: /home/jose/TCC/install/cyclonedds/lib/libddsc.so.0.10.5
+[31.709s] -- Installing: /home/jose/TCC/install/cyclonedds/lib/libddsc.so.0
+[31.709s] -- Set runtime path of "/home/jose/TCC/install/cyclonedds/lib/libddsc.so.0.10.5" to "$ORIGIN/../lib"
+[31.709s] -- Installing: /home/jose/TCC/install/cyclonedds/lib/libddsc.so
+[31.709s] -- Installing: /home/jose/TCC/install/cyclonedds/share/doc/CycloneDDS/CONTRIBUTING.md
+[31.710s] -- Installing: /home/jose/TCC/install/cyclonedds/share/doc/CycloneDDS/CYCLONEDDS_QUALITY_DECLARATION.md
+[31.710s] -- Installing: /home/jose/TCC/install/cyclonedds/share/doc/CycloneDDS/LICENSE
+[31.710s] -- Installing: /home/jose/TCC/install/cyclonedds/share/doc/CycloneDDS/NOTICE.md
+[31.710s] -- Installing: /home/jose/TCC/install/cyclonedds/share/doc/CycloneDDS/README.md
+[31.710s] -- Installing: /home/jose/TCC/install/cyclonedds/share/doc/CycloneDDS/CHANGELOG.rst
+[31.802s] Invoked command in '/home/jose/TCC/build/cyclonedds' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jose/TCC/install/windwind_description:/home/jose/TCC/install/wind_turbine:/home/jose/ros2_humble/install/rqt_bag_plugins:/home/jose/ros2_humble/install/rqt_bag:/home/jose/ros2_humble/install/launch_testing_examples:/home/jose/ros2_humble/install/ros2bag:/home/jose/ros2_humble/install/tracetools_test:/home/jose/ros2_humble/install/tracetools_launch:/home/jose/ros2_humble/install/topic_monitor:/home/jose/ros2_humble/install/tf2_tools:/home/jose/ros2_humble/install/examples_tf2_py:/home/jose/ros2_humble/install/tf2_ros_py:/home/jose/ros2_humble/install/sros2:/home/jose/ros2_humble/install/rqt_topic:/home/jose/ros2_humble/install/rqt_srv:/home/jose/ros2_humble/install/rqt_shell:/home/jose/ros2_humble/install/rqt_service_caller:/home/jose/ros2_humble/install/rqt_reconfigure:/home/jose/ros2_humble/install/rqt_py_console:/home/jose/ros2_humble/install/rqt_publisher:/home/jose/ros2_humble/install/rqt_plot:/home/jose/ros2_humble/install/rqt_action:/home/jose/ros2_humble/install/rqt_msg:/home/jose/ros2_humble/install/rqt_console:/home/jose/ros2_humble/install/rqt:/home/jose/ros2_humble/install/rqt_graph:/home/jose/ros2_humble/install/rqt_gui_py:/home/jose/ros2_humble/install/rqt_gui:/home/jose/ros2_humble/install/ros2trace:/home/jose/ros2_humble/install/ros2topic:/home/jose/ros2_humble/install/ros2test:/home/jose/ros2_humble/install/ros2component:/home/jose/ros2_humble/install/ros2param:/home/jose/ros2_humble/install/ros2lifecycle:/home/jose/ros2_humble/install/ros2service:/home/jose/ros2_humble/install/ros2run:/home/jose/ros2_humble/install/ros2launch:/home/jose/ros2_humble/install/ros2pkg:/home/jose/ros2_humble/install/ros2node:/home/jose/ros2_humble/install/ros2multicast:/home/jose/ros2_humble/install/ros2interface:/home/jose/ros2_humble/install/ros2doctor:/home/jose/ros2_humble/install/ros2action:/home/jose/ros2_humble/install/ros2cli:/home/jose/ros2_humble/install/quality_of_service_demo_py:/home/jose/ros2_humble/install/lifecycle_py:/home/jose/ros2_humble/install/launch_testing_ros:/home/jose/ros2_humble/install/launch_ros:/home/jose/ros2_humble/install/examples_rclpy_pointcloud_publisher:/home/jose/ros2_humble/install/examples_rclpy_minimal_subscriber:/home/jose/ros2_humble/install/examples_rclpy_minimal_service:/home/jose/ros2_humble/install/examples_rclpy_minimal_publisher:/home/jose/ros2_humble/install/examples_rclpy_minimal_client:/home/jose/ros2_humble/install/examples_rclpy_minimal_action_server:/home/jose/ros2_humble/install/examples_rclpy_minimal_action_client:/home/jose/ros2_humble/install/examples_rclpy_guard_conditions:/home/jose/ros2_humble/install/examples_rclpy_executors:/home/jose/ros2_humble/install/demo_nodes_py:/home/jose/ros2_humble/install/camera_info_manager_py:/home/jose/ros2_humble/install/action_tutorials_py:/home/jose/ros2_humble/install/ament_uncrustify:/home/jose/ros2_humble/install/tracetools_trace:/home/jose/ros2_humble/install/tracetools_read:/home/jose/ros2_humble/install/test_tracetools_launch:/home/jose/ros2_humble/install/test_launch_ros:/home/jose/ros2_humble/install/sensor_msgs_py:/home/jose/ros2_humble/install/rpyutils:/home/jose/ros2_humble/install/rosidl_runtime_py:/home/jose/ros2_humble/install/rosidl_cli:/home/jose/ros2_humble/install/launch_pytest:/home/jose/ros2_humble/install/launch_testing:/home/jose/ros2_humble/install/launch_yaml:/home/jose/ros2_humble/install/launch_xml:/home/jose/ros2_humble/install/launch:/home/jose/ros2_humble/install/osrf_pycommon:/home/jose/ros2_humble/install/domain_coordinator:/home/jose/ros2_humble/install/ament_xmllint:/home/jose/ros2_humble/install/ament_pyflakes:/home/jose/ros2_humble/install/ament_pycodestyle:/home/jose/ros2_humble/install/ament_pep257:/home/jose/ros2_humble/install/ament_pclint:/home/jose/ros2_humble/install/ament_package:/home/jose/ros2_humble/install/ament_mypy:/home/jose/ros2_humble/install/ament_lint_cmake:/home/jose/ros2_humble/install/ament_flake8:/home/jose/ros2_humble/install/ament_copyright:/home/jose/ros2_humble/install/ament_lint:/home/jose/ros2_humble/install/ament_index_python:/home/jose/ros2_humble/install/ament_cpplint:/home/jose/ros2_humble/install/ament_cppcheck:/home/jose/ros2_humble/install/ament_clang_tidy:/home/jose/ros2_humble/install/ament_clang_format:/opt/ros/humble /usr/bin/cmake --install /home/jose/TCC/build/cyclonedds

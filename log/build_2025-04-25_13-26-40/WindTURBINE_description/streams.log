@@ -1,0 +1,48 @@
+[1.220s] Invoking command in '/home/jose/TCC/src/WindTURBINE_description/WindTURBINE_description': PYTHONPATH=/home/jose/TCC/build/WindTURBINE_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jose/TCC/install/WindTURBINE_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/WindTURBINE_description build --build-base /home/jose/TCC/build/WindTURBINE_description/build install --record /home/jose/TCC/build/WindTURBINE_description/install.log --install-scripts $base/lib/WindTURBINE_description --single-version-externally-managed install_data
+[1.555s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[1.555s]   warnings.warn(
+[1.561s] running egg_info
+[1.562s] creating ../../../build/WindTURBINE_description/WindTURBINE_description.egg-info
+[1.562s] writing ../../../build/WindTURBINE_description/WindTURBINE_description.egg-info/PKG-INFO
+[1.562s] writing dependency_links to ../../../build/WindTURBINE_description/WindTURBINE_description.egg-info/dependency_links.txt
+[1.562s] writing entry points to ../../../build/WindTURBINE_description/WindTURBINE_description.egg-info/entry_points.txt
+[1.562s] writing requirements to ../../../build/WindTURBINE_description/WindTURBINE_description.egg-info/requires.txt
+[1.562s] writing top-level names to ../../../build/WindTURBINE_description/WindTURBINE_description.egg-info/top_level.txt
+[1.562s] writing manifest file '../../../build/WindTURBINE_description/WindTURBINE_description.egg-info/SOURCES.txt'
+[1.563s] reading manifest file '../../../build/WindTURBINE_description/WindTURBINE_description.egg-info/SOURCES.txt'
+[1.564s] writing manifest file '../../../build/WindTURBINE_description/WindTURBINE_description.egg-info/SOURCES.txt'
+[1.564s] running build
+[1.564s] running build_py
+[1.564s] creating /home/jose/TCC/build/WindTURBINE_description/build
+[1.564s] creating /home/jose/TCC/build/WindTURBINE_description/build/lib
+[1.564s] creating /home/jose/TCC/build/WindTURBINE_description/build/lib/WindTURBINE_description
+[1.564s] copying WindTURBINE_description/__init__.py -> /home/jose/TCC/build/WindTURBINE_description/build/lib/WindTURBINE_description
+[1.564s] running install
+[1.564s] running install_lib
+[1.565s] creating /home/jose/TCC/install/WindTURBINE_description/lib/python3.10/site-packages/WindTURBINE_description
+[1.565s] copying /home/jose/TCC/build/WindTURBINE_description/build/lib/WindTURBINE_description/__init__.py -> /home/jose/TCC/install/WindTURBINE_description/lib/python3.10/site-packages/WindTURBINE_description
+[1.567s] byte-compiling /home/jose/TCC/install/WindTURBINE_description/lib/python3.10/site-packages/WindTURBINE_description/__init__.py to __init__.cpython-310.pyc
+[1.567s] running install_data
+[1.567s] creating /home/jose/TCC/install/WindTURBINE_description/share/ament_index
+[1.567s] creating /home/jose/TCC/install/WindTURBINE_description/share/ament_index/resource_index
+[1.567s] creating /home/jose/TCC/install/WindTURBINE_description/share/ament_index/resource_index/packages
+[1.567s] copying resource/WindTURBINE_description -> /home/jose/TCC/install/WindTURBINE_description/share/ament_index/resource_index/packages
+[1.567s] copying package.xml -> /home/jose/TCC/install/WindTURBINE_description/share/WindTURBINE_description
+[1.567s] creating /home/jose/TCC/install/WindTURBINE_description/share/WindTURBINE_description/launch
+[1.567s] copying launch/gazebo.launch.py -> /home/jose/TCC/install/WindTURBINE_description/share/WindTURBINE_description/launch
+[1.567s] copying launch/display.launch.py -> /home/jose/TCC/install/WindTURBINE_description/share/WindTURBINE_description/launch
+[1.567s] creating /home/jose/TCC/install/WindTURBINE_description/share/WindTURBINE_description/urdf
+[1.567s] copying urdf/WindTURBINE.xacro -> /home/jose/TCC/install/WindTURBINE_description/share/WindTURBINE_description/urdf
+[1.567s] copying urdf/WindTURBINE.trans -> /home/jose/TCC/install/WindTURBINE_description/share/WindTURBINE_description/urdf
+[1.567s] copying urdf/materials.xacro -> /home/jose/TCC/install/WindTURBINE_description/share/WindTURBINE_description/urdf
+[1.567s] copying urdf/WindTURBINE.gazebo -> /home/jose/TCC/install/WindTURBINE_description/share/WindTURBINE_description/urdf
+[1.567s] creating /home/jose/TCC/install/WindTURBINE_description/share/WindTURBINE_description/meshes
+[1.568s] copying meshes/HUB2_1.stl -> /home/jose/TCC/install/WindTURBINE_description/share/WindTURBINE_description/meshes
+[1.583s] copying meshes/base_link.stl -> /home/jose/TCC/install/WindTURBINE_description/share/WindTURBINE_description/meshes
+[1.583s] creating /home/jose/TCC/install/WindTURBINE_description/share/WindTURBINE_description/config
+[1.583s] copying config/display.rviz -> /home/jose/TCC/install/WindTURBINE_description/share/WindTURBINE_description/config
+[1.584s] running install_egg_info
+[1.586s] Copying ../../../build/WindTURBINE_description/WindTURBINE_description.egg-info to /home/jose/TCC/install/WindTURBINE_description/lib/python3.10/site-packages/WindTURBINE_description-0.0.0-py3.10.egg-info
+[1.587s] running install_scripts
+[1.615s] writing list of installed files to '/home/jose/TCC/build/WindTURBINE_description/install.log'
+[1.631s] Invoked command in '/home/jose/TCC/src/WindTURBINE_description/WindTURBINE_description' returned '0': PYTHONPATH=/home/jose/TCC/build/WindTURBINE_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jose/TCC/install/WindTURBINE_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/WindTURBINE_description build --build-base /home/jose/TCC/build/WindTURBINE_description/build install --record /home/jose/TCC/build/WindTURBINE_description/install.log --install-scripts $base/lib/WindTURBINE_description --single-version-externally-managed install_data

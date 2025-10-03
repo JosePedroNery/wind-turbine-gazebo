@@ -1,0 +1,10 @@
+# generated from colcon_core/shell/template/command_prefix.sh.em
+. "/home/jose/TCC/install/ament_lint/share/ament_lint/package.sh"
+. "/home/jose/TCC/install/ament_package/share/ament_package/package.sh"
+. "/home/jose/TCC/install/ament_cmake_core/share/ament_cmake_core/package.sh"
+. "/home/jose/TCC/install/ament_flake8/share/ament_flake8/package.sh"
+. "/home/jose/TCC/install/ament_cmake_python/share/ament_cmake_python/package.sh"
+. "/home/jose/TCC/install/ament_pep257/share/ament_pep257/package.sh"
+. "/home/jose/TCC/install/ament_cmake_test/share/ament_cmake_test/package.sh"
+. "/home/jose/TCC/install/ament_copyright/share/ament_copyright/package.sh"
+. "/home/jose/TCC/install/ament_lint_cmake/share/ament_lint_cmake/package.sh"

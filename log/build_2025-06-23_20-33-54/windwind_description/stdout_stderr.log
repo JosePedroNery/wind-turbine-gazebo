@@ -1,0 +1,16 @@
+/usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+  warnings.warn(
+running develop
+running egg_info
+writing windwind_description.egg-info/PKG-INFO
+writing dependency_links to windwind_description.egg-info/dependency_links.txt
+writing entry points to windwind_description.egg-info/entry_points.txt
+writing requirements to windwind_description.egg-info/requires.txt
+writing top-level names to windwind_description.egg-info/top_level.txt
+reading manifest file 'windwind_description.egg-info/SOURCES.txt'
+writing manifest file 'windwind_description.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/jose/TCC/install/windwind_description/lib/python3.10/site-packages/windwind-description.egg-link (link to .)
+
+Installed /home/jose/TCC/build/windwind_description
+running symlink_data

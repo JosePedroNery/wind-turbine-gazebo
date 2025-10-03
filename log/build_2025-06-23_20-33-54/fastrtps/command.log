@@ -1,0 +1,3 @@
+Invoking command in '/home/jose/TCC/build/fastrtps': /usr/bin/cmake /home/jose/TCC/src/fastrtps -DCMAKE_INSTALL_PREFIX=/home/jose/TCC/install/fastrtps
+Invoked command in '/home/jose/TCC/build/fastrtps' returned '0': /usr/bin/cmake /home/jose/TCC/src/fastrtps -DCMAKE_INSTALL_PREFIX=/home/jose/TCC/install/fastrtps
+Invoking command in '/home/jose/TCC/build/fastrtps': /usr/bin/cmake --build /home/jose/TCC/build/fastrtps -- -j16 -l16

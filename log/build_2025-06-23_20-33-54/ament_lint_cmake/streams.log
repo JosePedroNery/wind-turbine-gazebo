@@ -1,0 +1,24 @@
+[13.787s] Invoking command in '/home/jose/TCC/build/ament_lint_cmake': AMENT_PREFIX_PATH=/home/jose/TCC/install/ament_copyright:/home/jose/TCC/install/ament_pep257:/home/jose/TCC/install/ament_flake8:/home/jose/TCC/install/ament_lint:${AMENT_PREFIX_PATH} PATH=/home/jose/TCC/install/ament_copyright/bin:/home/jose/TCC/install/ament_pep257/bin:/home/jose/TCC/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/jose/TCC/build/ament_lint_cmake/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jose/TCC/install/ament_lint_cmake/lib/python3.10/site-packages:/home/jose/TCC/build/ament_copyright:/home/jose/TCC/install/ament_copyright/lib/python3.10/site-packages:/home/jose/TCC/build/ament_pep257:/home/jose/TCC/install/ament_pep257/lib/python3.10/site-packages:/home/jose/TCC/build/ament_flake8:/home/jose/TCC/install/ament_flake8/lib/python3.10/site-packages:/home/jose/TCC/build/ament_lint:/home/jose/TCC/install/ament_lint/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jose/TCC/build/ament_lint_cmake/build --no-deps symlink_data
+[15.212s] running develop
+[15.867s] running egg_info
+[15.867s] creating ament_lint_cmake.egg-info
+[15.868s] writing ament_lint_cmake.egg-info/PKG-INFO
+[15.868s] writing dependency_links to ament_lint_cmake.egg-info/dependency_links.txt
+[15.868s] writing entry points to ament_lint_cmake.egg-info/entry_points.txt
+[15.868s] writing requirements to ament_lint_cmake.egg-info/requires.txt
+[15.868s] writing top-level names to ament_lint_cmake.egg-info/top_level.txt
+[15.890s] writing manifest file 'ament_lint_cmake.egg-info/SOURCES.txt'
+[15.890s] reading manifest file 'ament_lint_cmake.egg-info/SOURCES.txt'
+[15.891s] writing manifest file 'ament_lint_cmake.egg-info/SOURCES.txt'
+[15.891s] running build_ext
+[15.891s] Creating /home/jose/TCC/install/ament_lint_cmake/lib/python3.10/site-packages/ament-lint-cmake.egg-link (link to .)
+[15.895s] Installing ament_lint_cmake script to /home/jose/TCC/install/ament_lint_cmake/bin
+[15.895s] 
+[15.896s] Installed /home/jose/TCC/build/ament_lint_cmake
+[15.896s] running symlink_data
+[15.896s] symbolically linking /home/jose/TCC/build/ament_lint_cmake/package.xml -> /home/jose/TCC/install/ament_lint_cmake/share/ament_lint_cmake
+[15.896s] creating /home/jose/TCC/install/ament_lint_cmake/share/ament_index
+[15.896s] creating /home/jose/TCC/install/ament_lint_cmake/share/ament_index/resource_index
+[15.896s] creating /home/jose/TCC/install/ament_lint_cmake/share/ament_index/resource_index/packages
+[15.896s] symbolically linking /home/jose/TCC/build/ament_lint_cmake/resource/ament_lint_cmake -> /home/jose/TCC/install/ament_lint_cmake/share/ament_index/resource_index/packages
+[16.329s] Invoked command in '/home/jose/TCC/build/ament_lint_cmake' returned '0': AMENT_PREFIX_PATH=/home/jose/TCC/install/ament_copyright:/home/jose/TCC/install/ament_pep257:/home/jose/TCC/install/ament_flake8:/home/jose/TCC/install/ament_lint:${AMENT_PREFIX_PATH} PATH=/home/jose/TCC/install/ament_copyright/bin:/home/jose/TCC/install/ament_pep257/bin:/home/jose/TCC/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/jose/TCC/build/ament_lint_cmake/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jose/TCC/install/ament_lint_cmake/lib/python3.10/site-packages:/home/jose/TCC/build/ament_copyright:/home/jose/TCC/install/ament_copyright/lib/python3.10/site-packages:/home/jose/TCC/build/ament_pep257:/home/jose/TCC/install/ament_pep257/lib/python3.10/site-packages:/home/jose/TCC/build/ament_flake8:/home/jose/TCC/install/ament_flake8/lib/python3.10/site-packages:/home/jose/TCC/build/ament_lint:/home/jose/TCC/install/ament_lint/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jose/TCC/build/ament_lint_cmake/build --no-deps symlink_data

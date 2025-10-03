@@ -1,0 +1,1 @@
+/home/jose/TCC/src/ament_index/ament_index_python/completion/ament_index-argcomplete.bash

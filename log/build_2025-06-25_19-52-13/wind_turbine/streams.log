@@ -1,0 +1,30 @@
+[1.075s] Invoking command in '/home/jose/TCC/build/wind_turbine': PYTHONPATH=/home/jose/TCC/build/wind_turbine/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jose/TCC/install/wind_turbine/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/jose/TCC/build/wind_turbine/build
+[1.525s] running develop
+[1.800s] Removing /home/jose/TCC/install/wind_turbine/lib/python3.10/site-packages/wind-turbine.egg-link (link to .)
+[1.819s] Invoked command in '/home/jose/TCC/build/wind_turbine' returned '0': PYTHONPATH=/home/jose/TCC/build/wind_turbine/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jose/TCC/install/wind_turbine/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/jose/TCC/build/wind_turbine/build
+[1.820s] Invoking command in '/home/jose/TCC/src/wind_turbine': PYTHONPATH=/home/jose/TCC/build/wind_turbine/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jose/TCC/install/wind_turbine/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/wind_turbine build --build-base /home/jose/TCC/build/wind_turbine/build install --record /home/jose/TCC/build/wind_turbine/install.log --single-version-externally-managed install_data --force
+[2.234s] running egg_info
+[2.234s] writing ../../build/wind_turbine/wind_turbine.egg-info/PKG-INFO
+[2.234s] writing dependency_links to ../../build/wind_turbine/wind_turbine.egg-info/dependency_links.txt
+[2.234s] writing entry points to ../../build/wind_turbine/wind_turbine.egg-info/entry_points.txt
+[2.234s] writing requirements to ../../build/wind_turbine/wind_turbine.egg-info/requires.txt
+[2.234s] writing top-level names to ../../build/wind_turbine/wind_turbine.egg-info/top_level.txt
+[2.235s] reading manifest file '../../build/wind_turbine/wind_turbine.egg-info/SOURCES.txt'
+[2.236s] writing manifest file '../../build/wind_turbine/wind_turbine.egg-info/SOURCES.txt'
+[2.236s] running build
+[2.236s] running build_py
+[2.237s] running install
+[2.237s] running install_lib
+[2.237s] creating /home/jose/TCC/install/wind_turbine/lib/python3.10/site-packages/wind_turbine
+[2.237s] copying /home/jose/TCC/build/wind_turbine/build/lib/wind_turbine/__init__.py -> /home/jose/TCC/install/wind_turbine/lib/python3.10/site-packages/wind_turbine
+[2.239s] byte-compiling /home/jose/TCC/install/wind_turbine/lib/python3.10/site-packages/wind_turbine/__init__.py to __init__.cpython-310.pyc
+[2.240s] running install_data
+[2.240s] copying package.xml -> /home/jose/TCC/install/wind_turbine/share/wind_turbine
+[2.240s] copying launch/wind_launch.py -> /home/jose/TCC/install/wind_turbine/share/wind_turbine/launch
+[2.240s] copying worlds/wind_world.sdf -> /home/jose/TCC/install/wind_turbine/share/wind_turbine/worlds
+[2.240s] running install_egg_info
+[2.243s] Copying ../../build/wind_turbine/wind_turbine.egg-info to /home/jose/TCC/install/wind_turbine/lib/python3.10/site-packages/wind_turbine-0.0.0-py3.10.egg-info
+[2.243s] running install_scripts
+[2.275s] Installing teleop_cmd_vel script to /home/jose/TCC/install/wind_turbine/lib/wind_turbine
+[2.275s] writing list of installed files to '/home/jose/TCC/build/wind_turbine/install.log'
+[2.291s] Invoked command in '/home/jose/TCC/src/wind_turbine' returned '0': PYTHONPATH=/home/jose/TCC/build/wind_turbine/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jose/TCC/install/wind_turbine/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/wind_turbine build --build-base /home/jose/TCC/build/wind_turbine/build install --record /home/jose/TCC/build/wind_turbine/install.log --single-version-externally-managed install_data --force

@@ -1,0 +1,37 @@
+/usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+  warnings.warn(
+running egg_info
+writing ../../build/windwind_description/windwind_description.egg-info/PKG-INFO
+writing dependency_links to ../../build/windwind_description/windwind_description.egg-info/dependency_links.txt
+writing entry points to ../../build/windwind_description/windwind_description.egg-info/entry_points.txt
+writing requirements to ../../build/windwind_description/windwind_description.egg-info/requires.txt
+writing top-level names to ../../build/windwind_description/windwind_description.egg-info/top_level.txt
+reading manifest file '../../build/windwind_description/windwind_description.egg-info/SOURCES.txt'
+writing manifest file '../../build/windwind_description/windwind_description.egg-info/SOURCES.txt'
+running build
+running build_py
+copying windwind_description/__init__.py -> /home/jose/TCC/build/windwind_description/build/lib/windwind_description
+running install
+running install_lib
+copying /home/jose/TCC/build/windwind_description/build/lib/windwind_description/__init__.py -> /home/jose/TCC/install/windwind_description/lib/python3.10/site-packages/windwind_description
+byte-compiling /home/jose/TCC/install/windwind_description/lib/python3.10/site-packages/windwind_description/__init__.py to __init__.cpython-310.pyc
+running install_data
+copying resource/windwind_description -> /home/jose/TCC/install/windwind_description/share/ament_index/resource_index/packages
+copying package.xml -> /home/jose/TCC/install/windwind_description/share/windwind_description
+copying launch/display.launch.py -> /home/jose/TCC/install/windwind_description/share/windwind_description/launch
+copying launch/gazebo.launch.py -> /home/jose/TCC/install/windwind_description/share/windwind_description/launch
+copying urdf/windwind.gazebo -> /home/jose/TCC/install/windwind_description/share/windwind_description/urdf
+copying urdf/windwind.trans -> /home/jose/TCC/install/windwind_description/share/windwind_description/urdf
+copying urdf/materials.xacro -> /home/jose/TCC/install/windwind_description/share/windwind_description/urdf
+copying urdf/windwind.xacro -> /home/jose/TCC/install/windwind_description/share/windwind_description/urdf
+copying meshes/LACEA_1.stl -> /home/jose/TCC/install/windwind_description/share/windwind_description/meshes
+copying meshes/Damage_1_1.stl -> /home/jose/TCC/install/windwind_description/share/windwind_description/meshes
+copying meshes/HUB2_1_1.stl -> /home/jose/TCC/install/windwind_description/share/windwind_description/meshes
+copying meshes/suj_prata_1.stl -> /home/jose/TCC/install/windwind_description/share/windwind_description/meshes
+copying meshes/sujeirinha_1.stl -> /home/jose/TCC/install/windwind_description/share/windwind_description/meshes
+copying meshes/base_link.stl -> /home/jose/TCC/install/windwind_description/share/windwind_description/meshes
+running install_egg_info
+removing '/home/jose/TCC/install/windwind_description/lib/python3.10/site-packages/windwind_description-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/windwind_description/windwind_description.egg-info to /home/jose/TCC/install/windwind_description/lib/python3.10/site-packages/windwind_description-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/jose/TCC/build/windwind_description/install.log'

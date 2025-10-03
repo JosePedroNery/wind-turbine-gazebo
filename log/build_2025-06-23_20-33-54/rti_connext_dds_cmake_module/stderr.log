@@ -1,0 +1,7 @@
+[33mCMake Warning at cmake/rti_build_helper.cmake:380 (message):
+  no CONNEXTDDS_DIR nor NDDSHOME specified
+Call Stack (most recent call first):
+  cmake/rti_build_helper.cmake:554 (rti_load_connextddsdir)
+  CMakeLists.txt:25 (rti_find_connextpro)
+
+[0m

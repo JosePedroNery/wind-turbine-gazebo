@@ -1,0 +1,24 @@
+[12.381s] Invoking command in '/home/jose/TCC/build/ament_xmllint': AMENT_PREFIX_PATH=/home/jose/TCC/install/ament_copyright:/home/jose/TCC/install/ament_pep257:/home/jose/TCC/install/ament_flake8:/home/jose/TCC/install/ament_lint:${AMENT_PREFIX_PATH} PATH=/home/jose/TCC/install/ament_copyright/bin:/home/jose/TCC/install/ament_pep257/bin:/home/jose/TCC/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/jose/TCC/build/ament_xmllint/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jose/TCC/install/ament_xmllint/lib/python3.10/site-packages:/home/jose/TCC/build/ament_copyright:/home/jose/TCC/install/ament_copyright/lib/python3.10/site-packages:/home/jose/TCC/build/ament_pep257:/home/jose/TCC/install/ament_pep257/lib/python3.10/site-packages:/home/jose/TCC/build/ament_flake8:/home/jose/TCC/install/ament_flake8/lib/python3.10/site-packages:/home/jose/TCC/build/ament_lint:/home/jose/TCC/install/ament_lint/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jose/TCC/build/ament_xmllint/build --no-deps symlink_data
+[14.395s] running develop
+[15.468s] running egg_info
+[15.468s] creating ament_xmllint.egg-info
+[15.468s] writing ament_xmllint.egg-info/PKG-INFO
+[15.468s] writing dependency_links to ament_xmllint.egg-info/dependency_links.txt
+[15.468s] writing entry points to ament_xmllint.egg-info/entry_points.txt
+[15.469s] writing requirements to ament_xmllint.egg-info/requires.txt
+[15.469s] writing top-level names to ament_xmllint.egg-info/top_level.txt
+[15.469s] writing manifest file 'ament_xmllint.egg-info/SOURCES.txt'
+[15.482s] reading manifest file 'ament_xmllint.egg-info/SOURCES.txt'
+[15.482s] writing manifest file 'ament_xmllint.egg-info/SOURCES.txt'
+[15.490s] running build_ext
+[15.490s] Creating /home/jose/TCC/install/ament_xmllint/lib/python3.10/site-packages/ament-xmllint.egg-link (link to .)
+[15.490s] Installing ament_xmllint script to /home/jose/TCC/install/ament_xmllint/bin
+[15.494s] 
+[15.494s] Installed /home/jose/TCC/build/ament_xmllint
+[15.494s] running symlink_data
+[15.494s] symbolically linking /home/jose/TCC/build/ament_xmllint/package.xml -> /home/jose/TCC/install/ament_xmllint/share/ament_xmllint
+[15.494s] creating /home/jose/TCC/install/ament_xmllint/share/ament_index
+[15.494s] creating /home/jose/TCC/install/ament_xmllint/share/ament_index/resource_index
+[15.494s] creating /home/jose/TCC/install/ament_xmllint/share/ament_index/resource_index/packages
+[15.494s] symbolically linking /home/jose/TCC/build/ament_xmllint/resource/ament_xmllint -> /home/jose/TCC/install/ament_xmllint/share/ament_index/resource_index/packages
+[15.669s] Invoked command in '/home/jose/TCC/build/ament_xmllint' returned '0': AMENT_PREFIX_PATH=/home/jose/TCC/install/ament_copyright:/home/jose/TCC/install/ament_pep257:/home/jose/TCC/install/ament_flake8:/home/jose/TCC/install/ament_lint:${AMENT_PREFIX_PATH} PATH=/home/jose/TCC/install/ament_copyright/bin:/home/jose/TCC/install/ament_pep257/bin:/home/jose/TCC/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/jose/TCC/build/ament_xmllint/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jose/TCC/install/ament_xmllint/lib/python3.10/site-packages:/home/jose/TCC/build/ament_copyright:/home/jose/TCC/install/ament_copyright/lib/python3.10/site-packages:/home/jose/TCC/build/ament_pep257:/home/jose/TCC/install/ament_pep257/lib/python3.10/site-packages:/home/jose/TCC/build/ament_flake8:/home/jose/TCC/install/ament_flake8/lib/python3.10/site-packages:/home/jose/TCC/build/ament_lint:/home/jose/TCC/install/ament_lint/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jose/TCC/build/ament_xmllint/build --no-deps symlink_data

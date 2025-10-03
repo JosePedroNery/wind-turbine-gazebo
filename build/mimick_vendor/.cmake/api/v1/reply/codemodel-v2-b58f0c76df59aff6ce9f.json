@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-f4b93a6118fd535af60d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "mimick_vendor",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "mimick-de11f8377eb95f932a03707b583bf3d4ce5bd3e7::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mimick-de11f8377eb95f932a03707b583bf3d4ce5bd3e7-9c0c745dd55dff584bc1.json",
+					"name" : "mimick-de11f8377eb95f932a03707b583bf3d4ce5bd3e7",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mimick_vendor_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mimick_vendor_uninstall-81ba0e03f8d9bd72c6cc.json",
+					"name" : "mimick_vendor_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-8e7dc5880c2ac6ee04f8.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/jose/TCC/build/mimick_vendor",
+		"source" : "/home/jose/TCC/src/mimick_vendor"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

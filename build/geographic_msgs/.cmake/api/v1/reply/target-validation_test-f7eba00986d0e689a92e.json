@@ -1,0 +1,380 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "test/validation_test"
+		}
+	],
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"_ament_add_gtest_executable",
+			"ament_add_gtest_executable",
+			"ament_add_gtest",
+			"target_link_libraries",
+			"add_dependencies",
+			"include",
+			"ament_execute_extensions",
+			"rosidl_generate_interfaces",
+			"add_compile_options",
+			"add_definitions",
+			"find_package",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"/home/jose/ros2_humble/install/ament_cmake_gtest/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake",
+			"/home/jose/ros2_humble/install/ament_cmake_gtest/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake",
+			"test/CMakeLists.txt",
+			"/home/jose/ros2_humble/install/rosidl_generator_cpp/share/rosidl_generator_cpp/cmake/rosidl_generator_cpp_generate_interfaces.cmake",
+			"/home/jose/ros2_humble/install/ament_cmake_core/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake",
+			"/home/jose/ros2_humble/install/rosidl_cmake/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake",
+			"CMakeLists.txt",
+			"/home/jose/ros2_humble/install/ament_cmake_ros/share/ament_cmake_ros/cmake/ament_cmake_ros-extras.cmake",
+			"/home/jose/ros2_humble/install/ament_cmake_ros/share/ament_cmake_ros/cmake/ament_cmake_rosConfig.cmake",
+			"/home/jose/ros2_humble/install/rosidl_typesupport_fastrtps_c/share/rosidl_typesupport_fastrtps_c/cmake/rosidl_typesupport_fastrtps_c_generate_interfaces.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 3,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 68,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 37,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 50,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 53,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 55,
+				"parent" : 3
+			},
+			{
+				"file" : 6
+			},
+			{
+				"command" : 8,
+				"file" : 6,
+				"line" : 18,
+				"parent" : 7
+			},
+			{
+				"command" : 7,
+				"file" : 5,
+				"line" : 286,
+				"parent" : 8
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 48,
+				"parent" : 9
+			},
+			{
+				"file" : 3,
+				"parent" : 10
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 139,
+				"parent" : 11
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 4,
+				"parent" : 0
+			},
+			{
+				"command" : 9,
+				"file" : 6,
+				"line" : 8,
+				"parent" : 7
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 48,
+				"parent" : 9
+			},
+			{
+				"file" : 9,
+				"parent" : 15
+			},
+			{
+				"command" : 11,
+				"file" : 9,
+				"line" : 21,
+				"parent" : 16
+			},
+			{
+				"file" : 8,
+				"parent" : 17
+			},
+			{
+				"command" : 6,
+				"file" : 8,
+				"line" : 41,
+				"parent" : 18
+			},
+			{
+				"file" : 7,
+				"parent" : 19
+			},
+			{
+				"command" : 10,
+				"file" : 7,
+				"line" : 25,
+				"parent" : 20
+			},
+			{
+				"command" : 12,
+				"file" : 0,
+				"line" : 51,
+				"parent" : 3
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"backtrace" : 14,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 14,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 14,
+					"fragment" : "-Wpedantic"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 13,
+					"define" : "RCUTILS_ENABLE_FAULT_INJECTION"
+				},
+				{
+					"backtrace" : 21,
+					"define" : "ROS_PACKAGE_NAME=\"geographic_msgs\""
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 13,
+					"path" : "/home/jose/TCC/src/geographic_info/geographic_msgs/include"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "/home/jose/TCC/build/geographic_msgs/rosidl_generator_cpp"
+				},
+				{
+					"backtrace" : 22,
+					"isSystem" : true,
+					"path" : "/home/jose/ros2_humble/install/gtest_vendor/src/gtest_vendor/include"
+				},
+				{
+					"backtrace" : 13,
+					"isSystem" : true,
+					"path" : "/home/jose/ros2_humble/install/unique_identifier_msgs/include/unique_identifier_msgs"
+				},
+				{
+					"backtrace" : 13,
+					"isSystem" : true,
+					"path" : "/home/jose/ros2_humble/install/rosidl_runtime_cpp/include/rosidl_runtime_cpp"
+				},
+				{
+					"backtrace" : 13,
+					"isSystem" : true,
+					"path" : "/home/jose/ros2_humble/install/rosidl_runtime_c/include/rosidl_runtime_c"
+				},
+				{
+					"backtrace" : 13,
+					"isSystem" : true,
+					"path" : "/home/jose/ros2_humble/install/rcutils/include/rcutils"
+				},
+				{
+					"backtrace" : 13,
+					"isSystem" : true,
+					"path" : "/home/jose/ros2_humble/install/rosidl_typesupport_interface/include/rosidl_typesupport_interface"
+				},
+				{
+					"backtrace" : 13,
+					"isSystem" : true,
+					"path" : "/home/jose/ros2_humble/install/geometry_msgs/include/geometry_msgs"
+				},
+				{
+					"backtrace" : 13,
+					"isSystem" : true,
+					"path" : "/home/jose/ros2_humble/install/std_msgs/include/std_msgs"
+				},
+				{
+					"backtrace" : 13,
+					"isSystem" : true,
+					"path" : "/home/jose/ros2_humble/install/builtin_interfaces/include/builtin_interfaces"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					5
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 12,
+			"id" : "geographic_msgs__cpp::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 13,
+			"id" : "geographic_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "gtest::@0af4add9fe94340e763e"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "gtest_main::@0af4add9fe94340e763e"
+		}
+	],
+	"id" : "validation_test::@36f028580bb02cc8272a",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/home/jose/TCC/build/geographic_msgs:/home/jose/ros2_humble/install/unique_identifier_msgs/lib:/home/jose/ros2_humble/install/geometry_msgs/lib:/home/jose/ros2_humble/install/std_msgs/lib:/home/jose/ros2_humble/install/builtin_interfaces/lib:/home/jose/ros2_humble/install/rosidl_typesupport_cpp/lib:/home/jose/ros2_humble/install/rosidl_typesupport_c/lib:/home/jose/ros2_humble/install/rosidl_runtime_c/lib:/home/jose/ros2_humble/install/rcpputils/lib:/home/jose/ros2_humble/install/rcutils/lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "../gtest/libgtest_main.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "../gtest/libgtest.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-pthread",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../libgeographic_msgs__rosidl_typesupport_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/jose/ros2_humble/install/unique_identifier_msgs/lib/libunique_identifier_msgs__rosidl_typesupport_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/jose/ros2_humble/install/geometry_msgs/lib/libgeometry_msgs__rosidl_typesupport_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/jose/ros2_humble/install/std_msgs/lib/libstd_msgs__rosidl_typesupport_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/jose/ros2_humble/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/jose/ros2_humble/install/rosidl_runtime_c/lib/librosidl_runtime_c.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/jose/ros2_humble/install/rcutils/lib/librcutils.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-ldl",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-Wl,-rpath-link,/home/jose/ros2_humble/install/rosidl_typesupport_cpp/lib:/home/jose/ros2_humble/install/rosidl_typesupport_c/lib:/home/jose/ros2_humble/install/rcpputils/lib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "validation_test",
+	"nameOnDisk" : "validation_test",
+	"paths" : 
+	{
+		"build" : "test",
+		"source" : "test"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "test/test_validation.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

@@ -1,0 +1,58 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.11 (/home/jose/TCC/install/ament_cmake/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/jose/TCC/build/angles
+Built target ament_cmake_python_symlink_angles
+running egg_info
+creating angles.egg-info
+writing angles.egg-info/PKG-INFO
+writing dependency_links to angles.egg-info/dependency_links.txt
+writing top-level names to angles.egg-info/top_level.txt
+writing manifest file 'angles.egg-info/SOURCES.txt'
+reading manifest file 'angles.egg-info/SOURCES.txt'
+writing manifest file 'angles.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_angles_egg
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/jose/TCC/install/angles/include/angles/angles/angles.h
+-- Symlinking: /home/jose/TCC/install/angles/share/angles/environment/pythonpath.sh
+-- Symlinking: /home/jose/TCC/install/angles/share/angles/environment/pythonpath.dsv
+-- Symlinking: /home/jose/TCC/install/angles/local/lib/python3.10/dist-packages/angles-1.15.0-py3.10.egg-info/PKG-INFO
+-- Symlinking: /home/jose/TCC/install/angles/local/lib/python3.10/dist-packages/angles-1.15.0-py3.10.egg-info/SOURCES.txt
+-- Symlinking: /home/jose/TCC/install/angles/local/lib/python3.10/dist-packages/angles-1.15.0-py3.10.egg-info/dependency_links.txt
+-- Symlinking: /home/jose/TCC/install/angles/local/lib/python3.10/dist-packages/angles-1.15.0-py3.10.egg-info/top_level.txt
+-- Symlinking: /home/jose/TCC/install/angles/local/lib/python3.10/dist-packages/angles/__init__.py
+-- Symlinking: /home/jose/TCC/install/angles/share/ament_index/resource_index/package_run_dependencies/angles
+-- Symlinking: /home/jose/TCC/install/angles/share/ament_index/resource_index/parent_prefix_path/angles
+-- Symlinking: /home/jose/TCC/install/angles/share/angles/environment/ament_prefix_path.sh
+-- Symlinking: /home/jose/TCC/install/angles/share/angles/environment/ament_prefix_path.dsv
+-- Symlinking: /home/jose/TCC/install/angles/share/angles/environment/path.sh
+-- Symlinking: /home/jose/TCC/install/angles/share/angles/environment/path.dsv
+-- Symlinking: /home/jose/TCC/install/angles/share/angles/local_setup.bash
+-- Symlinking: /home/jose/TCC/install/angles/share/angles/local_setup.sh
+-- Symlinking: /home/jose/TCC/install/angles/share/angles/local_setup.zsh
+-- Symlinking: /home/jose/TCC/install/angles/share/angles/local_setup.dsv
+-- Symlinking: /home/jose/TCC/install/angles/share/angles/package.dsv
+-- Symlinking: /home/jose/TCC/install/angles/share/ament_index/resource_index/packages/angles
+-- Symlinking: /home/jose/TCC/install/angles/share/angles/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/jose/TCC/install/angles/share/angles/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /home/jose/TCC/install/angles/share/angles/cmake/anglesConfig.cmake
+-- Symlinking: /home/jose/TCC/install/angles/share/angles/cmake/anglesConfig-version.cmake
+-- Symlinking: /home/jose/TCC/install/angles/share/angles/package.xml
+Listing '/home/jose/TCC/install/angles/local/lib/python3.10/dist-packages/angles'...
+Compiling '/home/jose/TCC/install/angles/local/lib/python3.10/dist-packages/angles/__init__.py'...
+-- Installing: /home/jose/TCC/install/angles/share/angles/cmake/export_anglesExport.cmake

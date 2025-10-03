@@ -1,0 +1,31 @@
+running egg_info
+creating ../../build/wind_turbine/wind_turbine.egg-info
+writing ../../build/wind_turbine/wind_turbine.egg-info/PKG-INFO
+writing dependency_links to ../../build/wind_turbine/wind_turbine.egg-info/dependency_links.txt
+writing entry points to ../../build/wind_turbine/wind_turbine.egg-info/entry_points.txt
+writing requirements to ../../build/wind_turbine/wind_turbine.egg-info/requires.txt
+writing top-level names to ../../build/wind_turbine/wind_turbine.egg-info/top_level.txt
+writing manifest file '../../build/wind_turbine/wind_turbine.egg-info/SOURCES.txt'
+reading manifest file '../../build/wind_turbine/wind_turbine.egg-info/SOURCES.txt'
+writing manifest file '../../build/wind_turbine/wind_turbine.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/jose/TCC/build/wind_turbine/build
+creating /home/jose/TCC/build/wind_turbine/build/lib
+creating /home/jose/TCC/build/wind_turbine/build/lib/wind_turbine
+copying wind_turbine/__init__.py -> /home/jose/TCC/build/wind_turbine/build/lib/wind_turbine
+running install
+running install_lib
+creating /home/jose/TCC/install/wind_turbine/lib/python3.10/site-packages/wind_turbine
+copying /home/jose/TCC/build/wind_turbine/build/lib/wind_turbine/__init__.py -> /home/jose/TCC/install/wind_turbine/lib/python3.10/site-packages/wind_turbine
+byte-compiling /home/jose/TCC/install/wind_turbine/lib/python3.10/site-packages/wind_turbine/__init__.py to __init__.cpython-310.pyc
+running install_data
+copying package.xml -> /home/jose/TCC/install/wind_turbine/share/wind_turbine
+creating /home/jose/TCC/install/wind_turbine/share/wind_turbine/launch
+copying launch/wind_launch.py -> /home/jose/TCC/install/wind_turbine/share/wind_turbine/launch
+creating /home/jose/TCC/install/wind_turbine/share/wind_turbine/worlds
+copying worlds/wind_world.sdf -> /home/jose/TCC/install/wind_turbine/share/wind_turbine/worlds
+running install_egg_info
+Copying ../../build/wind_turbine/wind_turbine.egg-info to /home/jose/TCC/install/wind_turbine/lib/python3.10/site-packages/wind_turbine-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/jose/TCC/build/wind_turbine/install.log'

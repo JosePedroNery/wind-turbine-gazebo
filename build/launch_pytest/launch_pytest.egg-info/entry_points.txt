@@ -1,0 +1,3 @@
+[pytest11]
+launch_pytest = launch_pytest.plugin
+

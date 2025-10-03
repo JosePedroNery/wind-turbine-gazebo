@@ -1,0 +1,46 @@
+/usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+  warnings.warn(
+running egg_info
+creating ../../../build/WindTURBINE_description/WindTURBINE_description.egg-info
+writing ../../../build/WindTURBINE_description/WindTURBINE_description.egg-info/PKG-INFO
+writing dependency_links to ../../../build/WindTURBINE_description/WindTURBINE_description.egg-info/dependency_links.txt
+writing entry points to ../../../build/WindTURBINE_description/WindTURBINE_description.egg-info/entry_points.txt
+writing requirements to ../../../build/WindTURBINE_description/WindTURBINE_description.egg-info/requires.txt
+writing top-level names to ../../../build/WindTURBINE_description/WindTURBINE_description.egg-info/top_level.txt
+writing manifest file '../../../build/WindTURBINE_description/WindTURBINE_description.egg-info/SOURCES.txt'
+reading manifest file '../../../build/WindTURBINE_description/WindTURBINE_description.egg-info/SOURCES.txt'
+writing manifest file '../../../build/WindTURBINE_description/WindTURBINE_description.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/jose/TCC/build/WindTURBINE_description/build
+creating /home/jose/TCC/build/WindTURBINE_description/build/lib
+creating /home/jose/TCC/build/WindTURBINE_description/build/lib/WindTURBINE_description
+copying WindTURBINE_description/__init__.py -> /home/jose/TCC/build/WindTURBINE_description/build/lib/WindTURBINE_description
+running install
+running install_lib
+creating /home/jose/TCC/install/WindTURBINE_description/lib/python3.10/site-packages/WindTURBINE_description
+copying /home/jose/TCC/build/WindTURBINE_description/build/lib/WindTURBINE_description/__init__.py -> /home/jose/TCC/install/WindTURBINE_description/lib/python3.10/site-packages/WindTURBINE_description
+byte-compiling /home/jose/TCC/install/WindTURBINE_description/lib/python3.10/site-packages/WindTURBINE_description/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/jose/TCC/install/WindTURBINE_description/share/ament_index
+creating /home/jose/TCC/install/WindTURBINE_description/share/ament_index/resource_index
+creating /home/jose/TCC/install/WindTURBINE_description/share/ament_index/resource_index/packages
+copying resource/WindTURBINE_description -> /home/jose/TCC/install/WindTURBINE_description/share/ament_index/resource_index/packages
+copying package.xml -> /home/jose/TCC/install/WindTURBINE_description/share/WindTURBINE_description
+creating /home/jose/TCC/install/WindTURBINE_description/share/WindTURBINE_description/launch
+copying launch/gazebo.launch.py -> /home/jose/TCC/install/WindTURBINE_description/share/WindTURBINE_description/launch
+copying launch/display.launch.py -> /home/jose/TCC/install/WindTURBINE_description/share/WindTURBINE_description/launch
+creating /home/jose/TCC/install/WindTURBINE_description/share/WindTURBINE_description/urdf
+copying urdf/WindTURBINE.xacro -> /home/jose/TCC/install/WindTURBINE_description/share/WindTURBINE_description/urdf
+copying urdf/WindTURBINE.trans -> /home/jose/TCC/install/WindTURBINE_description/share/WindTURBINE_description/urdf
+copying urdf/materials.xacro -> /home/jose/TCC/install/WindTURBINE_description/share/WindTURBINE_description/urdf
+copying urdf/WindTURBINE.gazebo -> /home/jose/TCC/install/WindTURBINE_description/share/WindTURBINE_description/urdf
+creating /home/jose/TCC/install/WindTURBINE_description/share/WindTURBINE_description/meshes
+copying meshes/HUB2_1.stl -> /home/jose/TCC/install/WindTURBINE_description/share/WindTURBINE_description/meshes
+copying meshes/base_link.stl -> /home/jose/TCC/install/WindTURBINE_description/share/WindTURBINE_description/meshes
+creating /home/jose/TCC/install/WindTURBINE_description/share/WindTURBINE_description/config
+copying config/display.rviz -> /home/jose/TCC/install/WindTURBINE_description/share/WindTURBINE_description/config
+running install_egg_info
+Copying ../../../build/WindTURBINE_description/WindTURBINE_description.egg-info to /home/jose/TCC/install/WindTURBINE_description/lib/python3.10/site-packages/WindTURBINE_description-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/jose/TCC/build/WindTURBINE_description/install.log'

@@ -1,0 +1,11 @@
+/home/jose/TCC/build/angles/CMakeFiles/uninstall.dir
+/home/jose/TCC/build/angles/CMakeFiles/angles_uninstall.dir
+/home/jose/TCC/build/angles/CMakeFiles/ament_cmake_python_symlink_angles.dir
+/home/jose/TCC/build/angles/CMakeFiles/ament_cmake_python_build_angles_egg.dir
+/home/jose/TCC/build/angles/CMakeFiles/test.dir
+/home/jose/TCC/build/angles/CMakeFiles/edit_cache.dir
+/home/jose/TCC/build/angles/CMakeFiles/rebuild_cache.dir
+/home/jose/TCC/build/angles/CMakeFiles/list_install_components.dir
+/home/jose/TCC/build/angles/CMakeFiles/install.dir
+/home/jose/TCC/build/angles/CMakeFiles/install/local.dir
+/home/jose/TCC/build/angles/CMakeFiles/install/strip.dir

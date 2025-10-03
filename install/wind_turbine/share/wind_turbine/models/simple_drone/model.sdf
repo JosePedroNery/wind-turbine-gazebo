@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <model name="simple_drone">
+    <static>false</static>
+    <link name="base_link">
+      <pose>0 0 0.2 0 0 0</pose>
+      <inertial>
+        <mass>1.0</mass>
+        <inertia>
+          <ixx>0.1</ixx>
+          <iyy>0.1</iyy>
+          <izz>0.1</izz>
+        </inertia>
+      </inertial>
+      <collision name="collision">
+        <geometry>
+          <cylinder>
+            <radius>0.3</radius>
+            <length>0.1</length>
+          </cylinder>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <geometry>
+          <cylinder>
+            <radius>0.3</radius>
+            <length>0.1</length>
+          </cylinder>
+        </geometry>
+        <material>
+          <ambient>0 0 1 1</ambient>
+        </material>
+      </visual>
+    </link>
+
+    <plugin name="velocity_controller" filename="libVelocityControlPlugin.so">
+      <link_name>base_link</link_name>
+      <robot_namespace>/drone</robot_namespace>
+      <topic>/cmd_vel</topic>
+    </plugin>
+  </model>
+</sdf>

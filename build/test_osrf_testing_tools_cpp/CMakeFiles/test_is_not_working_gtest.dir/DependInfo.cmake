@@ -1,0 +1,21 @@
+
+# Consider dependencies only in project.
+set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
+
+# The set of languages for which implicit dependencies are needed:
+set(CMAKE_DEPENDS_LANGUAGES
+  )
+
+# The set of dependency files which are needed:
+set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/jose/TCC/src/osrf_testing_tools_cpp/test_osrf_testing_tools_cpp/test/test_is_not_working.cpp" "CMakeFiles/test_is_not_working_gtest.dir/test/test_is_not_working.cpp.o" "gcc" "CMakeFiles/test_is_not_working_gtest.dir/test/test_is_not_working.cpp.o.d"
+  )
+
+# Targets to which this target links.
+set(CMAKE_TARGET_LINKED_INFO_FILES
+  "/home/jose/TCC/build/test_osrf_testing_tools_cpp/googletest-1.10.0.2-extracted/googletest-1.10.0.2-build/googletest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
+  "/home/jose/TCC/build/test_osrf_testing_tools_cpp/googletest-1.10.0.2-extracted/googletest-1.10.0.2-build/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
+  )
+
+# Fortran module output directory.
+set(CMAKE_Fortran_TARGET_MODULE_DIR "")

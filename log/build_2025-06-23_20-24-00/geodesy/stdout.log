@@ -1,0 +1,13 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/geoconv.dir/src/conv/utm_conversions.cpp.o[0m
+[ 50%] Built target ament_cmake_python_symlink_geodesy
+[100%] [32m[1mLinking CXX static library libgeoconv.a[0m
+running egg_info
+creating geodesy.egg-info
+writing geodesy.egg-info/PKG-INFO
+writing dependency_links to geodesy.egg-info/dependency_links.txt
+writing top-level names to geodesy.egg-info/top_level.txt
+writing manifest file 'geodesy.egg-info/SOURCES.txt'
+reading manifest file 'geodesy.egg-info/SOURCES.txt'
+writing manifest file 'geodesy.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_geodesy_egg
+[100%] Built target geoconv

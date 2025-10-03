@@ -1,0 +1,291 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "tools/fds/fast-discovery-server-1.0.0"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"install",
+			"target_link_libraries",
+			"add_compile_options",
+			"check_stdcxx",
+			"target_compile_definitions",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"tools/fds/CMakeLists.txt",
+			"cmake/common/check_configuration.cmake",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 64,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 94,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 74,
+				"parent" : 0
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 104,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 79,
+				"parent" : 5
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 70,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 180,
+				"parent" : 4
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 181,
+				"parent" : 4
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -Wall -pedantic -Wextra -Wno-unknown-pragmas -Wno-error=deprecated-declarations -Wno-psabi -O3 -DNDEBUG"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-std=c++11"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 7,
+					"define" : "FAST_SERVER_BINARY=\"fast-discovery-server-1.0.0\""
+				},
+				{
+					"backtrace" : 7,
+					"define" : "FAST_SERVER_VERSION=\"1.0.0\""
+				},
+				{
+					"backtrace" : 3,
+					"define" : "FOONATHAN_MEMORY=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "FOONATHAN_MEMORY_VERSION_MAJOR=0"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "FOONATHAN_MEMORY_VERSION_MINOR=7"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "FOONATHAN_MEMORY_VERSION_PATCH=3"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 8,
+					"path" : "/home/jose/TCC/src/fastrtps/thirdparty/nlohmann-json"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/home/jose/TCC/src/fastrtps/thirdparty/filewatch"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/jose/TCC/src/fastrtps/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/jose/TCC/build/fastrtps/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/jose/TCC/build/fastrtps/include/fastrtps"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/jose/TCC/src/fastrtps/src/cpp"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/jose/TCC/src/fastrtps/thirdparty/optionparser"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/jose/ros2_humble/install/fastcdr/include"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/jose/ros2_humble/install/foonathan_memory_vendor/include/foonathan_memory"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "fastrtps::@75938a602bfe1332d7ce"
+		}
+	],
+	"id" : "fast-discovery-server::@23e66d161d9fc6ae77c4",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 2,
+				"path" : "bin"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/home/jose/TCC/install/fastrtps"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-Wall -pedantic -Wextra -Wno-unknown-pragmas -Wno-error=deprecated-declarations -Wno-psabi -O3 -DNDEBUG",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/home/jose/TCC/build/fastrtps/src/cpp:/home/jose/ros2_humble/install/fastcdr/lib:",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "../../src/cpp/libfastrtps.so.2.6.10",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/jose/ros2_humble/install/fastcdr/lib/libfastcdr.so.1.0.24",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/jose/ros2_humble/install/foonathan_memory_vendor/lib/libfoonathan_memory-0.7.3.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lpthread",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-ldl",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libtinyxml2.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lpthread",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-ldl",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libtinyxml2.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libssl.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libcrypto.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lrt",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "fast-discovery-server",
+	"nameOnDisk" : "fast-discovery-server-1.0.0",
+	"paths" : 
+	{
+		"build" : "tools/fds",
+		"source" : "tools/fds"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "tools/fds/server.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

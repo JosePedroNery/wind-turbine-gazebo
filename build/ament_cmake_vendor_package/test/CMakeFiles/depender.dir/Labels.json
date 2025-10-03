@@ -1,0 +1,40 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/jose/TCC/build/ament_cmake_vendor_package/test/CMakeFiles/depender"
+		},
+		{
+			"file" : "/home/jose/TCC/build/ament_cmake_vendor_package/test/CMakeFiles/depender.rule"
+		},
+		{
+			"file" : "/home/jose/TCC/build/ament_cmake_vendor_package/test/CMakeFiles/depender-complete.rule"
+		},
+		{
+			"file" : "/home/jose/TCC/build/ament_cmake_vendor_package/test/depender-prefix/src/depender-stamp/depender-build.rule"
+		},
+		{
+			"file" : "/home/jose/TCC/build/ament_cmake_vendor_package/test/depender-prefix/src/depender-stamp/depender-configure.rule"
+		},
+		{
+			"file" : "/home/jose/TCC/build/ament_cmake_vendor_package/test/depender-prefix/src/depender-stamp/depender-download.rule"
+		},
+		{
+			"file" : "/home/jose/TCC/build/ament_cmake_vendor_package/test/depender-prefix/src/depender-stamp/depender-install.rule"
+		},
+		{
+			"file" : "/home/jose/TCC/build/ament_cmake_vendor_package/test/depender-prefix/src/depender-stamp/depender-mkdir.rule"
+		},
+		{
+			"file" : "/home/jose/TCC/build/ament_cmake_vendor_package/test/depender-prefix/src/depender-stamp/depender-patch.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"depender"
+		],
+		"name" : "depender"
+	}
+}

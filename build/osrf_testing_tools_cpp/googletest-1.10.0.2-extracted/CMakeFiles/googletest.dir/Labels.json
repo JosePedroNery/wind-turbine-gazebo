@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/jose/TCC/build/osrf_testing_tools_cpp/googletest-1.10.0.2-extracted/CMakeFiles/googletest"
+		},
+		{
+			"file" : "/home/jose/TCC/build/osrf_testing_tools_cpp/googletest-1.10.0.2-extracted/CMakeFiles/googletest.rule"
+		},
+		{
+			"file" : "/home/jose/TCC/build/osrf_testing_tools_cpp/googletest-1.10.0.2-extracted/CMakeFiles/googletest-complete.rule"
+		},
+		{
+			"file" : "/home/jose/TCC/build/osrf_testing_tools_cpp/googletest-1.10.0.2-extracted/googletest-prefix/src/googletest-stamp/googletest-build.rule"
+		},
+		{
+			"file" : "/home/jose/TCC/build/osrf_testing_tools_cpp/googletest-1.10.0.2-extracted/googletest-prefix/src/googletest-stamp/googletest-configure.rule"
+		},
+		{
+			"file" : "/home/jose/TCC/build/osrf_testing_tools_cpp/googletest-1.10.0.2-extracted/googletest-prefix/src/googletest-stamp/googletest-download.rule"
+		},
+		{
+			"file" : "/home/jose/TCC/build/osrf_testing_tools_cpp/googletest-1.10.0.2-extracted/googletest-prefix/src/googletest-stamp/googletest-install.rule"
+		},
+		{
+			"file" : "/home/jose/TCC/build/osrf_testing_tools_cpp/googletest-1.10.0.2-extracted/googletest-prefix/src/googletest-stamp/googletest-mkdir.rule"
+		},
+		{
+			"file" : "/home/jose/TCC/build/osrf_testing_tools_cpp/googletest-1.10.0.2-extracted/googletest-prefix/src/googletest-stamp/googletest-patch.rule"
+		},
+		{
+			"file" : "/home/jose/TCC/build/osrf_testing_tools_cpp/googletest-1.10.0.2-extracted/googletest-prefix/src/googletest-stamp/googletest-test.rule"
+		},
+		{
+			"file" : "/home/jose/TCC/build/osrf_testing_tools_cpp/googletest-1.10.0.2-extracted/googletest-prefix/src/googletest-stamp/googletest-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"googletest"
+		],
+		"name" : "googletest"
+	}
+}

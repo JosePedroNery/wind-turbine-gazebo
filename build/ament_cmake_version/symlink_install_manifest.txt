@@ -1,0 +1,17 @@
+/home/jose/TCC/install/ament_cmake_version/share/ament_index/resource_index/package_run_dependencies/ament_cmake_version
+/home/jose/TCC/install/ament_cmake_version/share/ament_index/resource_index/parent_prefix_path/ament_cmake_version
+/home/jose/TCC/install/ament_cmake_version/share/ament_cmake_version/environment/ament_prefix_path.sh
+/home/jose/TCC/install/ament_cmake_version/share/ament_cmake_version/environment/ament_prefix_path.dsv
+/home/jose/TCC/install/ament_cmake_version/share/ament_cmake_version/environment/path.sh
+/home/jose/TCC/install/ament_cmake_version/share/ament_cmake_version/environment/path.dsv
+/home/jose/TCC/install/ament_cmake_version/share/ament_cmake_version/local_setup.bash
+/home/jose/TCC/install/ament_cmake_version/share/ament_cmake_version/local_setup.sh
+/home/jose/TCC/install/ament_cmake_version/share/ament_cmake_version/local_setup.zsh
+/home/jose/TCC/install/ament_cmake_version/share/ament_cmake_version/local_setup.dsv
+/home/jose/TCC/install/ament_cmake_version/share/ament_cmake_version/package.dsv
+/home/jose/TCC/install/ament_cmake_version/share/ament_index/resource_index/packages/ament_cmake_version
+/home/jose/TCC/install/ament_cmake_version/share/ament_cmake_version/cmake/ament_cmake_version-extras.cmake
+/home/jose/TCC/install/ament_cmake_version/share/ament_cmake_version/cmake/ament_cmake_versionConfig.cmake
+/home/jose/TCC/install/ament_cmake_version/share/ament_cmake_version/cmake/ament_cmake_versionConfig-version.cmake
+/home/jose/TCC/install/ament_cmake_version/share/ament_cmake_version/package.xml
+/home/jose/TCC/install/ament_cmake_version/share/ament_cmake_version/cmake/ament_export_development_version_if_higher_than_manifest.cmake

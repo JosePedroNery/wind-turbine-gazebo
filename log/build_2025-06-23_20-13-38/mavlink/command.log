@@ -1,0 +1,6 @@
+Invoking command in '/home/jose/TCC/build/mavlink': /usr/bin/cmake /home/jose/TCC/src/mavlink -DCMAKE_INSTALL_PREFIX=/home/jose/TCC/install/mavlink
+Invoked command in '/home/jose/TCC/build/mavlink' returned '0': /usr/bin/cmake /home/jose/TCC/src/mavlink -DCMAKE_INSTALL_PREFIX=/home/jose/TCC/install/mavlink
+Invoking command in '/home/jose/TCC/build/mavlink': /usr/bin/cmake --build /home/jose/TCC/build/mavlink -- -j16 -l16
+Invoked command in '/home/jose/TCC/build/mavlink' returned '0': /usr/bin/cmake --build /home/jose/TCC/build/mavlink -- -j16 -l16
+Invoking command in '/home/jose/TCC/build/mavlink': /usr/bin/cmake --install /home/jose/TCC/build/mavlink
+Invoked command in '/home/jose/TCC/build/mavlink' returned '0': /usr/bin/cmake --install /home/jose/TCC/build/mavlink

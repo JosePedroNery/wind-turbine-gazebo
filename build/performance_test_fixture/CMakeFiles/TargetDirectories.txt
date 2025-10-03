@@ -1,0 +1,13 @@
+/home/jose/TCC/build/performance_test_fixture/CMakeFiles/uninstall.dir
+/home/jose/TCC/build/performance_test_fixture/CMakeFiles/performance_test_fixture_uninstall.dir
+/home/jose/TCC/build/performance_test_fixture/CMakeFiles/performance_test_fixture.dir
+/home/jose/TCC/build/performance_test_fixture/CMakeFiles/benchmark_malloc_realloc.dir
+/home/jose/TCC/build/performance_test_fixture/CMakeFiles/benchmark_malloc_realloc_no_memory_tools.dir
+/home/jose/TCC/build/performance_test_fixture/CMakeFiles/benchmark_pause_resume.dir
+/home/jose/TCC/build/performance_test_fixture/CMakeFiles/test.dir
+/home/jose/TCC/build/performance_test_fixture/CMakeFiles/edit_cache.dir
+/home/jose/TCC/build/performance_test_fixture/CMakeFiles/rebuild_cache.dir
+/home/jose/TCC/build/performance_test_fixture/CMakeFiles/list_install_components.dir
+/home/jose/TCC/build/performance_test_fixture/CMakeFiles/install.dir
+/home/jose/TCC/build/performance_test_fixture/CMakeFiles/install/local.dir
+/home/jose/TCC/build/performance_test_fixture/CMakeFiles/install/strip.dir

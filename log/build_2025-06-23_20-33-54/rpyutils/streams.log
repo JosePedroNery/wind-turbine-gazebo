@@ -1,0 +1,21 @@
+[7.259s] Invoking command in '/home/jose/TCC/build/rpyutils': AMENT_PREFIX_PATH=/home/jose/TCC/install/ament_xmllint:/home/jose/TCC/install/ament_copyright:/home/jose/TCC/install/ament_pep257:/home/jose/TCC/install/ament_flake8:/home/jose/TCC/install/ament_lint:${AMENT_PREFIX_PATH} PATH=/home/jose/TCC/install/ament_xmllint/bin:/home/jose/TCC/install/ament_copyright/bin:/home/jose/TCC/install/ament_pep257/bin:/home/jose/TCC/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/jose/TCC/build/rpyutils/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jose/TCC/install/rpyutils/lib/python3.10/site-packages:/home/jose/TCC/build/ament_xmllint:/home/jose/TCC/install/ament_xmllint/lib/python3.10/site-packages:/home/jose/TCC/build/ament_copyright:/home/jose/TCC/install/ament_copyright/lib/python3.10/site-packages:/home/jose/TCC/build/ament_pep257:/home/jose/TCC/install/ament_pep257/lib/python3.10/site-packages:/home/jose/TCC/build/ament_flake8:/home/jose/TCC/install/ament_flake8/lib/python3.10/site-packages:/home/jose/TCC/build/ament_lint:/home/jose/TCC/install/ament_lint/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jose/TCC/build/rpyutils/build --no-deps symlink_data
+[8.853s] running develop
+[9.568s] running egg_info
+[9.568s] creating rpyutils.egg-info
+[9.569s] writing rpyutils.egg-info/PKG-INFO
+[9.569s] writing dependency_links to rpyutils.egg-info/dependency_links.txt
+[9.570s] writing top-level names to rpyutils.egg-info/top_level.txt
+[9.570s] writing manifest file 'rpyutils.egg-info/SOURCES.txt'
+[9.574s] reading manifest file 'rpyutils.egg-info/SOURCES.txt'
+[9.574s] writing manifest file 'rpyutils.egg-info/SOURCES.txt'
+[9.582s] running build_ext
+[9.582s] Creating /home/jose/TCC/install/rpyutils/lib/python3.10/site-packages/rpyutils.egg-link (link to .)
+[9.583s] 
+[9.584s] Installed /home/jose/TCC/build/rpyutils
+[9.584s] running symlink_data
+[9.584s] symbolically linking /home/jose/TCC/build/rpyutils/package.xml -> /home/jose/TCC/install/rpyutils/share/rpyutils
+[9.584s] creating /home/jose/TCC/install/rpyutils/share/ament_index
+[9.585s] creating /home/jose/TCC/install/rpyutils/share/ament_index/resource_index
+[9.585s] creating /home/jose/TCC/install/rpyutils/share/ament_index/resource_index/packages
+[9.585s] symbolically linking /home/jose/TCC/build/rpyutils/resource/rpyutils -> /home/jose/TCC/install/rpyutils/share/ament_index/resource_index/packages
+[9.683s] Invoked command in '/home/jose/TCC/build/rpyutils' returned '0': AMENT_PREFIX_PATH=/home/jose/TCC/install/ament_xmllint:/home/jose/TCC/install/ament_copyright:/home/jose/TCC/install/ament_pep257:/home/jose/TCC/install/ament_flake8:/home/jose/TCC/install/ament_lint:${AMENT_PREFIX_PATH} PATH=/home/jose/TCC/install/ament_xmllint/bin:/home/jose/TCC/install/ament_copyright/bin:/home/jose/TCC/install/ament_pep257/bin:/home/jose/TCC/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/jose/TCC/build/rpyutils/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jose/TCC/install/rpyutils/lib/python3.10/site-packages:/home/jose/TCC/build/ament_xmllint:/home/jose/TCC/install/ament_xmllint/lib/python3.10/site-packages:/home/jose/TCC/build/ament_copyright:/home/jose/TCC/install/ament_copyright/lib/python3.10/site-packages:/home/jose/TCC/build/ament_pep257:/home/jose/TCC/install/ament_pep257/lib/python3.10/site-packages:/home/jose/TCC/build/ament_flake8:/home/jose/TCC/install/ament_flake8/lib/python3.10/site-packages:/home/jose/TCC/build/ament_lint:/home/jose/TCC/install/ament_lint/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jose/TCC/build/rpyutils/build --no-deps symlink_data

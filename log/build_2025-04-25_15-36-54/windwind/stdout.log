@@ -1,0 +1,18 @@
+running egg_info
+writing ../../build/windwind/windwind.egg-info/PKG-INFO
+writing dependency_links to ../../build/windwind/windwind.egg-info/dependency_links.txt
+writing entry points to ../../build/windwind/windwind.egg-info/entry_points.txt
+writing requirements to ../../build/windwind/windwind.egg-info/requires.txt
+writing top-level names to ../../build/windwind/windwind.egg-info/top_level.txt
+reading manifest file '../../build/windwind/windwind.egg-info/SOURCES.txt'
+writing manifest file '../../build/windwind/windwind.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/jose/TCC/install/windwind/lib/python3.10/site-packages/windwind-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/windwind/windwind.egg-info to /home/jose/TCC/install/windwind/lib/python3.10/site-packages/windwind-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/jose/TCC/build/windwind/install.log'

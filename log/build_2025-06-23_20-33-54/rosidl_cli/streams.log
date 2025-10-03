@@ -1,0 +1,28 @@
+[7.320s] Invoking command in '/home/jose/TCC/build/rosidl_cli': AMENT_PREFIX_PATH=/home/jose/TCC/install/ament_xmllint:/home/jose/TCC/install/ament_copyright:/home/jose/TCC/install/ament_pep257:/home/jose/TCC/install/ament_flake8:/home/jose/TCC/install/ament_lint:${AMENT_PREFIX_PATH} PATH=/home/jose/TCC/install/ament_xmllint/bin:/home/jose/TCC/install/ament_copyright/bin:/home/jose/TCC/install/ament_pep257/bin:/home/jose/TCC/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/jose/TCC/build/rosidl_cli/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jose/TCC/install/rosidl_cli/lib/python3.10/site-packages:/home/jose/TCC/build/ament_xmllint:/home/jose/TCC/install/ament_xmllint/lib/python3.10/site-packages:/home/jose/TCC/build/ament_copyright:/home/jose/TCC/install/ament_copyright/lib/python3.10/site-packages:/home/jose/TCC/build/ament_pep257:/home/jose/TCC/install/ament_pep257/lib/python3.10/site-packages:/home/jose/TCC/build/ament_flake8:/home/jose/TCC/install/ament_flake8/lib/python3.10/site-packages:/home/jose/TCC/build/ament_lint:/home/jose/TCC/install/ament_lint/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jose/TCC/build/rosidl_cli/build --no-deps symlink_data
+[8.816s] running develop
+[9.362s] running egg_info
+[9.362s] creating rosidl_cli.egg-info
+[9.362s] writing rosidl_cli.egg-info/PKG-INFO
+[9.363s] writing dependency_links to rosidl_cli.egg-info/dependency_links.txt
+[9.363s] writing entry points to rosidl_cli.egg-info/entry_points.txt
+[9.363s] writing requirements to rosidl_cli.egg-info/requires.txt
+[9.363s] writing top-level names to rosidl_cli.egg-info/top_level.txt
+[9.364s] writing manifest file 'rosidl_cli.egg-info/SOURCES.txt'
+[9.371s] reading manifest file 'rosidl_cli.egg-info/SOURCES.txt'
+[9.379s] writing manifest file 'rosidl_cli.egg-info/SOURCES.txt'
+[9.394s] running build_ext
+[9.394s] Creating /home/jose/TCC/install/rosidl_cli/lib/python3.10/site-packages/rosidl-cli.egg-link (link to .)
+[9.394s] Installing rosidl script to /home/jose/TCC/install/rosidl_cli/bin
+[9.395s] 
+[9.395s] Installed /home/jose/TCC/build/rosidl_cli
+[9.395s] running symlink_data
+[9.395s] creating /home/jose/TCC/install/rosidl_cli/share/ament_index
+[9.395s] creating /home/jose/TCC/install/rosidl_cli/share/ament_index/resource_index
+[9.395s] creating /home/jose/TCC/install/rosidl_cli/share/ament_index/resource_index/packages
+[9.395s] symbolically linking /home/jose/TCC/build/rosidl_cli/resource/rosidl_cli -> /home/jose/TCC/install/rosidl_cli/share/ament_index/resource_index/packages
+[9.395s] symbolically linking /home/jose/TCC/build/rosidl_cli/package.xml -> /home/jose/TCC/install/rosidl_cli/share/rosidl_cli
+[9.395s] symbolically linking /home/jose/TCC/build/rosidl_cli/resource/package.dsv -> /home/jose/TCC/install/rosidl_cli/share/rosidl_cli
+[9.399s] creating /home/jose/TCC/install/rosidl_cli/share/rosidl_cli/environment
+[9.399s] symbolically linking /home/jose/TCC/build/rosidl_cli/completion/rosidl-argcomplete.bash -> /home/jose/TCC/install/rosidl_cli/share/rosidl_cli/environment
+[9.399s] symbolically linking /home/jose/TCC/build/rosidl_cli/completion/rosidl-argcomplete.zsh -> /home/jose/TCC/install/rosidl_cli/share/rosidl_cli/environment
+[9.568s] Invoked command in '/home/jose/TCC/build/rosidl_cli' returned '0': AMENT_PREFIX_PATH=/home/jose/TCC/install/ament_xmllint:/home/jose/TCC/install/ament_copyright:/home/jose/TCC/install/ament_pep257:/home/jose/TCC/install/ament_flake8:/home/jose/TCC/install/ament_lint:${AMENT_PREFIX_PATH} PATH=/home/jose/TCC/install/ament_xmllint/bin:/home/jose/TCC/install/ament_copyright/bin:/home/jose/TCC/install/ament_pep257/bin:/home/jose/TCC/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/jose/TCC/build/rosidl_cli/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jose/TCC/install/rosidl_cli/lib/python3.10/site-packages:/home/jose/TCC/build/ament_xmllint:/home/jose/TCC/install/ament_xmllint/lib/python3.10/site-packages:/home/jose/TCC/build/ament_copyright:/home/jose/TCC/install/ament_copyright/lib/python3.10/site-packages:/home/jose/TCC/build/ament_pep257:/home/jose/TCC/install/ament_pep257/lib/python3.10/site-packages:/home/jose/TCC/build/ament_flake8:/home/jose/TCC/install/ament_flake8/lib/python3.10/site-packages:/home/jose/TCC/build/ament_lint:/home/jose/TCC/install/ament_lint/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jose/TCC/build/rosidl_cli/build --no-deps symlink_data

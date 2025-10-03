@@ -1,0 +1,24 @@
+[12.530s] Invoking command in '/home/jose/TCC/build/ament_clang_format': AMENT_PREFIX_PATH=/home/jose/TCC/install/ament_copyright:/home/jose/TCC/install/ament_pep257:/home/jose/TCC/install/ament_flake8:/home/jose/TCC/install/ament_lint:${AMENT_PREFIX_PATH} PATH=/home/jose/TCC/install/ament_copyright/bin:/home/jose/TCC/install/ament_pep257/bin:/home/jose/TCC/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/jose/TCC/build/ament_clang_format/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jose/TCC/install/ament_clang_format/lib/python3.10/site-packages:/home/jose/TCC/build/ament_copyright:/home/jose/TCC/install/ament_copyright/lib/python3.10/site-packages:/home/jose/TCC/build/ament_pep257:/home/jose/TCC/install/ament_pep257/lib/python3.10/site-packages:/home/jose/TCC/build/ament_flake8:/home/jose/TCC/install/ament_flake8/lib/python3.10/site-packages:/home/jose/TCC/build/ament_lint:/home/jose/TCC/install/ament_lint/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jose/TCC/build/ament_clang_format/build --no-deps symlink_data
+[13.722s] running develop
+[15.023s] running egg_info
+[15.023s] creating ament_clang_format.egg-info
+[15.023s] writing ament_clang_format.egg-info/PKG-INFO
+[15.023s] writing dependency_links to ament_clang_format.egg-info/dependency_links.txt
+[15.023s] writing entry points to ament_clang_format.egg-info/entry_points.txt
+[15.023s] writing requirements to ament_clang_format.egg-info/requires.txt
+[15.023s] writing top-level names to ament_clang_format.egg-info/top_level.txt
+[15.023s] writing manifest file 'ament_clang_format.egg-info/SOURCES.txt'
+[15.031s] reading manifest file 'ament_clang_format.egg-info/SOURCES.txt'
+[15.031s] writing manifest file 'ament_clang_format.egg-info/SOURCES.txt'
+[15.049s] running build_ext
+[15.050s] Creating /home/jose/TCC/install/ament_clang_format/lib/python3.10/site-packages/ament-clang-format.egg-link (link to .)
+[15.050s] Installing ament_clang_format script to /home/jose/TCC/install/ament_clang_format/bin
+[15.051s] 
+[15.051s] Installed /home/jose/TCC/build/ament_clang_format
+[15.051s] running symlink_data
+[15.051s] symbolically linking /home/jose/TCC/build/ament_clang_format/package.xml -> /home/jose/TCC/install/ament_clang_format/share/ament_clang_format
+[15.051s] creating /home/jose/TCC/install/ament_clang_format/share/ament_index
+[15.051s] creating /home/jose/TCC/install/ament_clang_format/share/ament_index/resource_index
+[15.051s] creating /home/jose/TCC/install/ament_clang_format/share/ament_index/resource_index/packages
+[15.051s] symbolically linking /home/jose/TCC/build/ament_clang_format/resource/ament_clang_format -> /home/jose/TCC/install/ament_clang_format/share/ament_index/resource_index/packages
+[15.475s] Invoked command in '/home/jose/TCC/build/ament_clang_format' returned '0': AMENT_PREFIX_PATH=/home/jose/TCC/install/ament_copyright:/home/jose/TCC/install/ament_pep257:/home/jose/TCC/install/ament_flake8:/home/jose/TCC/install/ament_lint:${AMENT_PREFIX_PATH} PATH=/home/jose/TCC/install/ament_copyright/bin:/home/jose/TCC/install/ament_pep257/bin:/home/jose/TCC/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/jose/TCC/build/ament_clang_format/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jose/TCC/install/ament_clang_format/lib/python3.10/site-packages:/home/jose/TCC/build/ament_copyright:/home/jose/TCC/install/ament_copyright/lib/python3.10/site-packages:/home/jose/TCC/build/ament_pep257:/home/jose/TCC/install/ament_pep257/lib/python3.10/site-packages:/home/jose/TCC/build/ament_flake8:/home/jose/TCC/install/ament_flake8/lib/python3.10/site-packages:/home/jose/TCC/build/ament_lint:/home/jose/TCC/install/ament_lint/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jose/TCC/build/ament_clang_format/build --no-deps symlink_data

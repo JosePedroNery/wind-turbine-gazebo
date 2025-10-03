@@ -1,0 +1,50 @@
+Determining if the pthread_kill exist failed with the following output:
+Change Dir: /home/jose/TCC/build/fastrtps/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_41201/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_41201.dir/build.make CMakeFiles/cmTC_41201.dir/build
+gmake[1]: Entering directory '/home/jose/TCC/build/fastrtps/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_41201.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_41201.dir/CheckSymbolExists.c.o -c /home/jose/TCC/build/fastrtps/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/jose/TCC/build/fastrtps/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/jose/TCC/build/fastrtps/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘pthread_kill’ undeclared (first use in this function); did you mean ‘pthread_self’?
+    8 |   return ((int*)(&pthread_kill))[argc];
+      |                   ^~~~~~~~~~~~
+      |                   pthread_self
+/home/jose/TCC/build/fastrtps/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+gmake[1]: *** [CMakeFiles/cmTC_41201.dir/build.make:78: CMakeFiles/cmTC_41201.dir/CheckSymbolExists.c.o] Error 1
+gmake[1]: Leaving directory '/home/jose/TCC/build/fastrtps/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_41201/fast] Error 2
+
+
+File /home/jose/TCC/build/fastrtps/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_kill
+  return ((int*)(&pthread_kill))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/jose/TCC/build/fastrtps/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_53062/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_53062.dir/build.make CMakeFiles/cmTC_53062.dir/build
+gmake[1]: Entering directory '/home/jose/TCC/build/fastrtps/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_53062.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_53062.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_53062
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_53062.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create CMakeFiles/cmTC_53062.dir/CheckFunctionExists.c.o -o cmTC_53062  -lpthreads 
+/usr/bin/ld: cannot find -lpthreads: No such file or directory
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_53062.dir/build.make:99: cmTC_53062] Error 1
+gmake[1]: Leaving directory '/home/jose/TCC/build/fastrtps/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_53062/fast] Error 2
+
+
+

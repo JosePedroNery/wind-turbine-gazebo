@@ -1,0 +1,24 @@
+[13.380s] Invoking command in '/home/jose/TCC/build/ament_clang_tidy': AMENT_PREFIX_PATH=/home/jose/TCC/install/ament_copyright:/home/jose/TCC/install/ament_pep257:/home/jose/TCC/install/ament_flake8:/home/jose/TCC/install/ament_lint:${AMENT_PREFIX_PATH} PATH=/home/jose/TCC/install/ament_copyright/bin:/home/jose/TCC/install/ament_pep257/bin:/home/jose/TCC/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/jose/TCC/build/ament_clang_tidy/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jose/TCC/install/ament_clang_tidy/lib/python3.10/site-packages:/home/jose/TCC/build/ament_copyright:/home/jose/TCC/install/ament_copyright/lib/python3.10/site-packages:/home/jose/TCC/build/ament_pep257:/home/jose/TCC/install/ament_pep257/lib/python3.10/site-packages:/home/jose/TCC/build/ament_flake8:/home/jose/TCC/install/ament_flake8/lib/python3.10/site-packages:/home/jose/TCC/build/ament_lint:/home/jose/TCC/install/ament_lint/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jose/TCC/build/ament_clang_tidy/build --no-deps symlink_data
+[15.176s] running develop
+[15.333s] running egg_info
+[15.333s] creating ament_clang_tidy.egg-info
+[15.333s] writing ament_clang_tidy.egg-info/PKG-INFO
+[15.333s] writing dependency_links to ament_clang_tidy.egg-info/dependency_links.txt
+[15.333s] writing entry points to ament_clang_tidy.egg-info/entry_points.txt
+[15.333s] writing requirements to ament_clang_tidy.egg-info/requires.txt
+[15.333s] writing top-level names to ament_clang_tidy.egg-info/top_level.txt
+[15.333s] writing manifest file 'ament_clang_tidy.egg-info/SOURCES.txt'
+[15.343s] reading manifest file 'ament_clang_tidy.egg-info/SOURCES.txt'
+[15.343s] writing manifest file 'ament_clang_tidy.egg-info/SOURCES.txt'
+[15.360s] running build_ext
+[15.363s] Creating /home/jose/TCC/install/ament_clang_tidy/lib/python3.10/site-packages/ament-clang-tidy.egg-link (link to .)
+[15.363s] Installing ament_clang_tidy script to /home/jose/TCC/install/ament_clang_tidy/bin
+[15.363s] 
+[15.363s] Installed /home/jose/TCC/build/ament_clang_tidy
+[15.363s] running symlink_data
+[15.363s] symbolically linking /home/jose/TCC/build/ament_clang_tidy/package.xml -> /home/jose/TCC/install/ament_clang_tidy/share/ament_clang_tidy
+[15.363s] creating /home/jose/TCC/install/ament_clang_tidy/share/ament_index
+[15.364s] creating /home/jose/TCC/install/ament_clang_tidy/share/ament_index/resource_index
+[15.364s] creating /home/jose/TCC/install/ament_clang_tidy/share/ament_index/resource_index/packages
+[15.364s] symbolically linking /home/jose/TCC/build/ament_clang_tidy/resource/ament_clang_tidy -> /home/jose/TCC/install/ament_clang_tidy/share/ament_index/resource_index/packages
+[15.788s] Invoked command in '/home/jose/TCC/build/ament_clang_tidy' returned '0': AMENT_PREFIX_PATH=/home/jose/TCC/install/ament_copyright:/home/jose/TCC/install/ament_pep257:/home/jose/TCC/install/ament_flake8:/home/jose/TCC/install/ament_lint:${AMENT_PREFIX_PATH} PATH=/home/jose/TCC/install/ament_copyright/bin:/home/jose/TCC/install/ament_pep257/bin:/home/jose/TCC/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/jose/TCC/build/ament_clang_tidy/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jose/TCC/install/ament_clang_tidy/lib/python3.10/site-packages:/home/jose/TCC/build/ament_copyright:/home/jose/TCC/install/ament_copyright/lib/python3.10/site-packages:/home/jose/TCC/build/ament_pep257:/home/jose/TCC/install/ament_pep257/lib/python3.10/site-packages:/home/jose/TCC/build/ament_flake8:/home/jose/TCC/install/ament_flake8/lib/python3.10/site-packages:/home/jose/TCC/build/ament_lint:/home/jose/TCC/install/ament_lint/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jose/TCC/build/ament_clang_tidy/build --no-deps symlink_data

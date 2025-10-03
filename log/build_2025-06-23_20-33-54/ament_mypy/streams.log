@@ -1,0 +1,24 @@
+[4.288s] Invoking command in '/home/jose/TCC/build/ament_mypy': AMENT_PREFIX_PATH=/home/jose/TCC/install/ament_flake8:/home/jose/TCC/install/ament_lint:${AMENT_PREFIX_PATH} PATH=/home/jose/TCC/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/jose/TCC/build/ament_mypy/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jose/TCC/install/ament_mypy/lib/python3.10/site-packages:/home/jose/TCC/build/ament_flake8:/home/jose/TCC/install/ament_flake8/lib/python3.10/site-packages:/home/jose/TCC/build/ament_lint:/home/jose/TCC/install/ament_lint/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jose/TCC/build/ament_mypy/build --no-deps symlink_data
+[6.537s] running develop
+[8.162s] running egg_info
+[8.162s] creating ament_mypy.egg-info
+[8.162s] writing ament_mypy.egg-info/PKG-INFO
+[8.163s] writing dependency_links to ament_mypy.egg-info/dependency_links.txt
+[8.163s] writing entry points to ament_mypy.egg-info/entry_points.txt
+[8.163s] writing requirements to ament_mypy.egg-info/requires.txt
+[8.163s] writing top-level names to ament_mypy.egg-info/top_level.txt
+[8.166s] writing manifest file 'ament_mypy.egg-info/SOURCES.txt'
+[8.173s] reading manifest file 'ament_mypy.egg-info/SOURCES.txt'
+[8.173s] writing manifest file 'ament_mypy.egg-info/SOURCES.txt'
+[8.196s] running build_ext
+[8.197s] Creating /home/jose/TCC/install/ament_mypy/lib/python3.10/site-packages/ament-mypy.egg-link (link to .)
+[8.216s] Installing ament_mypy script to /home/jose/TCC/install/ament_mypy/bin
+[8.216s] 
+[8.216s] Installed /home/jose/TCC/build/ament_mypy
+[8.216s] running symlink_data
+[8.216s] symbolically linking /home/jose/TCC/build/ament_mypy/package.xml -> /home/jose/TCC/install/ament_mypy/share/ament_mypy
+[8.216s] creating /home/jose/TCC/install/ament_mypy/share/ament_index
+[8.216s] creating /home/jose/TCC/install/ament_mypy/share/ament_index/resource_index
+[8.216s] creating /home/jose/TCC/install/ament_mypy/share/ament_index/resource_index/packages
+[8.216s] symbolically linking /home/jose/TCC/build/ament_mypy/resource/ament_mypy -> /home/jose/TCC/install/ament_mypy/share/ament_index/resource_index/packages
+[10.676s] Invoked command in '/home/jose/TCC/build/ament_mypy' returned '0': AMENT_PREFIX_PATH=/home/jose/TCC/install/ament_flake8:/home/jose/TCC/install/ament_lint:${AMENT_PREFIX_PATH} PATH=/home/jose/TCC/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/jose/TCC/build/ament_mypy/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jose/TCC/install/ament_mypy/lib/python3.10/site-packages:/home/jose/TCC/build/ament_flake8:/home/jose/TCC/install/ament_flake8/lib/python3.10/site-packages:/home/jose/TCC/build/ament_lint:/home/jose/TCC/install/ament_lint/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jose/TCC/build/ament_mypy/build --no-deps symlink_data

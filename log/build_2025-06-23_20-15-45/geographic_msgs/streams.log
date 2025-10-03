@@ -1,0 +1,505 @@
+[0.080s] Invoking command in '/home/jose/TCC/build/geographic_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jose/TCC/install/windwind_description:/home/jose/TCC/install/wind_turbine:/home/jose/ros2_humble/install/rqt_bag_plugins:/home/jose/ros2_humble/install/rqt_bag:/home/jose/ros2_humble/install/launch_testing_examples:/home/jose/ros2_humble/install/ros2bag:/home/jose/ros2_humble/install/tracetools_test:/home/jose/ros2_humble/install/tracetools_launch:/home/jose/ros2_humble/install/topic_monitor:/home/jose/ros2_humble/install/tf2_tools:/home/jose/ros2_humble/install/examples_tf2_py:/home/jose/ros2_humble/install/tf2_ros_py:/home/jose/ros2_humble/install/sros2:/home/jose/ros2_humble/install/rqt_topic:/home/jose/ros2_humble/install/rqt_srv:/home/jose/ros2_humble/install/rqt_shell:/home/jose/ros2_humble/install/rqt_service_caller:/home/jose/ros2_humble/install/rqt_reconfigure:/home/jose/ros2_humble/install/rqt_py_console:/home/jose/ros2_humble/install/rqt_publisher:/home/jose/ros2_humble/install/rqt_plot:/home/jose/ros2_humble/install/rqt_action:/home/jose/ros2_humble/install/rqt_msg:/home/jose/ros2_humble/install/rqt_console:/home/jose/ros2_humble/install/rqt:/home/jose/ros2_humble/install/rqt_graph:/home/jose/ros2_humble/install/rqt_gui_py:/home/jose/ros2_humble/install/rqt_gui:/home/jose/ros2_humble/install/ros2trace:/home/jose/ros2_humble/install/ros2topic:/home/jose/ros2_humble/install/ros2test:/home/jose/ros2_humble/install/ros2component:/home/jose/ros2_humble/install/ros2param:/home/jose/ros2_humble/install/ros2lifecycle:/home/jose/ros2_humble/install/ros2service:/home/jose/ros2_humble/install/ros2run:/home/jose/ros2_humble/install/ros2launch:/home/jose/ros2_humble/install/ros2pkg:/home/jose/ros2_humble/install/ros2node:/home/jose/ros2_humble/install/ros2multicast:/home/jose/ros2_humble/install/ros2interface:/home/jose/ros2_humble/install/ros2doctor:/home/jose/ros2_humble/install/ros2action:/home/jose/ros2_humble/install/ros2cli:/home/jose/ros2_humble/install/quality_of_service_demo_py:/home/jose/ros2_humble/install/lifecycle_py:/home/jose/ros2_humble/install/launch_testing_ros:/home/jose/ros2_humble/install/launch_ros:/home/jose/ros2_humble/install/examples_rclpy_pointcloud_publisher:/home/jose/ros2_humble/install/examples_rclpy_minimal_subscriber:/home/jose/ros2_humble/install/examples_rclpy_minimal_service:/home/jose/ros2_humble/install/examples_rclpy_minimal_publisher:/home/jose/ros2_humble/install/examples_rclpy_minimal_client:/home/jose/ros2_humble/install/examples_rclpy_minimal_action_server:/home/jose/ros2_humble/install/examples_rclpy_minimal_action_client:/home/jose/ros2_humble/install/examples_rclpy_guard_conditions:/home/jose/ros2_humble/install/examples_rclpy_executors:/home/jose/ros2_humble/install/demo_nodes_py:/home/jose/ros2_humble/install/camera_info_manager_py:/home/jose/ros2_humble/install/action_tutorials_py:/home/jose/ros2_humble/install/ament_uncrustify:/home/jose/ros2_humble/install/tracetools_trace:/home/jose/ros2_humble/install/tracetools_read:/home/jose/ros2_humble/install/test_tracetools_launch:/home/jose/ros2_humble/install/test_launch_ros:/home/jose/ros2_humble/install/sensor_msgs_py:/home/jose/ros2_humble/install/rpyutils:/home/jose/ros2_humble/install/rosidl_runtime_py:/home/jose/ros2_humble/install/rosidl_cli:/home/jose/ros2_humble/install/launch_pytest:/home/jose/ros2_humble/install/launch_testing:/home/jose/ros2_humble/install/launch_yaml:/home/jose/ros2_humble/install/launch_xml:/home/jose/ros2_humble/install/launch:/home/jose/ros2_humble/install/osrf_pycommon:/home/jose/ros2_humble/install/domain_coordinator:/home/jose/ros2_humble/install/ament_xmllint:/home/jose/ros2_humble/install/ament_pyflakes:/home/jose/ros2_humble/install/ament_pycodestyle:/home/jose/ros2_humble/install/ament_pep257:/home/jose/ros2_humble/install/ament_pclint:/home/jose/ros2_humble/install/ament_package:/home/jose/ros2_humble/install/ament_mypy:/home/jose/ros2_humble/install/ament_lint_cmake:/home/jose/ros2_humble/install/ament_flake8:/home/jose/ros2_humble/install/ament_copyright:/home/jose/ros2_humble/install/ament_lint:/home/jose/ros2_humble/install/ament_index_python:/home/jose/ros2_humble/install/ament_cpplint:/home/jose/ros2_humble/install/ament_cppcheck:/home/jose/ros2_humble/install/ament_clang_tidy:/home/jose/ros2_humble/install/ament_clang_format:/opt/ros/humble /usr/bin/cmake --build /home/jose/TCC/build/geographic_msgs -- -j16 -l16
+[0.486s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[0.486s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[0.487s] [35m[1mConsolidate compiler generated dependencies of target geographic_msgs__rosidl_generator_c[0m
+[0.487s] [  0%] Built target geographic_msgs__cpp
+[0.487s] [  1%] Built target gtest_main
+[0.487s] [  2%] Built target gtest
+[0.487s] [ 13%] Built target geographic_msgs__rosidl_generator_c
+[0.487s] [ 13%] Built target ament_cmake_python_symlink_geographic_msgs
+[0.487s] [35m[1mConsolidate compiler generated dependencies of target geographic_msgs__rosidl_typesupport_cpp[0m
+[0.487s] [35m[1mConsolidate compiler generated dependencies of target geographic_msgs__rosidl_typesupport_introspection_cpp[0m
+[0.487s] [35m[1mConsolidate compiler generated dependencies of target geographic_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[0.487s] [35m[1mConsolidate compiler generated dependencies of target geographic_msgs__rosidl_typesupport_introspection_c[0m
+[0.487s] [35m[1mConsolidate compiler generated dependencies of target geographic_msgs__rosidl_typesupport_c[0m
+[0.487s] [35m[1mConsolidate compiler generated dependencies of target geographic_msgs__rosidl_typesupport_fastrtps_c[0m
+[0.487s] [ 47%] Built target geographic_msgs__rosidl_typesupport_c
+[0.487s] [ 47%] Built target geographic_msgs__rosidl_typesupport_introspection_cpp
+[0.488s] [ 48%] Built target geographic_msgs__rosidl_typesupport_cpp
+[0.488s] [ 60%] Built target geographic_msgs__rosidl_typesupport_introspection_c
+[0.488s] [ 72%] Built target geographic_msgs__rosidl_typesupport_fastrtps_cpp
+[0.488s] [ 83%] Built target geographic_msgs__rosidl_typesupport_fastrtps_c
+[0.488s] [35m[1mConsolidate compiler generated dependencies of target validation_test[0m
+[0.488s] [ 85%] Built target validation_test
+[0.488s] [ 85%] Built target geographic_msgs
+[0.488s] [ 86%] Built target geographic_msgs__py
+[0.488s] [35m[1mConsolidate compiler generated dependencies of target geographic_msgs__rosidl_generator_py[0m
+[0.488s] [ 97%] Built target geographic_msgs__rosidl_generator_py
+[0.488s] [35m[1mConsolidate compiler generated dependencies of target geographic_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[0.488s] [35m[1mConsolidate compiler generated dependencies of target geographic_msgs__rosidl_typesupport_c__pyext[0m
+[0.488s] [35m[1mConsolidate compiler generated dependencies of target geographic_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[0.488s] [100%] Built target geographic_msgs__rosidl_typesupport_c__pyext
+[0.489s] [100%] Built target geographic_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.489s] [100%] Built target geographic_msgs__rosidl_typesupport_introspection_c__pyext
+[0.599s] running egg_info
+[0.599s] writing geographic_msgs.egg-info/PKG-INFO
+[0.599s] writing dependency_links to geographic_msgs.egg-info/dependency_links.txt
+[0.599s] writing top-level names to geographic_msgs.egg-info/top_level.txt
+[0.601s] reading manifest file 'geographic_msgs.egg-info/SOURCES.txt'
+[0.601s] writing manifest file 'geographic_msgs.egg-info/SOURCES.txt'
+[0.633s] [100%] Built target ament_cmake_python_build_geographic_msgs_egg
+[0.909s] Invoked command in '/home/jose/TCC/build/geographic_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jose/TCC/install/windwind_description:/home/jose/TCC/install/wind_turbine:/home/jose/ros2_humble/install/rqt_bag_plugins:/home/jose/ros2_humble/install/rqt_bag:/home/jose/ros2_humble/install/launch_testing_examples:/home/jose/ros2_humble/install/ros2bag:/home/jose/ros2_humble/install/tracetools_test:/home/jose/ros2_humble/install/tracetools_launch:/home/jose/ros2_humble/install/topic_monitor:/home/jose/ros2_humble/install/tf2_tools:/home/jose/ros2_humble/install/examples_tf2_py:/home/jose/ros2_humble/install/tf2_ros_py:/home/jose/ros2_humble/install/sros2:/home/jose/ros2_humble/install/rqt_topic:/home/jose/ros2_humble/install/rqt_srv:/home/jose/ros2_humble/install/rqt_shell:/home/jose/ros2_humble/install/rqt_service_caller:/home/jose/ros2_humble/install/rqt_reconfigure:/home/jose/ros2_humble/install/rqt_py_console:/home/jose/ros2_humble/install/rqt_publisher:/home/jose/ros2_humble/install/rqt_plot:/home/jose/ros2_humble/install/rqt_action:/home/jose/ros2_humble/install/rqt_msg:/home/jose/ros2_humble/install/rqt_console:/home/jose/ros2_humble/install/rqt:/home/jose/ros2_humble/install/rqt_graph:/home/jose/ros2_humble/install/rqt_gui_py:/home/jose/ros2_humble/install/rqt_gui:/home/jose/ros2_humble/install/ros2trace:/home/jose/ros2_humble/install/ros2topic:/home/jose/ros2_humble/install/ros2test:/home/jose/ros2_humble/install/ros2component:/home/jose/ros2_humble/install/ros2param:/home/jose/ros2_humble/install/ros2lifecycle:/home/jose/ros2_humble/install/ros2service:/home/jose/ros2_humble/install/ros2run:/home/jose/ros2_humble/install/ros2launch:/home/jose/ros2_humble/install/ros2pkg:/home/jose/ros2_humble/install/ros2node:/home/jose/ros2_humble/install/ros2multicast:/home/jose/ros2_humble/install/ros2interface:/home/jose/ros2_humble/install/ros2doctor:/home/jose/ros2_humble/install/ros2action:/home/jose/ros2_humble/install/ros2cli:/home/jose/ros2_humble/install/quality_of_service_demo_py:/home/jose/ros2_humble/install/lifecycle_py:/home/jose/ros2_humble/install/launch_testing_ros:/home/jose/ros2_humble/install/launch_ros:/home/jose/ros2_humble/install/examples_rclpy_pointcloud_publisher:/home/jose/ros2_humble/install/examples_rclpy_minimal_subscriber:/home/jose/ros2_humble/install/examples_rclpy_minimal_service:/home/jose/ros2_humble/install/examples_rclpy_minimal_publisher:/home/jose/ros2_humble/install/examples_rclpy_minimal_client:/home/jose/ros2_humble/install/examples_rclpy_minimal_action_server:/home/jose/ros2_humble/install/examples_rclpy_minimal_action_client:/home/jose/ros2_humble/install/examples_rclpy_guard_conditions:/home/jose/ros2_humble/install/examples_rclpy_executors:/home/jose/ros2_humble/install/demo_nodes_py:/home/jose/ros2_humble/install/camera_info_manager_py:/home/jose/ros2_humble/install/action_tutorials_py:/home/jose/ros2_humble/install/ament_uncrustify:/home/jose/ros2_humble/install/tracetools_trace:/home/jose/ros2_humble/install/tracetools_read:/home/jose/ros2_humble/install/test_tracetools_launch:/home/jose/ros2_humble/install/test_launch_ros:/home/jose/ros2_humble/install/sensor_msgs_py:/home/jose/ros2_humble/install/rpyutils:/home/jose/ros2_humble/install/rosidl_runtime_py:/home/jose/ros2_humble/install/rosidl_cli:/home/jose/ros2_humble/install/launch_pytest:/home/jose/ros2_humble/install/launch_testing:/home/jose/ros2_humble/install/launch_yaml:/home/jose/ros2_humble/install/launch_xml:/home/jose/ros2_humble/install/launch:/home/jose/ros2_humble/install/osrf_pycommon:/home/jose/ros2_humble/install/domain_coordinator:/home/jose/ros2_humble/install/ament_xmllint:/home/jose/ros2_humble/install/ament_pyflakes:/home/jose/ros2_humble/install/ament_pycodestyle:/home/jose/ros2_humble/install/ament_pep257:/home/jose/ros2_humble/install/ament_pclint:/home/jose/ros2_humble/install/ament_package:/home/jose/ros2_humble/install/ament_mypy:/home/jose/ros2_humble/install/ament_lint_cmake:/home/jose/ros2_humble/install/ament_flake8:/home/jose/ros2_humble/install/ament_copyright:/home/jose/ros2_humble/install/ament_lint:/home/jose/ros2_humble/install/ament_index_python:/home/jose/ros2_humble/install/ament_cpplint:/home/jose/ros2_humble/install/ament_cppcheck:/home/jose/ros2_humble/install/ament_clang_tidy:/home/jose/ros2_humble/install/ament_clang_format:/opt/ros/humble /usr/bin/cmake --build /home/jose/TCC/build/geographic_msgs -- -j16 -l16
+[0.910s] Invoking command in '/home/jose/TCC/build/geographic_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jose/TCC/install/windwind_description:/home/jose/TCC/install/wind_turbine:/home/jose/ros2_humble/install/rqt_bag_plugins:/home/jose/ros2_humble/install/rqt_bag:/home/jose/ros2_humble/install/launch_testing_examples:/home/jose/ros2_humble/install/ros2bag:/home/jose/ros2_humble/install/tracetools_test:/home/jose/ros2_humble/install/tracetools_launch:/home/jose/ros2_humble/install/topic_monitor:/home/jose/ros2_humble/install/tf2_tools:/home/jose/ros2_humble/install/examples_tf2_py:/home/jose/ros2_humble/install/tf2_ros_py:/home/jose/ros2_humble/install/sros2:/home/jose/ros2_humble/install/rqt_topic:/home/jose/ros2_humble/install/rqt_srv:/home/jose/ros2_humble/install/rqt_shell:/home/jose/ros2_humble/install/rqt_service_caller:/home/jose/ros2_humble/install/rqt_reconfigure:/home/jose/ros2_humble/install/rqt_py_console:/home/jose/ros2_humble/install/rqt_publisher:/home/jose/ros2_humble/install/rqt_plot:/home/jose/ros2_humble/install/rqt_action:/home/jose/ros2_humble/install/rqt_msg:/home/jose/ros2_humble/install/rqt_console:/home/jose/ros2_humble/install/rqt:/home/jose/ros2_humble/install/rqt_graph:/home/jose/ros2_humble/install/rqt_gui_py:/home/jose/ros2_humble/install/rqt_gui:/home/jose/ros2_humble/install/ros2trace:/home/jose/ros2_humble/install/ros2topic:/home/jose/ros2_humble/install/ros2test:/home/jose/ros2_humble/install/ros2component:/home/jose/ros2_humble/install/ros2param:/home/jose/ros2_humble/install/ros2lifecycle:/home/jose/ros2_humble/install/ros2service:/home/jose/ros2_humble/install/ros2run:/home/jose/ros2_humble/install/ros2launch:/home/jose/ros2_humble/install/ros2pkg:/home/jose/ros2_humble/install/ros2node:/home/jose/ros2_humble/install/ros2multicast:/home/jose/ros2_humble/install/ros2interface:/home/jose/ros2_humble/install/ros2doctor:/home/jose/ros2_humble/install/ros2action:/home/jose/ros2_humble/install/ros2cli:/home/jose/ros2_humble/install/quality_of_service_demo_py:/home/jose/ros2_humble/install/lifecycle_py:/home/jose/ros2_humble/install/launch_testing_ros:/home/jose/ros2_humble/install/launch_ros:/home/jose/ros2_humble/install/examples_rclpy_pointcloud_publisher:/home/jose/ros2_humble/install/examples_rclpy_minimal_subscriber:/home/jose/ros2_humble/install/examples_rclpy_minimal_service:/home/jose/ros2_humble/install/examples_rclpy_minimal_publisher:/home/jose/ros2_humble/install/examples_rclpy_minimal_client:/home/jose/ros2_humble/install/examples_rclpy_minimal_action_server:/home/jose/ros2_humble/install/examples_rclpy_minimal_action_client:/home/jose/ros2_humble/install/examples_rclpy_guard_conditions:/home/jose/ros2_humble/install/examples_rclpy_executors:/home/jose/ros2_humble/install/demo_nodes_py:/home/jose/ros2_humble/install/camera_info_manager_py:/home/jose/ros2_humble/install/action_tutorials_py:/home/jose/ros2_humble/install/ament_uncrustify:/home/jose/ros2_humble/install/tracetools_trace:/home/jose/ros2_humble/install/tracetools_read:/home/jose/ros2_humble/install/test_tracetools_launch:/home/jose/ros2_humble/install/test_launch_ros:/home/jose/ros2_humble/install/sensor_msgs_py:/home/jose/ros2_humble/install/rpyutils:/home/jose/ros2_humble/install/rosidl_runtime_py:/home/jose/ros2_humble/install/rosidl_cli:/home/jose/ros2_humble/install/launch_pytest:/home/jose/ros2_humble/install/launch_testing:/home/jose/ros2_humble/install/launch_yaml:/home/jose/ros2_humble/install/launch_xml:/home/jose/ros2_humble/install/launch:/home/jose/ros2_humble/install/osrf_pycommon:/home/jose/ros2_humble/install/domain_coordinator:/home/jose/ros2_humble/install/ament_xmllint:/home/jose/ros2_humble/install/ament_pyflakes:/home/jose/ros2_humble/install/ament_pycodestyle:/home/jose/ros2_humble/install/ament_pep257:/home/jose/ros2_humble/install/ament_pclint:/home/jose/ros2_humble/install/ament_package:/home/jose/ros2_humble/install/ament_mypy:/home/jose/ros2_humble/install/ament_lint_cmake:/home/jose/ros2_humble/install/ament_flake8:/home/jose/ros2_humble/install/ament_copyright:/home/jose/ros2_humble/install/ament_lint:/home/jose/ros2_humble/install/ament_index_python:/home/jose/ros2_humble/install/ament_cpplint:/home/jose/ros2_humble/install/ament_cppcheck:/home/jose/ros2_humble/install/ament_clang_tidy:/home/jose/ros2_humble/install/ament_clang_format:/opt/ros/humble /usr/bin/cmake --install /home/jose/TCC/build/geographic_msgs
+[0.937s] -- Install configuration: ""
+[0.939s] -- Execute custom install script
+[0.944s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/share/ament_index/resource_index/rosidl_interfaces/geographic_msgs
+[0.947s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/bounding_box.h
+[0.965s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/bounding_box__functions.h
+[0.982s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/bounding_box__struct.h
+[0.997s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/bounding_box__type_support.h
+[1.013s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/geo_path__functions.h
+[1.030s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/geo_path__struct.h
+[1.046s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/geo_path__type_support.h
+[1.063s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/geo_point__functions.h
+[1.080s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/geo_point__struct.h
+[1.097s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/geo_point__type_support.h
+[1.114s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/geo_point_stamped__functions.h
+[1.131s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/geo_point_stamped__struct.h
+[1.147s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/geo_point_stamped__type_support.h
+[1.164s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/geo_pose__functions.h
+[1.181s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/geo_pose__struct.h
+[1.197s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/geo_pose__type_support.h
+[1.214s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/geo_pose_stamped__functions.h
+[1.230s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/geo_pose_stamped__struct.h
+[1.247s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/geo_pose_stamped__type_support.h
+[1.264s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/geo_pose_with_covariance__functions.h
+[1.281s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/geo_pose_with_covariance__struct.h
+[1.298s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/geo_pose_with_covariance__type_support.h
+[1.316s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/geo_pose_with_covariance_stamped__functions.h
+[1.333s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/geo_pose_with_covariance_stamped__struct.h
+[1.350s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/geo_pose_with_covariance_stamped__type_support.h
+[1.367s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/geographic_map__functions.h
+[1.386s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/geographic_map__struct.h
+[1.404s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/geographic_map__type_support.h
+[1.422s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/geographic_map_changes__functions.h
+[1.439s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/geographic_map_changes__struct.h
+[1.454s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/geographic_map_changes__type_support.h
+[1.469s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/key_value__functions.h
+[1.485s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/key_value__struct.h
+[1.500s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/key_value__type_support.h
+[1.516s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/map_feature__functions.h
+[1.532s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/map_feature__struct.h
+[1.547s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/map_feature__type_support.h
+[1.563s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/route_network__functions.h
+[1.578s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/route_network__struct.h
+[1.594s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/route_network__type_support.h
+[1.609s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/route_path__functions.h
+[1.624s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/route_path__struct.h
+[1.640s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/route_path__type_support.h
+[1.655s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/route_segment__functions.h
+[1.671s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/route_segment__struct.h
+[1.686s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/route_segment__type_support.h
+[1.701s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/way_point__functions.h
+[1.717s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/way_point__struct.h
+[1.732s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/way_point__type_support.h
+[1.748s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/geo_path.h
+[1.763s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/geo_point.h
+[1.779s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/geo_point_stamped.h
+[1.795s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/geo_pose.h
+[1.810s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/geo_pose_stamped.h
+[1.826s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/geo_pose_with_covariance.h
+[1.841s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/geo_pose_with_covariance_stamped.h
+[1.857s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/geographic_map.h
+[1.872s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/geographic_map_changes.h
+[1.887s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/key_value.h
+[1.902s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/map_feature.h
+[1.918s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/rosidl_generator_c__visibility_control.h
+[1.934s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/route_network.h
+[1.949s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/route_path.h
+[1.965s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/route_segment.h
+[1.980s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/way_point.h
+[1.996s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/srv/detail/get_geo_path__functions.h
+[2.011s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/srv/detail/get_geo_path__struct.h
+[2.026s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/srv/detail/get_geo_path__type_support.h
+[2.042s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/srv/detail/get_geographic_map__functions.h
+[2.057s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/srv/detail/get_geographic_map__struct.h
+[2.072s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/srv/detail/get_geographic_map__type_support.h
+[2.088s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/srv/detail/get_route_plan__functions.h
+[2.103s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/srv/detail/get_route_plan__struct.h
+[2.118s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/srv/detail/get_route_plan__type_support.h
+[2.134s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/srv/detail/update_geographic_map__functions.h
+[2.149s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/srv/detail/update_geographic_map__struct.h
+[2.165s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/srv/detail/update_geographic_map__type_support.h
+[2.180s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/srv/get_geo_path.h
+[2.196s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/srv/get_geographic_map.h
+[2.211s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/srv/get_route_plan.h
+[2.226s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/srv/update_geographic_map.h
+[2.242s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/share/geographic_msgs/environment/library_path.sh
+[2.258s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/share/geographic_msgs/environment/library_path.dsv
+[2.273s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/bounding_box__rosidl_typesupport_fastrtps_c.h
+[2.289s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/geo_path__rosidl_typesupport_fastrtps_c.h
+[2.304s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/geo_point__rosidl_typesupport_fastrtps_c.h
+[2.320s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/geo_point_stamped__rosidl_typesupport_fastrtps_c.h
+[2.335s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/geo_pose__rosidl_typesupport_fastrtps_c.h
+[2.351s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/geo_pose_stamped__rosidl_typesupport_fastrtps_c.h
+[2.368s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/geo_pose_with_covariance__rosidl_typesupport_fastrtps_c.h
+[2.384s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/geo_pose_with_covariance_stamped__rosidl_typesupport_fastrtps_c.h
+[2.400s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/geographic_map__rosidl_typesupport_fastrtps_c.h
+[2.415s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/geographic_map_changes__rosidl_typesupport_fastrtps_c.h
+[2.431s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/key_value__rosidl_typesupport_fastrtps_c.h
+[2.446s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/map_feature__rosidl_typesupport_fastrtps_c.h
+[2.461s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/route_network__rosidl_typesupport_fastrtps_c.h
+[2.476s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/route_path__rosidl_typesupport_fastrtps_c.h
+[2.492s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/route_segment__rosidl_typesupport_fastrtps_c.h
+[2.507s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/way_point__rosidl_typesupport_fastrtps_c.h
+[2.523s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.538s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/srv/detail/get_geo_path__rosidl_typesupport_fastrtps_c.h
+[2.553s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/srv/detail/get_geographic_map__rosidl_typesupport_fastrtps_c.h
+[2.568s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/srv/detail/get_route_plan__rosidl_typesupport_fastrtps_c.h
+[2.584s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/srv/detail/update_geographic_map__rosidl_typesupport_fastrtps_c.h
+[2.600s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/bounding_box.hpp
+[2.615s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/bounding_box__builder.hpp
+[2.631s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/bounding_box__struct.hpp
+[2.646s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/bounding_box__traits.hpp
+[2.661s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/bounding_box__type_support.hpp
+[2.677s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/geo_path__builder.hpp
+[2.692s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/geo_path__struct.hpp
+[2.707s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/geo_path__traits.hpp
+[2.723s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/geo_path__type_support.hpp
+[2.738s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/geo_point__builder.hpp
+[2.753s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/geo_point__struct.hpp
+[2.768s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/geo_point__traits.hpp
+[2.784s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/geo_point__type_support.hpp
+[2.799s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/geo_point_stamped__builder.hpp
+[2.814s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/geo_point_stamped__struct.hpp
+[2.829s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/geo_point_stamped__traits.hpp
+[2.845s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/geo_point_stamped__type_support.hpp
+[2.860s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/geo_pose__builder.hpp
+[2.876s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/geo_pose__struct.hpp
+[2.891s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/geo_pose__traits.hpp
+[2.906s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/geo_pose__type_support.hpp
+[2.921s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/geo_pose_stamped__builder.hpp
+[2.936s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/geo_pose_stamped__struct.hpp
+[2.952s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/geo_pose_stamped__traits.hpp
+[2.967s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/geo_pose_stamped__type_support.hpp
+[2.983s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/geo_pose_with_covariance__builder.hpp
+[2.998s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/geo_pose_with_covariance__struct.hpp
+[3.014s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/geo_pose_with_covariance__traits.hpp
+[3.029s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/geo_pose_with_covariance__type_support.hpp
+[3.044s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/geo_pose_with_covariance_stamped__builder.hpp
+[3.059s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/geo_pose_with_covariance_stamped__struct.hpp
+[3.074s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/geo_pose_with_covariance_stamped__traits.hpp
+[3.090s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/geo_pose_with_covariance_stamped__type_support.hpp
+[3.105s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/geographic_map__builder.hpp
+[3.120s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/geographic_map__struct.hpp
+[3.136s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/geographic_map__traits.hpp
+[3.151s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/geographic_map__type_support.hpp
+[3.166s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/geographic_map_changes__builder.hpp
+[3.182s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/geographic_map_changes__struct.hpp
+[3.197s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/geographic_map_changes__traits.hpp
+[3.213s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/geographic_map_changes__type_support.hpp
+[3.228s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/key_value__builder.hpp
+[3.243s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/key_value__struct.hpp
+[3.259s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/key_value__traits.hpp
+[3.274s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/key_value__type_support.hpp
+[3.290s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/map_feature__builder.hpp
+[3.305s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/map_feature__struct.hpp
+[3.320s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/map_feature__traits.hpp
+[3.335s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/map_feature__type_support.hpp
+[3.350s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/route_network__builder.hpp
+[3.366s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/route_network__struct.hpp
+[3.381s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/route_network__traits.hpp
+[3.397s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/route_network__type_support.hpp
+[3.412s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/route_path__builder.hpp
+[3.427s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/route_path__struct.hpp
+[3.443s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/route_path__traits.hpp
+[3.458s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/route_path__type_support.hpp
+[3.474s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/route_segment__builder.hpp
+[3.490s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/route_segment__struct.hpp
+[3.505s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/route_segment__traits.hpp
+[3.521s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/route_segment__type_support.hpp
+[3.536s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/way_point__builder.hpp
+[3.551s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/way_point__struct.hpp
+[3.567s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/way_point__traits.hpp
+[3.582s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/way_point__type_support.hpp
+[3.598s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/geo_path.hpp
+[3.613s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/geo_point.hpp
+[3.629s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/geo_point_stamped.hpp
+[3.644s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/geo_pose.hpp
+[3.660s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/geo_pose_stamped.hpp
+[3.675s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/geo_pose_with_covariance.hpp
+[3.691s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/geo_pose_with_covariance_stamped.hpp
+[3.707s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/geographic_map.hpp
+[3.722s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/geographic_map_changes.hpp
+[3.738s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/key_value.hpp
+[3.753s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/map_feature.hpp
+[3.769s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[3.785s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/route_network.hpp
+[3.800s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/route_path.hpp
+[3.816s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/route_segment.hpp
+[3.832s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/way_point.hpp
+[3.847s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/srv/detail/get_geo_path__builder.hpp
+[3.863s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/srv/detail/get_geo_path__struct.hpp
+[3.879s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/srv/detail/get_geo_path__traits.hpp
+[3.894s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/srv/detail/get_geo_path__type_support.hpp
+[3.910s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/srv/detail/get_geographic_map__builder.hpp
+[3.925s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/srv/detail/get_geographic_map__struct.hpp
+[3.941s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/srv/detail/get_geographic_map__traits.hpp
+[3.957s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/srv/detail/get_geographic_map__type_support.hpp
+[3.973s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/srv/detail/get_route_plan__builder.hpp
+[3.988s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/srv/detail/get_route_plan__struct.hpp
+[4.004s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/srv/detail/get_route_plan__traits.hpp
+[4.019s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/srv/detail/get_route_plan__type_support.hpp
+[4.035s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/srv/detail/update_geographic_map__builder.hpp
+[4.050s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/srv/detail/update_geographic_map__struct.hpp
+[4.066s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/srv/detail/update_geographic_map__traits.hpp
+[4.082s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/srv/detail/update_geographic_map__type_support.hpp
+[4.097s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/srv/get_geo_path.hpp
+[4.112s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/srv/get_geographic_map.hpp
+[4.128s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/srv/get_route_plan.hpp
+[4.144s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/srv/update_geographic_map.hpp
+[4.160s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/bounding_box__rosidl_typesupport_fastrtps_cpp.hpp
+[4.176s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/geo_path__rosidl_typesupport_fastrtps_cpp.hpp
+[4.193s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/geo_point__rosidl_typesupport_fastrtps_cpp.hpp
+[4.208s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/geo_point_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[4.224s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/geo_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[4.240s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/geo_pose_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[4.256s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/geo_pose_with_covariance__rosidl_typesupport_fastrtps_cpp.hpp
+[4.271s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/geo_pose_with_covariance_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[4.287s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/geographic_map__rosidl_typesupport_fastrtps_cpp.hpp
+[4.303s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/geographic_map_changes__rosidl_typesupport_fastrtps_cpp.hpp
+[4.319s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/key_value__rosidl_typesupport_fastrtps_cpp.hpp
+[4.334s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/map_feature__rosidl_typesupport_fastrtps_cpp.hpp
+[4.350s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/route_network__rosidl_typesupport_fastrtps_cpp.hpp
+[4.366s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/route_path__rosidl_typesupport_fastrtps_cpp.hpp
+[4.382s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/route_segment__rosidl_typesupport_fastrtps_cpp.hpp
+[4.398s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/way_point__rosidl_typesupport_fastrtps_cpp.hpp
+[4.414s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.429s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/srv/detail/get_geo_path__rosidl_typesupport_fastrtps_cpp.hpp
+[4.445s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/srv/detail/get_geographic_map__rosidl_typesupport_fastrtps_cpp.hpp
+[4.460s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/srv/detail/get_route_plan__rosidl_typesupport_fastrtps_cpp.hpp
+[4.476s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/srv/detail/update_geographic_map__rosidl_typesupport_fastrtps_cpp.hpp
+[4.492s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/bounding_box__rosidl_typesupport_introspection_c.h
+[4.507s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/geo_path__rosidl_typesupport_introspection_c.h
+[4.523s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/geo_point__rosidl_typesupport_introspection_c.h
+[4.539s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/geo_point_stamped__rosidl_typesupport_introspection_c.h
+[4.555s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/geo_pose__rosidl_typesupport_introspection_c.h
+[4.570s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/geo_pose_stamped__rosidl_typesupport_introspection_c.h
+[4.586s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/geo_pose_with_covariance__rosidl_typesupport_introspection_c.h
+[4.601s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/geo_pose_with_covariance_stamped__rosidl_typesupport_introspection_c.h
+[4.616s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/geographic_map__rosidl_typesupport_introspection_c.h
+[4.632s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/geographic_map_changes__rosidl_typesupport_introspection_c.h
+[4.648s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/key_value__rosidl_typesupport_introspection_c.h
+[4.663s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/map_feature__rosidl_typesupport_introspection_c.h
+[4.679s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/route_network__rosidl_typesupport_introspection_c.h
+[4.694s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/route_path__rosidl_typesupport_introspection_c.h
+[4.710s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/route_segment__rosidl_typesupport_introspection_c.h
+[4.725s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/way_point__rosidl_typesupport_introspection_c.h
+[4.741s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.756s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/srv/detail/get_geo_path__rosidl_typesupport_introspection_c.h
+[4.771s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/srv/detail/get_geographic_map__rosidl_typesupport_introspection_c.h
+[4.787s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/srv/detail/get_route_plan__rosidl_typesupport_introspection_c.h
+[4.806s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/srv/detail/update_geographic_map__rosidl_typesupport_introspection_c.h
+[4.823s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/bounding_box__rosidl_typesupport_introspection_cpp.hpp
+[4.840s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/geo_path__rosidl_typesupport_introspection_cpp.hpp
+[4.857s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/geo_point__rosidl_typesupport_introspection_cpp.hpp
+[4.874s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/geo_point_stamped__rosidl_typesupport_introspection_cpp.hpp
+[4.890s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/geo_pose__rosidl_typesupport_introspection_cpp.hpp
+[4.906s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/geo_pose_stamped__rosidl_typesupport_introspection_cpp.hpp
+[4.922s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/geo_pose_with_covariance__rosidl_typesupport_introspection_cpp.hpp
+[4.938s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/geo_pose_with_covariance_stamped__rosidl_typesupport_introspection_cpp.hpp
+[4.953s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/geographic_map__rosidl_typesupport_introspection_cpp.hpp
+[4.969s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/geographic_map_changes__rosidl_typesupport_introspection_cpp.hpp
+[4.985s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/key_value__rosidl_typesupport_introspection_cpp.hpp
+[5.001s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/map_feature__rosidl_typesupport_introspection_cpp.hpp
+[5.016s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/route_network__rosidl_typesupport_introspection_cpp.hpp
+[5.031s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/route_path__rosidl_typesupport_introspection_cpp.hpp
+[5.047s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/route_segment__rosidl_typesupport_introspection_cpp.hpp
+[5.063s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/msg/detail/way_point__rosidl_typesupport_introspection_cpp.hpp
+[5.078s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/srv/detail/get_geo_path__rosidl_typesupport_introspection_cpp.hpp
+[5.094s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/srv/detail/get_geographic_map__rosidl_typesupport_introspection_cpp.hpp
+[5.110s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/srv/detail/get_route_plan__rosidl_typesupport_introspection_cpp.hpp
+[5.125s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/srv/detail/update_geographic_map__rosidl_typesupport_introspection_cpp.hpp
+[5.141s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/share/geographic_msgs/environment/pythonpath.sh
+[5.157s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/share/geographic_msgs/environment/pythonpath.dsv
+[5.173s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/local/lib/python3.10/dist-packages/geographic_msgs-1.0.6-py3.10.egg-info/PKG-INFO
+[5.189s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/local/lib/python3.10/dist-packages/geographic_msgs-1.0.6-py3.10.egg-info/SOURCES.txt
+[5.204s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/local/lib/python3.10/dist-packages/geographic_msgs-1.0.6-py3.10.egg-info/dependency_links.txt
+[5.220s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/local/lib/python3.10/dist-packages/geographic_msgs-1.0.6-py3.10.egg-info/top_level.txt
+[5.237s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/local/lib/python3.10/dist-packages/geographic_msgs/__init__.py
+[5.252s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/local/lib/python3.10/dist-packages/geographic_msgs/_geographic_msgs_s.ep.rosidl_typesupport_c.c
+[5.268s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/local/lib/python3.10/dist-packages/geographic_msgs/_geographic_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.283s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/local/lib/python3.10/dist-packages/geographic_msgs/_geographic_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[5.299s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/local/lib/python3.10/dist-packages/geographic_msgs/geographic_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.314s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/local/lib/python3.10/dist-packages/geographic_msgs/geographic_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.330s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/local/lib/python3.10/dist-packages/geographic_msgs/geographic_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.345s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/local/lib/python3.10/dist-packages/geographic_msgs/libgeographic_msgs__rosidl_generator_py.so
+[5.361s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/local/lib/python3.10/dist-packages/geographic_msgs/msg/__init__.py
+[5.377s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/local/lib/python3.10/dist-packages/geographic_msgs/msg/_bounding_box.py
+[5.393s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/local/lib/python3.10/dist-packages/geographic_msgs/msg/_bounding_box_s.c
+[5.410s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/local/lib/python3.10/dist-packages/geographic_msgs/msg/_geo_path.py
+[5.426s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/local/lib/python3.10/dist-packages/geographic_msgs/msg/_geo_path_s.c
+[5.442s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/local/lib/python3.10/dist-packages/geographic_msgs/msg/_geo_point.py
+[5.457s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/local/lib/python3.10/dist-packages/geographic_msgs/msg/_geo_point_s.c
+[5.472s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/local/lib/python3.10/dist-packages/geographic_msgs/msg/_geo_point_stamped.py
+[5.488s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/local/lib/python3.10/dist-packages/geographic_msgs/msg/_geo_point_stamped_s.c
+[5.503s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/local/lib/python3.10/dist-packages/geographic_msgs/msg/_geo_pose.py
+[5.519s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/local/lib/python3.10/dist-packages/geographic_msgs/msg/_geo_pose_s.c
+[5.535s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/local/lib/python3.10/dist-packages/geographic_msgs/msg/_geo_pose_stamped.py
+[5.550s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/local/lib/python3.10/dist-packages/geographic_msgs/msg/_geo_pose_stamped_s.c
+[5.566s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/local/lib/python3.10/dist-packages/geographic_msgs/msg/_geo_pose_with_covariance.py
+[5.581s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/local/lib/python3.10/dist-packages/geographic_msgs/msg/_geo_pose_with_covariance_s.c
+[5.597s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/local/lib/python3.10/dist-packages/geographic_msgs/msg/_geo_pose_with_covariance_stamped.py
+[5.612s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/local/lib/python3.10/dist-packages/geographic_msgs/msg/_geo_pose_with_covariance_stamped_s.c
+[5.628s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/local/lib/python3.10/dist-packages/geographic_msgs/msg/_geographic_map.py
+[5.643s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/local/lib/python3.10/dist-packages/geographic_msgs/msg/_geographic_map_changes.py
+[5.659s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/local/lib/python3.10/dist-packages/geographic_msgs/msg/_geographic_map_changes_s.c
+[5.675s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/local/lib/python3.10/dist-packages/geographic_msgs/msg/_geographic_map_s.c
+[5.690s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/local/lib/python3.10/dist-packages/geographic_msgs/msg/_key_value.py
+[5.706s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/local/lib/python3.10/dist-packages/geographic_msgs/msg/_key_value_s.c
+[5.721s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/local/lib/python3.10/dist-packages/geographic_msgs/msg/_map_feature.py
+[5.736s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/local/lib/python3.10/dist-packages/geographic_msgs/msg/_map_feature_s.c
+[5.752s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/local/lib/python3.10/dist-packages/geographic_msgs/msg/_route_network.py
+[5.767s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/local/lib/python3.10/dist-packages/geographic_msgs/msg/_route_network_s.c
+[5.784s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/local/lib/python3.10/dist-packages/geographic_msgs/msg/_route_path.py
+[5.801s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/local/lib/python3.10/dist-packages/geographic_msgs/msg/_route_path_s.c
+[5.818s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/local/lib/python3.10/dist-packages/geographic_msgs/msg/_route_segment.py
+[5.835s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/local/lib/python3.10/dist-packages/geographic_msgs/msg/_route_segment_s.c
+[5.853s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/local/lib/python3.10/dist-packages/geographic_msgs/msg/_way_point.py
+[5.871s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/local/lib/python3.10/dist-packages/geographic_msgs/msg/_way_point_s.c
+[5.888s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/local/lib/python3.10/dist-packages/geographic_msgs/srv/__init__.py
+[5.905s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/local/lib/python3.10/dist-packages/geographic_msgs/srv/_get_geo_path.py
+[5.923s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/local/lib/python3.10/dist-packages/geographic_msgs/srv/_get_geo_path_s.c
+[5.940s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/local/lib/python3.10/dist-packages/geographic_msgs/srv/_get_geographic_map.py
+[5.959s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/local/lib/python3.10/dist-packages/geographic_msgs/srv/_get_geographic_map_s.c
+[5.977s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/local/lib/python3.10/dist-packages/geographic_msgs/srv/_get_route_plan.py
+[5.995s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/local/lib/python3.10/dist-packages/geographic_msgs/srv/_get_route_plan_s.c
+[6.012s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/local/lib/python3.10/dist-packages/geographic_msgs/srv/_update_geographic_map.py
+[6.030s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/local/lib/python3.10/dist-packages/geographic_msgs/srv/_update_geographic_map_s.c
+[6.048s] -- Up-to-date symlink: /home/jose/TCC/install/geographic_msgs/local/lib/python3.10/dist-packages/geographic_msgs/geographic_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[6.048s] -- Up-to-date symlink: /home/jose/TCC/install/geographic_msgs/local/lib/python3.10/dist-packages/geographic_msgs/geographic_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.048s] -- Up-to-date symlink: /home/jose/TCC/install/geographic_msgs/local/lib/python3.10/dist-packages/geographic_msgs/geographic_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.048s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/share/geographic_msgs/msg/BoundingBox.idl
+[6.066s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/share/geographic_msgs/msg/GeographicMapChanges.idl
+[6.083s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/share/geographic_msgs/msg/GeographicMap.idl
+[6.100s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/share/geographic_msgs/msg/GeoPath.idl
+[6.116s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/share/geographic_msgs/msg/GeoPoint.idl
+[6.133s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/share/geographic_msgs/msg/GeoPointStamped.idl
+[6.150s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/share/geographic_msgs/msg/GeoPose.idl
+[6.167s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/share/geographic_msgs/msg/GeoPoseStamped.idl
+[6.183s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/share/geographic_msgs/msg/GeoPoseWithCovariance.idl
+[6.200s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/share/geographic_msgs/msg/GeoPoseWithCovarianceStamped.idl
+[6.216s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/share/geographic_msgs/msg/KeyValue.idl
+[6.233s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/share/geographic_msgs/msg/MapFeature.idl
+[6.249s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/share/geographic_msgs/msg/RouteNetwork.idl
+[6.266s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/share/geographic_msgs/msg/RoutePath.idl
+[6.282s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/share/geographic_msgs/msg/RouteSegment.idl
+[6.298s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/share/geographic_msgs/msg/WayPoint.idl
+[6.315s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/share/geographic_msgs/srv/GetGeographicMap.idl
+[6.331s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/share/geographic_msgs/srv/GetGeoPath.idl
+[6.347s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/share/geographic_msgs/srv/GetRoutePlan.idl
+[6.362s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/share/geographic_msgs/srv/UpdateGeographicMap.idl
+[6.378s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/share/geographic_msgs/msg/BoundingBox.msg
+[6.394s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/share/geographic_msgs/msg/GeographicMapChanges.msg
+[6.409s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/share/geographic_msgs/msg/GeographicMap.msg
+[6.424s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/share/geographic_msgs/msg/GeoPath.msg
+[6.440s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/share/geographic_msgs/msg/GeoPoint.msg
+[6.456s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/share/geographic_msgs/msg/GeoPointStamped.msg
+[6.471s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/share/geographic_msgs/msg/GeoPose.msg
+[6.486s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/share/geographic_msgs/msg/GeoPoseStamped.msg
+[6.502s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/share/geographic_msgs/msg/GeoPoseWithCovariance.msg
+[6.517s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/share/geographic_msgs/msg/GeoPoseWithCovarianceStamped.msg
+[6.533s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/share/geographic_msgs/msg/KeyValue.msg
+[6.548s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/share/geographic_msgs/msg/MapFeature.msg
+[6.564s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/share/geographic_msgs/msg/RouteNetwork.msg
+[6.579s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/share/geographic_msgs/msg/RoutePath.msg
+[6.595s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/share/geographic_msgs/msg/RouteSegment.msg
+[6.610s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/share/geographic_msgs/msg/WayPoint.msg
+[6.626s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/share/geographic_msgs/srv/GetGeographicMap.srv
+[6.641s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/share/geographic_msgs/srv/GetGeographicMap_Request.msg
+[6.656s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/share/geographic_msgs/srv/GetGeographicMap_Response.msg
+[6.671s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/share/geographic_msgs/srv/GetGeoPath.srv
+[6.687s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/share/geographic_msgs/srv/GetGeoPath_Request.msg
+[6.703s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/share/geographic_msgs/srv/GetGeoPath_Response.msg
+[6.719s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/share/geographic_msgs/srv/GetRoutePlan.srv
+[6.735s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/share/geographic_msgs/srv/GetRoutePlan_Request.msg
+[6.750s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/share/geographic_msgs/srv/GetRoutePlan_Response.msg
+[6.765s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/share/geographic_msgs/srv/UpdateGeographicMap.srv
+[6.781s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/share/geographic_msgs/srv/UpdateGeographicMap_Request.msg
+[6.796s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/share/geographic_msgs/srv/UpdateGeographicMap_Response.msg
+[6.812s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/share/geographic_msgs/geographic_msgs_mapping_rule.yaml
+[6.827s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/share/ament_index/resource_index/package_run_dependencies/geographic_msgs
+[6.843s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/share/ament_index/resource_index/parent_prefix_path/geographic_msgs
+[6.858s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/share/geographic_msgs/environment/ament_prefix_path.sh
+[6.874s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/share/geographic_msgs/environment/ament_prefix_path.dsv
+[6.889s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/share/geographic_msgs/environment/path.sh
+[6.905s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/share/geographic_msgs/environment/path.dsv
+[6.921s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/share/geographic_msgs/local_setup.bash
+[6.937s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/share/geographic_msgs/local_setup.sh
+[6.953s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/share/geographic_msgs/local_setup.zsh
+[6.968s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/share/geographic_msgs/local_setup.dsv
+[6.983s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/share/geographic_msgs/package.dsv
+[6.999s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/share/ament_index/resource_index/packages/geographic_msgs
+[7.015s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/share/geographic_msgs/cmake/rosidl_cmake-extras.cmake
+[7.032s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/share/geographic_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.050s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/share/geographic_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.068s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/share/geographic_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[7.085s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/share/geographic_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[7.103s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/share/geographic_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[7.119s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/share/geographic_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[7.135s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/share/geographic_msgs/cmake/geographic_msgsConfig.cmake
+[7.151s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/share/geographic_msgs/cmake/geographic_msgsConfig-version.cmake
+[7.167s] -- Symlinking: /home/jose/TCC/install/geographic_msgs/share/geographic_msgs/package.xml
+[7.183s] -- Installing: /home/jose/TCC/install/geographic_msgs/lib/libgeographic_msgs__rosidl_generator_c.so
+[7.184s] -- Set runtime path of "/home/jose/TCC/install/geographic_msgs/lib/libgeographic_msgs__rosidl_generator_c.so" to ""
+[7.184s] -- Installing: /home/jose/TCC/install/geographic_msgs/lib/libgeographic_msgs__rosidl_typesupport_fastrtps_c.so
+[7.184s] -- Set runtime path of "/home/jose/TCC/install/geographic_msgs/lib/libgeographic_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[7.184s] -- Installing: /home/jose/TCC/install/geographic_msgs/lib/libgeographic_msgs__rosidl_typesupport_fastrtps_cpp.so
+[7.185s] -- Set runtime path of "/home/jose/TCC/install/geographic_msgs/lib/libgeographic_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[7.185s] -- Installing: /home/jose/TCC/install/geographic_msgs/lib/libgeographic_msgs__rosidl_typesupport_introspection_c.so
+[7.186s] -- Set runtime path of "/home/jose/TCC/install/geographic_msgs/lib/libgeographic_msgs__rosidl_typesupport_introspection_c.so" to ""
+[7.186s] -- Installing: /home/jose/TCC/install/geographic_msgs/lib/libgeographic_msgs__rosidl_typesupport_c.so
+[7.186s] -- Set runtime path of "/home/jose/TCC/install/geographic_msgs/lib/libgeographic_msgs__rosidl_typesupport_c.so" to ""
+[7.186s] -- Installing: /home/jose/TCC/install/geographic_msgs/lib/libgeographic_msgs__rosidl_typesupport_introspection_cpp.so
+[7.187s] -- Set runtime path of "/home/jose/TCC/install/geographic_msgs/lib/libgeographic_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[7.187s] -- Installing: /home/jose/TCC/install/geographic_msgs/lib/libgeographic_msgs__rosidl_typesupport_cpp.so
+[7.187s] -- Set runtime path of "/home/jose/TCC/install/geographic_msgs/lib/libgeographic_msgs__rosidl_typesupport_cpp.so" to ""
+[7.310s] Listing '/home/jose/TCC/install/geographic_msgs/local/lib/python3.10/dist-packages/geographic_msgs'...
+[7.311s] Compiling '/home/jose/TCC/install/geographic_msgs/local/lib/python3.10/dist-packages/geographic_msgs/__init__.py'...
+[7.311s] Listing '/home/jose/TCC/install/geographic_msgs/local/lib/python3.10/dist-packages/geographic_msgs/msg'...
+[7.311s] Compiling '/home/jose/TCC/install/geographic_msgs/local/lib/python3.10/dist-packages/geographic_msgs/msg/__init__.py'...
+[7.311s] Compiling '/home/jose/TCC/install/geographic_msgs/local/lib/python3.10/dist-packages/geographic_msgs/msg/_bounding_box.py'...
+[7.311s] Compiling '/home/jose/TCC/install/geographic_msgs/local/lib/python3.10/dist-packages/geographic_msgs/msg/_geo_path.py'...
+[7.311s] Compiling '/home/jose/TCC/install/geographic_msgs/local/lib/python3.10/dist-packages/geographic_msgs/msg/_geo_point.py'...
+[7.311s] Compiling '/home/jose/TCC/install/geographic_msgs/local/lib/python3.10/dist-packages/geographic_msgs/msg/_geo_point_stamped.py'...
+[7.311s] Compiling '/home/jose/TCC/install/geographic_msgs/local/lib/python3.10/dist-packages/geographic_msgs/msg/_geo_pose.py'...
+[7.311s] Compiling '/home/jose/TCC/install/geographic_msgs/local/lib/python3.10/dist-packages/geographic_msgs/msg/_geo_pose_stamped.py'...
+[7.311s] Compiling '/home/jose/TCC/install/geographic_msgs/local/lib/python3.10/dist-packages/geographic_msgs/msg/_geo_pose_with_covariance.py'...
+[7.311s] Compiling '/home/jose/TCC/install/geographic_msgs/local/lib/python3.10/dist-packages/geographic_msgs/msg/_geo_pose_with_covariance_stamped.py'...
+[7.311s] Compiling '/home/jose/TCC/install/geographic_msgs/local/lib/python3.10/dist-packages/geographic_msgs/msg/_geographic_map.py'...
+[7.311s] Compiling '/home/jose/TCC/install/geographic_msgs/local/lib/python3.10/dist-packages/geographic_msgs/msg/_geographic_map_changes.py'...
+[7.311s] Compiling '/home/jose/TCC/install/geographic_msgs/local/lib/python3.10/dist-packages/geographic_msgs/msg/_key_value.py'...
+[7.311s] Compiling '/home/jose/TCC/install/geographic_msgs/local/lib/python3.10/dist-packages/geographic_msgs/msg/_map_feature.py'...
+[7.311s] Compiling '/home/jose/TCC/install/geographic_msgs/local/lib/python3.10/dist-packages/geographic_msgs/msg/_route_network.py'...
+[7.311s] Compiling '/home/jose/TCC/install/geographic_msgs/local/lib/python3.10/dist-packages/geographic_msgs/msg/_route_path.py'...
+[7.311s] Compiling '/home/jose/TCC/install/geographic_msgs/local/lib/python3.10/dist-packages/geographic_msgs/msg/_route_segment.py'...
+[7.311s] Compiling '/home/jose/TCC/install/geographic_msgs/local/lib/python3.10/dist-packages/geographic_msgs/msg/_way_point.py'...
+[7.311s] Listing '/home/jose/TCC/install/geographic_msgs/local/lib/python3.10/dist-packages/geographic_msgs/srv'...
+[7.311s] Compiling '/home/jose/TCC/install/geographic_msgs/local/lib/python3.10/dist-packages/geographic_msgs/srv/__init__.py'...
+[7.311s] Compiling '/home/jose/TCC/install/geographic_msgs/local/lib/python3.10/dist-packages/geographic_msgs/srv/_get_geo_path.py'...
+[7.311s] Compiling '/home/jose/TCC/install/geographic_msgs/local/lib/python3.10/dist-packages/geographic_msgs/srv/_get_geographic_map.py'...
+[7.311s] Compiling '/home/jose/TCC/install/geographic_msgs/local/lib/python3.10/dist-packages/geographic_msgs/srv/_get_route_plan.py'...
+[7.311s] Compiling '/home/jose/TCC/install/geographic_msgs/local/lib/python3.10/dist-packages/geographic_msgs/srv/_update_geographic_map.py'...
+[7.314s] -- Installing: /home/jose/TCC/install/geographic_msgs/lib/libgeographic_msgs__rosidl_generator_py.so
+[7.314s] -- Set runtime path of "/home/jose/TCC/install/geographic_msgs/lib/libgeographic_msgs__rosidl_generator_py.so" to ""
+[7.314s] -- Up-to-date: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs
+[7.314s] -- Up-to-date: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs
+[7.314s] -- Installing: /home/jose/TCC/install/geographic_msgs/include/geographic_msgs/geographic_msgs/validation.hpp
+[7.314s] -- Installing: /home/jose/TCC/install/geographic_msgs/share/geographic_msgs/cmake/export_geographic_msgs__rosidl_generator_cExport.cmake
+[7.315s] -- Installing: /home/jose/TCC/install/geographic_msgs/share/geographic_msgs/cmake/export_geographic_msgs__rosidl_generator_cExport-noconfig.cmake
+[7.315s] -- Installing: /home/jose/TCC/install/geographic_msgs/share/geographic_msgs/cmake/export_geographic_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[7.315s] -- Installing: /home/jose/TCC/install/geographic_msgs/share/geographic_msgs/cmake/export_geographic_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[7.315s] -- Installing: /home/jose/TCC/install/geographic_msgs/share/geographic_msgs/cmake/export_geographic_msgs__rosidl_generator_cppExport.cmake
+[7.315s] -- Installing: /home/jose/TCC/install/geographic_msgs/share/geographic_msgs/cmake/export_geographic_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[7.315s] -- Installing: /home/jose/TCC/install/geographic_msgs/share/geographic_msgs/cmake/export_geographic_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[7.316s] -- Installing: /home/jose/TCC/install/geographic_msgs/share/geographic_msgs/cmake/geographic_msgs__rosidl_typesupport_introspection_cExport.cmake
+[7.316s] -- Installing: /home/jose/TCC/install/geographic_msgs/share/geographic_msgs/cmake/geographic_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[7.316s] -- Installing: /home/jose/TCC/install/geographic_msgs/share/geographic_msgs/cmake/geographic_msgs__rosidl_typesupport_cExport.cmake
+[7.316s] -- Installing: /home/jose/TCC/install/geographic_msgs/share/geographic_msgs/cmake/geographic_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[7.316s] -- Installing: /home/jose/TCC/install/geographic_msgs/share/geographic_msgs/cmake/geographic_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[7.317s] -- Installing: /home/jose/TCC/install/geographic_msgs/share/geographic_msgs/cmake/geographic_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[7.317s] -- Installing: /home/jose/TCC/install/geographic_msgs/share/geographic_msgs/cmake/geographic_msgs__rosidl_typesupport_cppExport.cmake
+[7.317s] -- Installing: /home/jose/TCC/install/geographic_msgs/share/geographic_msgs/cmake/geographic_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[7.317s] -- Installing: /home/jose/TCC/install/geographic_msgs/share/geographic_msgs/cmake/export_geographic_msgs__rosidl_generator_pyExport.cmake
+[7.317s] -- Installing: /home/jose/TCC/install/geographic_msgs/share/geographic_msgs/cmake/export_geographic_msgs__rosidl_generator_pyExport-noconfig.cmake
+[7.318s] -- Installing: /home/jose/TCC/install/geographic_msgs/share/geographic_msgs/cmake/export_geographic_msgsExport.cmake

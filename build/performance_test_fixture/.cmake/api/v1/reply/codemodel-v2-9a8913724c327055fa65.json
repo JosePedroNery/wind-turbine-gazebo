@@ -1,0 +1,106 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-05012768a0298a9c11e2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "performance_test_fixture",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "benchmark_malloc_realloc::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-benchmark_malloc_realloc-8ffa9d5850efb425864e.json",
+					"name" : "benchmark_malloc_realloc",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "benchmark_malloc_realloc_no_memory_tools::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-benchmark_malloc_realloc_no_memory_tools-47c31c4d2893164489f3.json",
+					"name" : "benchmark_malloc_realloc_no_memory_tools",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "benchmark_pause_resume::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-benchmark_pause_resume-ad362f6a7f8f3e6b9ec4.json",
+					"name" : "benchmark_pause_resume",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "performance_test_fixture::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-performance_test_fixture-7d1c66b33c099794b9b2.json",
+					"name" : "performance_test_fixture",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "performance_test_fixture_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-performance_test_fixture_uninstall-98d63b2fd7030a622771.json",
+					"name" : "performance_test_fixture_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-a5b778115235ba666345.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/jose/TCC/build/performance_test_fixture",
+		"source" : "/home/jose/TCC/src/performance_test_fixture"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

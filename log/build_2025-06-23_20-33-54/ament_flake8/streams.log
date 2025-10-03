@@ -1,0 +1,24 @@
+[1.021s] Invoking command in '/home/jose/TCC/build/ament_flake8': AMENT_PREFIX_PATH=/home/jose/TCC/install/ament_lint:${AMENT_PREFIX_PATH} PYTHONPATH=/home/jose/TCC/build/ament_flake8/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jose/TCC/install/ament_flake8/lib/python3.10/site-packages:/home/jose/TCC/build/ament_lint:/home/jose/TCC/install/ament_lint/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jose/TCC/build/ament_flake8/build --no-deps symlink_data
+[1.631s] running develop
+[1.928s] running egg_info
+[1.928s] creating ament_flake8.egg-info
+[1.928s] writing ament_flake8.egg-info/PKG-INFO
+[1.929s] writing dependency_links to ament_flake8.egg-info/dependency_links.txt
+[1.929s] writing entry points to ament_flake8.egg-info/entry_points.txt
+[1.929s] writing requirements to ament_flake8.egg-info/requires.txt
+[1.929s] writing top-level names to ament_flake8.egg-info/top_level.txt
+[1.929s] writing manifest file 'ament_flake8.egg-info/SOURCES.txt'
+[1.931s] reading manifest file 'ament_flake8.egg-info/SOURCES.txt'
+[1.931s] writing manifest file 'ament_flake8.egg-info/SOURCES.txt'
+[1.935s] running build_ext
+[1.935s] Creating /home/jose/TCC/install/ament_flake8/lib/python3.10/site-packages/ament-flake8.egg-link (link to .)
+[1.936s] Installing ament_flake8 script to /home/jose/TCC/install/ament_flake8/bin
+[1.936s] 
+[1.936s] Installed /home/jose/TCC/build/ament_flake8
+[1.936s] running symlink_data
+[1.936s] symbolically linking /home/jose/TCC/build/ament_flake8/package.xml -> /home/jose/TCC/install/ament_flake8/share/ament_flake8
+[1.936s] creating /home/jose/TCC/install/ament_flake8/share/ament_index
+[1.936s] creating /home/jose/TCC/install/ament_flake8/share/ament_index/resource_index
+[1.937s] creating /home/jose/TCC/install/ament_flake8/share/ament_index/resource_index/packages
+[1.937s] symbolically linking /home/jose/TCC/build/ament_flake8/resource/ament_flake8 -> /home/jose/TCC/install/ament_flake8/share/ament_index/resource_index/packages
+[1.966s] Invoked command in '/home/jose/TCC/build/ament_flake8' returned '0': AMENT_PREFIX_PATH=/home/jose/TCC/install/ament_lint:${AMENT_PREFIX_PATH} PYTHONPATH=/home/jose/TCC/build/ament_flake8/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jose/TCC/install/ament_flake8/lib/python3.10/site-packages:/home/jose/TCC/build/ament_lint:/home/jose/TCC/install/ament_lint/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jose/TCC/build/ament_flake8/build --no-deps symlink_data

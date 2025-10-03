@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "mavros_msgs__py",
+		"source" : "/home/jose/TCC/build/mavros_msgs/mavros_msgs__py"
+	}
+}

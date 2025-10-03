@@ -1,0 +1,22 @@
+[13.969s] Invoking command in '/home/jose/TCC/build/domain_coordinator': AMENT_PREFIX_PATH=/home/jose/TCC/install/ament_copyright:/home/jose/TCC/install/ament_pep257:/home/jose/TCC/install/ament_flake8:/home/jose/TCC/install/ament_lint:${AMENT_PREFIX_PATH} PATH=/home/jose/TCC/install/ament_copyright/bin:/home/jose/TCC/install/ament_pep257/bin:/home/jose/TCC/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/jose/TCC/build/domain_coordinator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jose/TCC/install/domain_coordinator/lib/python3.10/site-packages:/home/jose/TCC/build/ament_copyright:/home/jose/TCC/install/ament_copyright/lib/python3.10/site-packages:/home/jose/TCC/build/ament_pep257:/home/jose/TCC/install/ament_pep257/lib/python3.10/site-packages:/home/jose/TCC/build/ament_flake8:/home/jose/TCC/install/ament_flake8/lib/python3.10/site-packages:/home/jose/TCC/build/ament_lint:/home/jose/TCC/install/ament_lint/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jose/TCC/build/domain_coordinator/build --no-deps symlink_data
+[15.485s] running develop
+[15.511s] running egg_info
+[15.511s] creating domain_coordinator.egg-info
+[15.512s] writing domain_coordinator.egg-info/PKG-INFO
+[15.512s] writing dependency_links to domain_coordinator.egg-info/dependency_links.txt
+[15.512s] writing requirements to domain_coordinator.egg-info/requires.txt
+[15.512s] writing top-level names to domain_coordinator.egg-info/top_level.txt
+[15.513s] writing manifest file 'domain_coordinator.egg-info/SOURCES.txt'
+[15.525s] reading manifest file 'domain_coordinator.egg-info/SOURCES.txt'
+[15.525s] writing manifest file 'domain_coordinator.egg-info/SOURCES.txt'
+[15.539s] running build_ext
+[15.539s] Creating /home/jose/TCC/install/domain_coordinator/lib/python3.10/site-packages/domain-coordinator.egg-link (link to .)
+[15.539s] 
+[15.540s] Installed /home/jose/TCC/build/domain_coordinator
+[15.540s] running symlink_data
+[15.540s] symbolically linking /home/jose/TCC/build/domain_coordinator/package.xml -> /home/jose/TCC/install/domain_coordinator/share/domain_coordinator
+[15.540s] creating /home/jose/TCC/install/domain_coordinator/share/ament_index
+[15.540s] creating /home/jose/TCC/install/domain_coordinator/share/ament_index/resource_index
+[15.540s] creating /home/jose/TCC/install/domain_coordinator/share/ament_index/resource_index/packages
+[15.540s] symbolically linking /home/jose/TCC/build/domain_coordinator/resource/domain_coordinator -> /home/jose/TCC/install/domain_coordinator/share/ament_index/resource_index/packages
+[15.745s] Invoked command in '/home/jose/TCC/build/domain_coordinator' returned '0': AMENT_PREFIX_PATH=/home/jose/TCC/install/ament_copyright:/home/jose/TCC/install/ament_pep257:/home/jose/TCC/install/ament_flake8:/home/jose/TCC/install/ament_lint:${AMENT_PREFIX_PATH} PATH=/home/jose/TCC/install/ament_copyright/bin:/home/jose/TCC/install/ament_pep257/bin:/home/jose/TCC/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/jose/TCC/build/domain_coordinator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jose/TCC/install/domain_coordinator/lib/python3.10/site-packages:/home/jose/TCC/build/ament_copyright:/home/jose/TCC/install/ament_copyright/lib/python3.10/site-packages:/home/jose/TCC/build/ament_pep257:/home/jose/TCC/install/ament_pep257/lib/python3.10/site-packages:/home/jose/TCC/build/ament_flake8:/home/jose/TCC/install/ament_flake8/lib/python3.10/site-packages:/home/jose/TCC/build/ament_lint:/home/jose/TCC/install/ament_lint/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jose/TCC/build/domain_coordinator/build --no-deps symlink_data

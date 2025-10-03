@@ -1,0 +1,25 @@
+{
+  "package_name": "geographic_msgs",
+  "non_idl_tuples": [
+    "/home/jose/TCC/src/geographic_info/geographic_msgs:msg/BoundingBox.msg",
+    "/home/jose/TCC/src/geographic_info/geographic_msgs:msg/GeographicMapChanges.msg",
+    "/home/jose/TCC/src/geographic_info/geographic_msgs:msg/GeographicMap.msg",
+    "/home/jose/TCC/src/geographic_info/geographic_msgs:msg/GeoPath.msg",
+    "/home/jose/TCC/src/geographic_info/geographic_msgs:msg/GeoPoint.msg",
+    "/home/jose/TCC/src/geographic_info/geographic_msgs:msg/GeoPointStamped.msg",
+    "/home/jose/TCC/src/geographic_info/geographic_msgs:msg/GeoPose.msg",
+    "/home/jose/TCC/src/geographic_info/geographic_msgs:msg/GeoPoseStamped.msg",
+    "/home/jose/TCC/src/geographic_info/geographic_msgs:msg/GeoPoseWithCovariance.msg",
+    "/home/jose/TCC/src/geographic_info/geographic_msgs:msg/GeoPoseWithCovarianceStamped.msg",
+    "/home/jose/TCC/src/geographic_info/geographic_msgs:msg/KeyValue.msg",
+    "/home/jose/TCC/src/geographic_info/geographic_msgs:msg/MapFeature.msg",
+    "/home/jose/TCC/src/geographic_info/geographic_msgs:msg/RouteNetwork.msg",
+    "/home/jose/TCC/src/geographic_info/geographic_msgs:msg/RoutePath.msg",
+    "/home/jose/TCC/src/geographic_info/geographic_msgs:msg/RouteSegment.msg",
+    "/home/jose/TCC/src/geographic_info/geographic_msgs:msg/WayPoint.msg",
+    "/home/jose/TCC/src/geographic_info/geographic_msgs:srv/GetGeographicMap.srv",
+    "/home/jose/TCC/src/geographic_info/geographic_msgs:srv/GetGeoPath.srv",
+    "/home/jose/TCC/src/geographic_info/geographic_msgs:srv/GetRoutePlan.srv",
+    "/home/jose/TCC/src/geographic_info/geographic_msgs:srv/UpdateGeographicMap.srv"
+  ]
+}

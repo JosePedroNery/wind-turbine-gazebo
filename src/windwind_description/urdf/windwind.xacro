@@ -1,0 +1,136 @@
+<?xml version="1.0" ?>
+<robot name="windwind" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+<xacro:include filename="$(find windwind_description)/urdf/materials.xacro" />
+<xacro:include filename="$(find windwind_description)/urdf/windwind.trans" />
+<xacro:include filename="$(find windwind_description)/urdf/windwind.gazebo" />
+<link name="base_link">
+  <inertial>
+    <origin xyz="0.2528113802359047 1.1582200002349925 33.57344844198092" rpy="0 0 0"/>
+    <mass value="5651414.017467904"/>
+    <inertia ixx="3109424849.561263" iyy="3121113424.197289" izz="20722615.731171" ixy="-10.510302" iyz="161.158044" ixz="-76579534.697266"/>
+  </inertial>
+  <visual>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find windwind_description)/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find windwind_description)/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="HUB2_1_1">
+  <inertial>
+    <origin xyz="-2.5032520271020977 7.467431208940667e-07 -8.560894571019162e-08" rpy="0 0 0"/>
+    <mass value="489496.7329624393"/>
+    <inertia ixx="174493987.512161" iyy="87429059.972514" izz="87429057.61307" ixy="-0.019873" iyz="0.057023" ixz="0.00046"/>
+  </inertial>
+  <visual>
+    <origin xyz="1.496308 -1.15822 -70.355352" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find windwind_description)/meshes/HUB2_1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="1.496308 -1.15822 -70.355352" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find windwind_description)/meshes/HUB2_1_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="LACEA_1">
+  <inertial>
+    <origin xyz="-2.317828200685576 0.5022820042548234 -1.210366073225586" rpy="0 0 0"/>
+    <mass value="21132.65873827399"/>
+    <inertia ixx="46306.91864" iyy="38533.219608" izz="79907.696445" ixy="452.497698" iyz="-4201.6187" ixz="-136.088771"/>
+  </inertial>
+  <visual>
+    <origin xyz="-5.871917 -0.537403 -72.145257" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find windwind_description)/meshes/LACEA_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-5.871917 -0.537403 -72.145257" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find windwind_description)/meshes/LACEA_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="FERRUGEM_1">
+  <inertial>
+    <origin xyz="1.1708591205983516 -0.04771198965554621 -0.2945248295154528" rpy="0 0 0"/>
+    <mass value="1454.0491560158196"/>
+    <inertia ixx="699.910496" iyy="6709.94107" izz="6993.713515" ixy="-591.217334" iyz="299.926313" ixz="220.379129"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.403692 0.102298 -72.145257" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find windwind_description)/meshes/FERRUGEM_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.403692 0.102298 -72.145257" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find windwind_description)/meshes/FERRUGEM_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="suj_prata_1">
+  <inertial>
+    <origin xyz="-3.8171501779532537 -1.4668197069746731 -0.7996038539675112" rpy="0 0 0"/>
+    <mass value="949.9906864379719"/>
+    <inertia ixx="1306.725801" iyy="6946.61008" izz="7158.075036" ixy="-925.031169" iyz="-542.859697" ixz="-1135.331851"/>
+  </inertial>
+  <visual>
+    <origin xyz="-10.004607 -1.964508 -72.145257" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find windwind_description)/meshes/suj_prata_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-10.004607 -1.964508 -72.145257" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file://$(find windwind_description)/meshes/suj_prata_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<joint name="Rígido 6" type="fixed">
+  <origin xyz="-1.496308 1.15822 70.355352" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="HUB2_1_1"/>
+</joint>
+
+<joint name="Rígido 9" type="fixed">
+  <origin xyz="5.871917 0.537403 72.145257" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="LACEA_1"/>
+</joint>
+
+<joint name="Rígido 11" type="fixed">
+  <origin xyz="0.403692 -0.102298 72.145257" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="FERRUGEM_1"/>
+</joint>
+
+<joint name="Rígido 12" type="fixed">
+  <origin xyz="10.004607 1.964508 72.145257" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="suj_prata_1"/>
+</joint>
+
+</robot>

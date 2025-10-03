@@ -1,0 +1,7 @@
+/home/jose/TCC/build/ament_cmake_libraries/CMakeFiles/uninstall.dir
+/home/jose/TCC/build/ament_cmake_libraries/CMakeFiles/ament_cmake_libraries_uninstall.dir
+/home/jose/TCC/build/ament_cmake_libraries/CMakeFiles/edit_cache.dir
+/home/jose/TCC/build/ament_cmake_libraries/CMakeFiles/rebuild_cache.dir
+/home/jose/TCC/build/ament_cmake_libraries/CMakeFiles/list_install_components.dir
+/home/jose/TCC/build/ament_cmake_libraries/CMakeFiles/install.dir
+/home/jose/TCC/build/ament_cmake_libraries/CMakeFiles/install/local.dir

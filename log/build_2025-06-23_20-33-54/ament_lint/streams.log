@@ -1,0 +1,23 @@
+[2.764s] Invoking command in '/home/jose/TCC/build/ament_lint': PYTHONPATH=/home/jose/TCC/build/ament_lint/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jose/TCC/install/ament_lint/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jose/TCC/build/ament_lint/build --no-deps symlink_data
+[3.185s] running develop
+[3.431s] running egg_info
+[3.431s] creating ament_lint.egg-info
+[3.431s] writing ament_lint.egg-info/PKG-INFO
+[3.431s] writing dependency_links to ament_lint.egg-info/dependency_links.txt
+[3.431s] writing entry points to ament_lint.egg-info/entry_points.txt
+[3.431s] writing requirements to ament_lint.egg-info/requires.txt
+[3.431s] writing top-level names to ament_lint.egg-info/top_level.txt
+[3.432s] writing manifest file 'ament_lint.egg-info/SOURCES.txt'
+[3.433s] reading manifest file 'ament_lint.egg-info/SOURCES.txt'
+[3.433s] writing manifest file 'ament_lint.egg-info/SOURCES.txt'
+[3.437s] running build_ext
+[3.437s] Creating /home/jose/TCC/install/ament_lint/lib/python3.10/site-packages/ament-lint.egg-link (link to .)
+[3.438s] 
+[3.438s] Installed /home/jose/TCC/build/ament_lint
+[3.438s] running symlink_data
+[3.438s] symbolically linking /home/jose/TCC/build/ament_lint/package.xml -> /home/jose/TCC/install/ament_lint/share/ament_lint
+[3.438s] creating /home/jose/TCC/install/ament_lint/share/ament_index
+[3.439s] creating /home/jose/TCC/install/ament_lint/share/ament_index/resource_index
+[3.439s] creating /home/jose/TCC/install/ament_lint/share/ament_index/resource_index/packages
+[3.439s] symbolically linking /home/jose/TCC/build/ament_lint/resource/ament_lint -> /home/jose/TCC/install/ament_lint/share/ament_index/resource_index/packages
+[3.466s] Invoked command in '/home/jose/TCC/build/ament_lint' returned '0': PYTHONPATH=/home/jose/TCC/build/ament_lint/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jose/TCC/install/ament_lint/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jose/TCC/build/ament_lint/build --no-deps symlink_data

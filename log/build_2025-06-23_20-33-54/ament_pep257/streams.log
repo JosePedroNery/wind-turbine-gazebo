@@ -1,0 +1,24 @@
+[3.534s] Invoking command in '/home/jose/TCC/build/ament_pep257': AMENT_PREFIX_PATH=/home/jose/TCC/install/ament_flake8:/home/jose/TCC/install/ament_lint:${AMENT_PREFIX_PATH} PATH=/home/jose/TCC/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/jose/TCC/build/ament_pep257/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jose/TCC/install/ament_pep257/lib/python3.10/site-packages:/home/jose/TCC/build/ament_flake8:/home/jose/TCC/install/ament_flake8/lib/python3.10/site-packages:/home/jose/TCC/build/ament_lint:/home/jose/TCC/install/ament_lint/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jose/TCC/build/ament_pep257/build --no-deps symlink_data
+[6.494s] running develop
+[7.534s] running egg_info
+[7.534s] creating ament_pep257.egg-info
+[7.535s] writing ament_pep257.egg-info/PKG-INFO
+[7.535s] writing dependency_links to ament_pep257.egg-info/dependency_links.txt
+[7.538s] writing entry points to ament_pep257.egg-info/entry_points.txt
+[7.538s] writing requirements to ament_pep257.egg-info/requires.txt
+[7.541s] writing top-level names to ament_pep257.egg-info/top_level.txt
+[7.541s] writing manifest file 'ament_pep257.egg-info/SOURCES.txt'
+[7.548s] reading manifest file 'ament_pep257.egg-info/SOURCES.txt'
+[7.558s] writing manifest file 'ament_pep257.egg-info/SOURCES.txt'
+[7.578s] running build_ext
+[7.579s] Creating /home/jose/TCC/install/ament_pep257/lib/python3.10/site-packages/ament-pep257.egg-link (link to .)
+[7.591s] Installing ament_pep257 script to /home/jose/TCC/install/ament_pep257/bin
+[7.595s] 
+[7.595s] Installed /home/jose/TCC/build/ament_pep257
+[7.595s] running symlink_data
+[7.596s] symbolically linking /home/jose/TCC/build/ament_pep257/package.xml -> /home/jose/TCC/install/ament_pep257/share/ament_pep257
+[7.596s] creating /home/jose/TCC/install/ament_pep257/share/ament_index
+[7.596s] creating /home/jose/TCC/install/ament_pep257/share/ament_index/resource_index
+[7.596s] creating /home/jose/TCC/install/ament_pep257/share/ament_index/resource_index/packages
+[7.596s] symbolically linking /home/jose/TCC/build/ament_pep257/resource/ament_pep257 -> /home/jose/TCC/install/ament_pep257/share/ament_index/resource_index/packages
+[7.952s] Invoked command in '/home/jose/TCC/build/ament_pep257' returned '0': AMENT_PREFIX_PATH=/home/jose/TCC/install/ament_flake8:/home/jose/TCC/install/ament_lint:${AMENT_PREFIX_PATH} PATH=/home/jose/TCC/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/jose/TCC/build/ament_pep257/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jose/TCC/install/ament_pep257/lib/python3.10/site-packages:/home/jose/TCC/build/ament_flake8:/home/jose/TCC/install/ament_flake8/lib/python3.10/site-packages:/home/jose/TCC/build/ament_lint:/home/jose/TCC/install/ament_lint/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jose/TCC/build/ament_pep257/build --no-deps symlink_data

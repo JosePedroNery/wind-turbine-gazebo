@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+660e11bd156ca0760eb4600a016a9d75 CMakeFiles/tinyxml2_vendor_uninstall

@@ -1,0 +1,12 @@
+package.xml
+setup.py
+ament_clang_tidy/__init__.py
+ament_clang_tidy/main.py
+ament_clang_tidy.egg-info/PKG-INFO
+ament_clang_tidy.egg-info/SOURCES.txt
+ament_clang_tidy.egg-info/dependency_links.txt
+ament_clang_tidy.egg-info/entry_points.txt
+ament_clang_tidy.egg-info/not-zip-safe
+ament_clang_tidy.egg-info/requires.txt
+ament_clang_tidy.egg-info/top_level.txt
+resource/ament_clang_tidy

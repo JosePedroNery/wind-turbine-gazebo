@@ -1,0 +1,3 @@
+# Hashes of file build rules.
+fa7c16d30a8b612a1c73a37afefd0f24 CMakeFiles/generate_c_headers
+1a3bfbc155728a890e11774053415ef3 include/mavlink/common/mavlink.h

@@ -1,0 +1,3 @@
+[console_scripts]
+teleop_cmd_vel = teleop_cmd_vel:main
+

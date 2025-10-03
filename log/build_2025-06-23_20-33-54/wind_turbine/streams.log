@@ -1,0 +1,16 @@
+[12.835s] Invoking command in '/home/jose/TCC/build/wind_turbine': AMENT_PREFIX_PATH=/home/jose/TCC/install/ament_copyright:/home/jose/TCC/install/ament_pep257:/home/jose/TCC/install/ament_flake8:/home/jose/TCC/install/ament_lint:${AMENT_PREFIX_PATH} PATH=/home/jose/TCC/install/ament_copyright/bin:/home/jose/TCC/install/ament_pep257/bin:/home/jose/TCC/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/jose/TCC/build/wind_turbine/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jose/TCC/install/wind_turbine/lib/python3.10/site-packages:/home/jose/TCC/build/ament_copyright:/home/jose/TCC/install/ament_copyright/lib/python3.10/site-packages:/home/jose/TCC/build/ament_pep257:/home/jose/TCC/install/ament_pep257/lib/python3.10/site-packages:/home/jose/TCC/build/ament_flake8:/home/jose/TCC/install/ament_flake8/lib/python3.10/site-packages:/home/jose/TCC/build/ament_lint:/home/jose/TCC/install/ament_lint/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jose/TCC/build/wind_turbine/build --no-deps symlink_data
+[14.368s] running develop
+[14.766s] running egg_info
+[14.767s] writing wind_turbine.egg-info/PKG-INFO
+[14.768s] writing dependency_links to wind_turbine.egg-info/dependency_links.txt
+[14.768s] writing entry points to wind_turbine.egg-info/entry_points.txt
+[14.768s] writing requirements to wind_turbine.egg-info/requires.txt
+[14.769s] writing top-level names to wind_turbine.egg-info/top_level.txt
+[14.784s] reading manifest file 'wind_turbine.egg-info/SOURCES.txt'
+[14.784s] writing manifest file 'wind_turbine.egg-info/SOURCES.txt'
+[14.805s] running build_ext
+[14.805s] Creating /home/jose/TCC/install/wind_turbine/lib/python3.10/site-packages/wind-turbine.egg-link (link to .)
+[14.810s] 
+[14.810s] Installed /home/jose/TCC/build/wind_turbine
+[14.814s] running symlink_data
+[14.950s] Invoked command in '/home/jose/TCC/build/wind_turbine' returned '0': AMENT_PREFIX_PATH=/home/jose/TCC/install/ament_copyright:/home/jose/TCC/install/ament_pep257:/home/jose/TCC/install/ament_flake8:/home/jose/TCC/install/ament_lint:${AMENT_PREFIX_PATH} PATH=/home/jose/TCC/install/ament_copyright/bin:/home/jose/TCC/install/ament_pep257/bin:/home/jose/TCC/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/jose/TCC/build/wind_turbine/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jose/TCC/install/wind_turbine/lib/python3.10/site-packages:/home/jose/TCC/build/ament_copyright:/home/jose/TCC/install/ament_copyright/lib/python3.10/site-packages:/home/jose/TCC/build/ament_pep257:/home/jose/TCC/install/ament_pep257/lib/python3.10/site-packages:/home/jose/TCC/build/ament_flake8:/home/jose/TCC/install/ament_flake8/lib/python3.10/site-packages:/home/jose/TCC/build/ament_lint:/home/jose/TCC/install/ament_lint/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jose/TCC/build/wind_turbine/build --no-deps symlink_data

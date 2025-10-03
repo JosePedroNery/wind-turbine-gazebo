@@ -8,5 +8,7 @@ Software: Ensure that you have successfully installed ROS 2 (Humble) and Gazebo.
 To launch the Gazebo world, execute the following commands in your terminal:
 
 cd wind-turbine-gazebo/
+
 source install/setup.bash
+
 ros2 launch wind_turbine wind_launch.py

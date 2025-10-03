@@ -9,6 +9,6 @@ To launch the Gazebo world, execute the following commands in your terminal:
 
 cd wind-turbine-gazebo/
 
-source install/setup.bash
+source ~/wind_turbine/install/setup.bash
 
 ros2 launch wind_turbine wind_launch.py

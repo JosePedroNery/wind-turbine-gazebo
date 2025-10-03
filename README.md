@@ -1,6 +1,6 @@
 **Pre-requisites**
 
-Operating System: Ubuntu 22.04 is the recommended OS for this project.
+Operating System: Ubuntu 22.04 is the recommended OS for this project.\n
 Software: Ensure that you have successfully installed ROS 2 (Humble) and Gazebo.
 
 **Running the Simulation**
